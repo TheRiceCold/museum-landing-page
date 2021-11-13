@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="hexagon" aria-label="Animated hexagonal ripples">
+    <div class="hexagon__group">
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+    </div>
+    <div class="hexagon__group">
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+    </div>
+    <div class="hexagon__group">
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+    </div>
+    <div class="hexagon__group">
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+    </div>
+    <div class="hexagon__group">
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+    </div>
+    <div class="hexagon__group">
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+      <div class="hexagon__sector"></div>
+    </div>
+  </div>
+
+  <main class="main">
+    <nav>
+      <button id="about__btn">About</button>
+      <a href=""><img src="img/logo.png" alt="logo"></a>
+      <button id="last__btn">Hire Me</button>
+    </nav>
+    <section id="home">
+      <img src="img/logo.png" alt="" id="center_logo">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, corporis. <br /> Soluta error est commodi eum molestias tempore unde consectetur modi!</p>
+    </section>
+  
+    <section id="section2">
+  
+    </section>
+    <section id="section3">
+      
+    </section>
+    <section id="section4">
+      
+    </section>
+    <section id="section5">
+      
+    </section>
+    <section id="section6">
+      
+    </section>
+  </main>
+  <script>
+  const loader = document.querySelector('.hexagon');
+  const main = document.querySelector('.main');
+  function init() {
+    setTimeout(() => {
+      loader.style.opacity = 0;
+      loader.style.display = 'none';
+
+      main.style.display = 'block';
+      setTimeout(() => (main.style.opacity = 1), 50);
+    }, 4000);
+  }
+  init();
+  </script>
+</body>
+</html>

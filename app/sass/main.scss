@@ -1,0 +1,17 @@
+@import 'resets','loader','contents/nav';
+@import 'contents/home','contents/sec2','contents/sec3';
+@import 'contents/sec4','contents/sec5','contents/sec6';
+
+body {
+  background: whitesmoke;
+}
+
+main {
+  opacity: 0;
+  display: none;
+  transition: opacity 1s ease-in; 
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

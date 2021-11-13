@@ -1,0 +1,49 @@
+@import 'var';
+
+.main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
+  background: transparent;
+  height: 10vh;
+  #about__btn {
+    appearance: none;
+    outline: 0;
+    background: transparent;
+    border: 2px solid $bgcolor;
+    color: $bgcolor;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: .95em;
+    font-weight: 700;
+    padding: 12px 15px;
+    transition: .5s background ease-in-out;
+    &:hover{
+      appearance: none;
+      outline: 0;
+      background: $bgcolor;
+      color: whitesmoke;
+    }
+  }
+  #last__btn {
+    appearance: none;
+    outline: 0;
+    background: $bgcolor;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: .95em;
+    font-weight: 700;
+    padding: 13px 15px;
+    &:hover{
+      appearance: none;
+      outline: 0;
+      background: white;
+      border: 2px solid black;
+      padding: 13px 15px;
+      color: black;
+    }
+  }
+}
