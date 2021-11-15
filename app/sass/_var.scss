@@ -1,2 +1,9 @@
+$fontcolor: whitesmoke;
+$primarycolor: #c7a05b;
+$lightcolor: #808080;
+$bgcolor: #252527;
+$accentcolor: #23d8a0;
 
-$bgcolor: #17181c;
+:export {
+  fontColor: $fontcolor;
+}

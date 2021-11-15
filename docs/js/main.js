@@ -1,12 +1,13 @@
-const loader = document.querySelector('.hexagon');
-const main = document.querySelector('.main');
-function init() {
-  setTimeout(() => {
-    loader.style.opacity = 0;
-    loader.style.display = 'none';
+import {loader} from './loader.js'
+import {nav} from './nav.js'
 
-    main.style.display = 'block';
-    setTimeout(() => (main.style.opacity = 1), 50);
-  }, 4000);
-}
-init();
+
+// let darkBtn = document.getElementById('active');
+// darkBtn.addEventListener('click', () => {
+//   if (darkBtn.checked) {
+//     document.querySelector('body').style.color = '#000';
+//   }
+// });
+
+loader();
+nav();

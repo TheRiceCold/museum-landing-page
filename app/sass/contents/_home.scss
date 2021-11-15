@@ -1,15 +1,92 @@
+@import 'fontface';
 #home {
+  display: flex;
+  flex-direction: row;
   height: 90vh;
+  justify-content: space-between;
+  align-items: center;
+  #{&}__right{
+    span {
+      color: $lightcolor;
+    }
+    #first {
+    color:$fontcolor; 
+    font-size: .95em; 
+    margin-right: 220px; 
+    text-align: right; 
+    margin-bottom: 150px;
+    }
+    #second {
+      color: $fontcolor; 
+      font-size: 1em; 
+      margin-right: 220px; 
+      text-align: right;
+    }
+  }
+  #{&}__left img {
+    opacity: 0.05; 
+    transform: scaleX(-1); 
+    height:400px; 
+    margin-left: 100px;
+  }
+  .img-box {
+    display:flex; flex-direction: column;
+    :first-child{
+      height: 200px; 
+      width:200px; 
+      transform: translateY(60px); 
+      transition: 1s ease;
+      animation: idleup 7s infinite;
+      z-index: 10;
+      @keyframes idleup {
+        0% {
+          transform: translateY(-20px);
+        }
+        50% {
+          transform: translateY(50px);
+        }
+        100% {
+          transform: translateY(-20px);
+        }
+      }
+    }
+    :first-child:hover {
+      transform: translateY(0px); 
+    }
+    :nth-child(2) {
+      height: 200px; 
+      width:200px; 
+      transform: translateY(-40px);
+    }
+    :last-child {
+      height: 190px; 
+      width:190px; 
+      transform: translateY(-130px);
+      transition: 1s ease;
+      animation: idledown 7s infinite;
+      @keyframes idledown {
+        0% {
+          transform: translateY(-30px);
+        }
+        50% {
+          transform: translateY(-100px);
+        }
+        100% {
+          transform: translateY(-30px);
+        }
+      }
+    }
+    :last-child:hover {
+      transform: translateY(-70px); 
+    }
+  }
+  #scrolldown1 {
+    font-family: 'Cera Medium';
+    font-size: .95em;
+    position: absolute; 
+    transform: translateY(215px) translateX(30px) rotate(-90deg); 
+    text-decoration: none;  
+    color: $fontcolor;
+  }
 }
 
-#center_logo {
-  display: block;
-  margin: 50px auto;
-}
-
-p {
-  text-align: center;
-  font-weight: 500;
-  font-size: 1.5em;
-  line-height: 1.5em;
-}
