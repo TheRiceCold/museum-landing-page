@@ -1,6 +1,8 @@
-@import 'contents/article';
-@import 'utils/resets', 'contents/sections';
-@import 'contents/nav', 'contents/home';
+@import 'utils/resets', 'contents/newsBtn';
+@import 'contents/landing', 'contents/home';
+@import 'contents/sections';
+@import 'contents/navbar', 'contents/navMenu';
+@import 'contents/imgModal';
 
 body {
   background: $bgColor;

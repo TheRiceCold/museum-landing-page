@@ -4,8 +4,8 @@
   position: fixed;
   height: 100%;
   width: 100%;
-  background: whitesmoke;
-  clip-path: circle(10px at calc(100% - 1273px) 31px);
+  background: $fontColor;
+  clip-path: circle(10px at calc(100% - 1253px) 48px);
   transition: all 0.3s ease-in-out;
   z-index: $darkWrapper;
 }
@@ -15,16 +15,19 @@
 .dark-btn{
   position: fixed;
   z-index: $darkBtnLayer;
-  left: 65px;
-  top: 20px;
-  height: 22px;
-  width: 22px;
+  left: 85px;
+  top: 37px;
   font-size: 20px;
-  color: $primaryColor;
+  color: $fontColor;
   cursor: pointer;
   background: $bgColor;
   transition: all 0.3s ease-in-out;
   border-radius: 50%;
 }
-#active:checked ~ .dark-btn{background: transparent;}
-input[type="checkbox"]{display: none;}
+#active:checked ~ .dark-btn{
+  background: transparent;
+  color: black;
+}
+#active[type="checkbox"]{
+  display: none;
+}
