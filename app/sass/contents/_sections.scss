@@ -1,0 +1,41 @@
+@import '../utils/var', '../utils/fontface';
+
+.section {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; 
+  width: 100vw;
+  :first-child.slide-section {
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: 1s ease-out;
+    line-height: 1.5em;
+    font-size: 1.25em;
+    width: 500px;
+    font-family: 'Cera Light';
+    color: $fontColor;
+    text-align: right;
+  }
+  :first-child.slide-section.faded-in {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  :last-child.slide-section {
+    line-height: 1.5em;
+    font-size: 1.25em;
+    width: 500px;
+    font-family: 'Cera Light';
+    color: $fontColor;
+    text-align: right;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 1s ease-out;
+  }
+  :last-child.slide-section.faded-in {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

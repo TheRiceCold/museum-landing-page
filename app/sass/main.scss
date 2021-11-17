@@ -1,60 +1,17 @@
-@import 'resets','loader','contents/nav';
-@import 'contents/home','contents/sec2','contents/sec3';
-@import 'contents/sec4','contents/sec5','contents/sec6';
+@import 'contents/article';
+@import 'utils/resets', 'contents/sections';
+@import 'contents/nav', 'contents/home';
 
 body {
-  background: $bgcolor;
+  background: $bgColor;
   overflow-x: hidden;
   // box-shadow: inset 0 0 100px rgb(10, 10, 10);
 }
-
 main {
   opacity: 0;
   display: none;
   transition: opacity 1s ease-in; 
 }
-
 ::-webkit-scrollbar {
-  display: none;
-}
-
-.wrapper{
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: whitesmoke;
-  /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-  /* clip-path: circle(25px at calc(0% + 45px) 45px); */
-  clip-path: circle(10px at calc(100% - 45px) 35px);
-  transition: all 0.3s ease-in-out;
-}
-#active:checked ~ .wrapper{
-  clip-path: circle(75%);
-}
-.menu-btn{
-  position: fixed;
-  z-index: 2;
-  right: 34px;
-  top: 24px;
-  height: 22px;
-  width: 22px;
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  color: $primarycolor;
-  cursor: pointer;
-  background: $bgcolor;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  transition: all 0.3s ease-in-out;
-  border-radius: 50%;
-}
-#active:checked ~ .menu-btn{
-  background: transparent;
-}
-input[type="checkbox"]{
   display: none;
 }

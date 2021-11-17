@@ -3,8 +3,8 @@
 .hexagon {
   font-size: calc(20px + (30 - 20) * (100vw - 320px) / (1280 - 320));
   transform-origin: bottom center;
-  color: $primarycolor;
-  background: $bgcolor;
+  color: $primaryColor;
+  background: $bgColor;
   overflow: hidden;
   position: relative;
   width: 100vw;
@@ -48,7 +48,6 @@
     animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    /*animation-play-state: paused;*/
     width: 0.2em;
     height: 0.2em;
   }

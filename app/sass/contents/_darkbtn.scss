@@ -1,0 +1,30 @@
+@import '../utils/var';
+
+.wrapper{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: whitesmoke;
+  clip-path: circle(10px at calc(100% - 1273px) 31px);
+  transition: all 0.3s ease-in-out;
+  z-index: $darkWrapper;
+}
+#active:checked ~ .wrapper{
+  clip-path: circle(75%);
+}
+.dark-btn{
+  position: fixed;
+  z-index: $darkBtnLayer;
+  left: 65px;
+  top: 20px;
+  height: 22px;
+  width: 22px;
+  font-size: 20px;
+  color: $primaryColor;
+  cursor: pointer;
+  background: $bgColor;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+}
+#active:checked ~ .dark-btn{background: transparent;}
+input[type="checkbox"]{display: none;}

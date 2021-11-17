@@ -1,13 +1,10 @@
 import {loader} from './loader.js'
-import {nav} from './nav.js'
+import {readMore} from './readMore.js'
+import {smallMenu} from './smallMenu.js'
 
+document.querySelector('.more-button')
+      .addEventListener('click', () => 
+        document.querySelector('.list-container').classList.toggle('active'));
 
-// let darkBtn = document.getElementById('active');
-// darkBtn.addEventListener('click', () => {
-//   if (darkBtn.checked) {
-//     document.querySelector('body').style.color = '#000';
-//   }
-// });
-
-loader();
-nav();
+smallMenu();
+readMore();

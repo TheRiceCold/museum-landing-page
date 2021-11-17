@@ -1,20 +1,21 @@
-@import 'var','fontface';
+@import '../utils/var','../utils/fontface';
 
-.main nav {
-  position: sticky;
-  top: 0;
+nav {
+  background: $bgColor;
+  // position: sticky;
+  // top: 0;
   display: flex;
-  justify-content: baseline;
   align-items: center;
-  padding-top: 10px;
+  justify-content:right;
+  margin-right: 125px;
   height: 10vh;
+  z-index: $navLayer;
   #logo {
     height: 35px;
     margin-left: 70px;
   }
   ul {
     text-transform: uppercase;
-    padding: 0 500px;
     display: flex;
     list-style: none;
     align-items: center;
@@ -24,8 +25,12 @@
       a {
         font-family: 'Cera Medium';
         font-size: .85em;
-        color: whitesmoke;
+        color: $fontColor;
         text-decoration: none;
+        transition: color .3s ease;
+      }
+      a:hover {
+        color: $primaryColor;
       }
     }
   }

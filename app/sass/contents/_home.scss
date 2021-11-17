@@ -1,4 +1,4 @@
-@import 'fontface';
+@import 'darkbtn', 'smallmenu';
 #home {
   display: flex;
   flex-direction: row;
@@ -6,20 +6,20 @@
   justify-content: space-between;
   align-items: center;
   #{&}__right{
-    span {
-      color: $lightcolor;
+    span {color: $lightColor;}
+    h4#first {
+      font-family: 'Cera Light';
+      color:$fontColor; 
+      font-size: .95em; 
+      margin-right: 200px; 
+      text-align: right; 
+      margin-bottom: 150px;
     }
-    #first {
-    color:$fontcolor; 
-    font-size: .95em; 
-    margin-right: 220px; 
-    text-align: right; 
-    margin-bottom: 150px;
-    }
-    #second {
-      color: $fontcolor; 
+    h4#second {
+      font-family: 'Cera Light';
+      color: $fontColor; 
       font-size: 1em; 
-      margin-right: 220px; 
+      margin-right: 200px; 
       text-align: right;
     }
   }
@@ -30,14 +30,15 @@
     margin-left: 100px;
   }
   .img-box {
-    display:flex; flex-direction: column;
+    display:flex; 
+    flex-direction: column;
     :first-child{
       height: 200px; 
       width:200px; 
       transform: translateY(60px); 
       transition: 1s ease;
       animation: idleup 7s infinite;
-      z-index: 10;
+      z-index: $topImgLayer;
       @keyframes idleup {
         0% {
           transform: translateY(-20px);
@@ -86,7 +87,6 @@
     position: absolute; 
     transform: translateY(215px) translateX(30px) rotate(-90deg); 
     text-decoration: none;  
-    color: $fontcolor;
+    color: $fontColor;
   }
 }
-
