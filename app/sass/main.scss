@@ -8,13 +8,19 @@ body {
   background: $bgColor;
   overflow-x: hidden;
   // box-shadow: inset 0 0 100px rgb(10, 10, 10);
+  
 }
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: $bgColor;
 
-main {
-  opacity: 0;
-  display: none;
-  transition: opacity 1s ease-in; 
 }
 ::-webkit-scrollbar {
-  display: none;
+  width: 8px;
+  background-color: $bgColor;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: $primaryColor;
 }

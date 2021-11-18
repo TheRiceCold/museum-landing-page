@@ -605,12 +605,16 @@ body {
   background: #252527;
   overflow-x: hidden; }
 
-main {
-  opacity: 0;
-  display: none;
-  transition: opacity 1s ease-in; }
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #252527; }
 
 ::-webkit-scrollbar {
-  display: none; }
+  width: 8px;
+  background-color: #252527; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #c7a05b; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,12 +1,8 @@
-import {loader} from './loader.js'
-import {slideAnim} from './slideAnim.js'
-import {openImg} from './openImg.js'
-import { readMore } from './readMore.js'
+import {loader} from './components/loader.js'
+import {slideAnim} from './components/slideAnim.js'
+import {openImg} from './components/openImg.js'
+import { readMore } from './components/readMoreBtn.js'
 
-document.querySelector('.more-button')
-  .addEventListener('click', () => 
-    document.querySelector('.list-container').classList.toggle('active'))
-    
 readMore()
 slideAnim()
 openImg()

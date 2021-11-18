@@ -24,6 +24,6 @@ let landingPage = `
       <i class="fas fa-chevron-down"></i>
     </a>
   </div>
-</div>`;
+</div>`
 
-document.body.innerHTML += landingPage;
+document.body.innerHTML += landingPage

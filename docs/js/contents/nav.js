@@ -12,7 +12,7 @@ const navbar = `
 const navMenu = `
 <div id="navmenu">
   <div class="list-container">
-    <button class="more-button">
+    <button class="more-button" onclick="navOpen()">
       <div class="menu-icon-wrapper">
         <span></span><span></span><span></span>
       </div>
@@ -27,3 +27,8 @@ const navMenu = `
 </div>`
 
 document.body.innerHTML += navMenu
+
+function navOpen() {
+  document.querySelector('.list-container').classList.toggle('active')
+}
+    
