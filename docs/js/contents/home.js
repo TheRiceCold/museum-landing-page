@@ -23,22 +23,6 @@ let section2 = `
     </h4>
   </div>
   <a href="#section2" id="scrolldown1">scroll down</a>
-  <div id="smallmenu">
-    <div class="list-container">
-      <button class="more-button">
-        <div class="menu-icon-wrapper">
-          <div class="menu-icon-line half first"></div>
-          <div class="menu-icon-line"></div>
-          <div class="menu-icon-line half last"></div>
-        </div>
-      </button>
-      <ul class="more-button-list">
-        <li class="more-button-list-item"><span>Says</span></li>
-        <li class="more-button-list-item"><span>About</span></li>
-        <li class="more-button-list-item"><span>Proverbs</span></li>
-        <li class="more-button-list-item"><span>Poem</span></li>
-      </d>
-    </div>
-  </div>
 </section>`;
-document.querySelector('body').innerHTML += section2;
+
+document.body.innerHTML += section2;

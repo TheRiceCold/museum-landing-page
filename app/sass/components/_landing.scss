@@ -2,12 +2,12 @@
 
 #landing {
   margin: 0 auto;
+  padding-top: 75px;
   width: 90vw;
   height: 100vh;
   font-size: 1em;
   color: $fontColor;
   .container-inner {
-    transform: translateY(0);
     display: flex;
     position: relative;
     align-items: center;
@@ -43,7 +43,7 @@
             color: $primaryColor;
           }
         }
-        label {
+        button {
           cursor: pointer;
           padding: 10px;
           margin-left: 110px;
@@ -53,7 +53,7 @@
           font-family: 'Cera Medium';
           text-decoration: none;
           color: $primaryColor;
-          border: 2px solid $primaryColor;
+          background: transparent;
         }
       }
       .more-info {
@@ -88,6 +88,17 @@
         height: auto;
         position: relative;
         cursor: pointer;
+      }
+    }
+  }
+  .move-down {
+    position: absolute;
+    left: 50%;
+    bottom: 7%;
+    a {
+      color: $fontColor;
+      :hover {
+        color: $primaryColor;
       }
     }
   }
@@ -336,3 +347,4 @@
     height: 0;
   }
 }
+

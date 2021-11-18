@@ -1,5 +1,5 @@
 let sections = `
-<section class="section">
+<section class="section" id="section2">
   <img 
     src="./img/black-gold-skull.png" 
     alt="Black Gold Skull" 
@@ -49,4 +49,4 @@ let sections = `
   </p>
 </section>`;
 
-document.querySelector('body').innerHTML += sections;
+document.body.innerHTML += sections;

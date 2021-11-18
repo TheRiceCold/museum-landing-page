@@ -1,14 +1,15 @@
-@import 'utils/resets', 'contents/newsBtn';
-@import 'contents/landing', 'contents/home';
-@import 'contents/sections';
-@import 'contents/navbar', 'contents/navMenu';
-@import 'contents/imgModal';
+@import 'utils/resets';
+@import 'components/landing', 'components/home';
+@import 'components/sections','components/navMenu';
+@import 'components/imgModal';
 
 body {
+  height: 100%;
   background: $bgColor;
   overflow-x: hidden;
   // box-shadow: inset 0 0 100px rgb(10, 10, 10);
 }
+
 main {
   opacity: 0;
   display: none;

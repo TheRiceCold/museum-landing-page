@@ -6,37 +6,6 @@
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth; }
 
-.wrapper {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  background: whitesmoke;
-  clip-path: circle(10px at calc(100% - 1253px) 48px);
-  transition: all 0.3s ease-in-out;
-  z-index: 6; }
-
-#active:checked ~ .wrapper {
-  clip-path: circle(75%); }
-
-.dark-btn {
-  position: fixed;
-  z-index: 7;
-  left: 85px;
-  top: 37px;
-  font-size: 20px;
-  color: whitesmoke;
-  cursor: pointer;
-  background: #252527;
-  transition: all 0.3s ease-in-out;
-  border-radius: 50%; }
-
-#active:checked ~ .dark-btn {
-  background: transparent;
-  color: black; }
-
-#active[type="checkbox"] {
-  display: none; }
-
 @font-face {
   font-family: 'Cera Light';
   src: url(../fonts/Cera-Pro-Light.otf);
@@ -65,12 +34,12 @@
   font-style: italic; }
 #landing {
   margin: 0 auto;
+  padding-top: 75px;
   width: 90vw;
   height: 100vh;
   font-size: 1em;
   color: whitesmoke; }
   #landing .container-inner {
-    transform: translateY(0);
     display: flex;
     position: relative;
     align-items: center;
@@ -101,7 +70,7 @@
             font-weight: 800;
             letter-spacing: 2px;
             color: #c7a05b; }
-        #landing .container-inner .main-content .main-headings label {
+        #landing .container-inner .main-content .main-headings button {
           cursor: pointer;
           padding: 10px;
           margin-left: 110px;
@@ -111,7 +80,7 @@
           font-family: 'Cera Medium';
           text-decoration: none;
           color: #c7a05b;
-          border: 2px solid #c7a05b; }
+          background: transparent; }
       #landing .container-inner .main-content .more-info {
         margin-top: -30px;
         width: 50%;
@@ -140,6 +109,14 @@
         height: auto;
         position: relative;
         cursor: pointer; }
+  #landing .move-down {
+    position: absolute;
+    left: 50%;
+    bottom: 7%; }
+    #landing .move-down a {
+      color: whitesmoke; }
+      #landing .move-down a :hover {
+        color: #c7a05b; }
 
 @media (min-width: 350px) and (max-width: 529px) {
   * {
@@ -491,159 +468,102 @@
   src: url(../fonts/Cera-Pro-Black-Italic.otf);
   font-weight: 900;
   font-style: italic; }
-nav {
-  display: flex;
-  justify-content: right;
-  margin-right: 125px;
-  height: 15vh;
-  z-index: 5; }
-  nav ul {
-    display: inherit;
-    text-transform: uppercase;
-    list-style: none;
-    align-items: center; }
-    nav ul li {
-      margin-left: 50px; }
-      nav ul li a {
-        font-family: 'Cera Medium';
-        font-size: .85em;
-        color: whitesmoke;
-        text-decoration: none;
-        transition: color .3s ease; }
-      nav ul li a:hover {
-        color: #c7a05b; }
-
-@font-face {
-  font-family: 'Cera Light';
-  src: url(../fonts/Cera-Pro-Light.otf);
-  font-weight: 300; }
-@font-face {
-  font-family: 'Cera Regular Italic';
-  src: url(../fonts/Cera-Pro-Regular-Italic.otf);
-  font-weight: 400;
-  font-style: italic; }
-@font-face {
-  font-family: 'Cera Medium';
-  src: url(../fonts/Cera-Pro-Medium.otf);
-  font-weight: 500; }
-@font-face {
-  font-family: 'Cera Bold';
-  src: url(../fonts/Cera-Pro-Bold.otf);
-  font-weight: 700; }
-@font-face {
-  font-family: 'Cera Black';
-  src: url(../fonts/Cera-Pro-Black.otf);
-  font-weight: 900; }
-@font-face {
-  font-family: 'Cera Black Italic';
-  src: url(../fonts/Cera-Pro-Black-Italic.otf);
-  font-weight: 900;
-  font-style: italic; }
-#smallmenu {
+#navmenu {
   position: fixed;
-  left: 1250px;
+  left: 1225px;
   top: 25px;
-  opacity: 0;
-  transition: opacity 1s ease; }
-  #smallmenu .list-container {
+  opacity: 1;
+  z-index: 5; }
+  #navmenu .list-container {
     position: relative; }
-  #smallmenu .list-container.active .more-button-list {
+    #navmenu .list-container button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      font-size: 1.5em;
+      background: #252527;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      padding: 0;
+      cursor: pointer;
+      transition: 0.2s ease-in;
+      z-index: 2; }
+      #navmenu .list-container button .menu-icon-wrapper {
+        border-radius: 2px;
+        width: 20px;
+        height: 20px;
+        display: inherit;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: transform .33s ease-out; }
+        #navmenu .list-container button .menu-icon-wrapper span {
+          background: whitesmoke;
+          border-radius: 2px;
+          width: 100%;
+          height: 2px; }
+        #navmenu .list-container button .menu-icon-wrapper :first-child {
+          transition: transform 0.3s cubic-bezier(0.52, -0.8, 0.52, 0.52);
+          transform-origin: right;
+          width: 50%; }
+        #navmenu .list-container button .menu-icon-wrapper :last-child {
+          align-self: flex-end;
+          transition: transform 0.3s cubic-bezier(0.52, -0.8, 0.52, 0.52);
+          transform-origin: left;
+          width: 50%; }
+    #navmenu .list-container ul {
+      display: flex;
+      list-style-type: none;
+      width: 140px;
+      height: 170px;
+      padding: 6px;
+      position: absolute;
+      right: 285px;
+      top: 0;
+      opacity: 0;
+      transform: scale(0);
+      transform-origin: top right;
+      transition: all 0.3s ease 0.1s; }
+      #navmenu .list-container ul li {
+        opacity: 0;
+        padding: 10px;
+        border-radius: 4px;
+        position: relative;
+        transition: 0.2s ease-in;
+        transform: translatex(-10px); }
+        #navmenu .list-container ul li a {
+          text-decoration: none;
+          color: whitesmoke;
+          text-transform: uppercase;
+          display: inline-block;
+          font-family: 'Cera Medium';
+          line-height: 1.25em;
+          font-size: .85em;
+          margin-left: 20px;
+          transition: color .3s ease; }
+        #navmenu .list-container ul li a:hover {
+          color: #c7a05b; }
+  #navmenu .list-container.active ul {
     opacity: 1;
     transform: scale(1); }
-
-.list-container.active .more-button-list-item {
-  animation: fadeInItem 0.6s 0.2s forwards; }
-
-.list-container.active .more-button-list-item:nth-child(2) {
-  animation-delay: 0.4s; }
-
-.list-container.active .more-button-list-item:nth-child(3) {
-  animation-delay: 0.6s; }
-
-.list-container.active .more-button-list-item:nth-child(4) {
-  animation-delay: 0.8s; }
-
-.list-container.active .more-button {
-  animation: onePulse 0.6s forwards linear; }
-
-.list-container.active .menu-icon-wrapper {
-  transform: rotate(-45deg); }
-
-.list-container.active .menu-icon-line.first {
-  transform: rotate(-90deg) translateX(1px); }
-
-.list-container.active .menu-icon-line.last {
-  transform: rotate(-90deg) translateX(-1px); }
-
-.more-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  color: #c7a05b;
-  font-size: 1.5em;
-  background: #252527;
-  width: 50px;
-  height: 50px;
-  border: 2px solid #c7a05b;
-  border-radius: 50%;
-  padding: 0;
-  cursor: pointer;
-  transition: 0.2s ease-in;
-  z-index: 2; }
-
-.more-button-list {
-  background: #252527;
-  border: 1px solid whitesmoke;
-  border-radius: 8px;
-  list-style-type: none;
-  width: 140px;
-  height: 170px;
-  padding: 0;
-  padding: 6px;
-  position: absolute;
-  left: -115px;
-  top: 23px;
-  opacity: 0;
-  transform: scale(0);
-  transform-origin: top right;
-  transition: all 0.3s ease 0.1s; }
-  .more-button-list li {
-    opacity: 0; }
-
-.more-button-list-item {
-  display: flex;
-  align-items: center;
-  color: whitesmoke;
-  padding: 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  position: relative;
-  transition: 0.2s ease-in;
-  transform: translatex(-10px); }
-  .more-button-list-item :hover {
-    color: #c7a05b; }
-  .more-button-list-item :after {
-    content: '';
-    position: absolute;
-    height: 1px;
-    width: calc(100% - 24px);
-    left: 12px;
-    bottom: 0;
-    background-color: rgba(132, 160, 244, 0.1); }
-  .more-button-list-item :last-child:after {
-    display: none; }
-  .more-button-list-item svg {
-    width: 18px;
-    height: 18px; }
-  .more-button-list-item span {
-    text-transform: uppercase;
-    display: inline-block;
-    font-family: 'Cera Medium';
-    line-height: 1.25em;
-    font-size: .85em;
-    margin-left: 20px; }
-
+    #navmenu .list-container.active ul li {
+      animation: fadeInItem 0.6s 0.2s forwards; }
+    #navmenu .list-container.active ul li:nth-child(2) {
+      animation-delay: 0.4s; }
+    #navmenu .list-container.active ul li:nth-child(3) {
+      animation-delay: 0.6s; }
+    #navmenu .list-container.active ul li:nth-child(4) {
+      animation-delay: 0.8s; }
+  #navmenu .list-container.active button {
+    animation: onePulse 0.6s forwards linear; }
+  #navmenu .list-container.active .menu-icon-wrapper {
+    transform: rotate(-45deg); }
+    #navmenu .list-container.active .menu-icon-wrapper :first-child {
+      transform: rotate(-90deg) translateX(1px); }
+    #navmenu .list-container.active .menu-icon-wrapper :last-child {
+      transform: rotate(-90deg) translateX(-1px); }
 @keyframes onePulse {
   0% {
     box-shadow: 0px 0px 0px 0px rgba(245, 213, 30, 0.3); }
@@ -655,34 +575,6 @@ nav {
   100% {
     transform: translatex(0px);
     opacity: 1; } }
-.menu-icon-wrapper {
-  border-radius: 2px;
-  width: 20px;
-  height: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-  transition: transform 330ms ease-out; }
-
-.menu-icon-line {
-  background: #c7a05b;
-  border-radius: 2px;
-  width: 100%;
-  height: 2px; }
-
-.menu-icon-line.half {
-  width: 50%; }
-
-.menu-icon-line.first {
-  transition: transform 300ms cubic-bezier(0.52, -0.8, 0.52, 0.52);
-  transform-origin: right; }
-
-.menu-icon-line.last {
-  align-self: flex-end;
-  transition: transform 300ms cubic-bezier(0.52, -0.8, 0.52, 0.52);
-  transform-origin: left; }
-
 .modal {
   background: rgba(0, 0, 0, 0.8);
   position: fixed;
@@ -709,6 +601,7 @@ nav {
   transform: translate(-50%, -50%) scale(1); }
 
 body {
+  height: 100%;
   background: #252527;
   overflow-x: hidden; }
 
