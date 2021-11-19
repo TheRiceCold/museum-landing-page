@@ -1,0 +1,33 @@
+@import '../utils/var';
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 10px;
+  width: 20px;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.nav-dots {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  z-index: $navDotLayer;
+}
+
+.nav-dot {
+  width: $navDotSize;
+  height: $navDotSize;
+  margin: $navDotGap auto;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+}
+.nav-dot.active {
+  background: red;
+}

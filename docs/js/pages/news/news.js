@@ -1,5 +1,5 @@
 let newsSection = `
-<input type="checkbox" id="active">
+<input type="checkbox" id="active" />
   <div class="overlay">
     <div class="main__wrapper">
       <main>

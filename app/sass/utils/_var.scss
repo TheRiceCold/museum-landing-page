@@ -7,9 +7,10 @@ $accentColor: #23d8a0;
 
 // Layers
 $navLayer: 5;
+$navDotLayer: 5;
 $darkWrapper: 6;
-$darkBtnLayer: 7;
 $topImgLayer: 3;
+
 
 // Scrollbar
 $scrollRadius: 10px;
@@ -28,3 +29,7 @@ $navListHeight: 170px;
 $navFont: 'Cera Medium';
 $navFontSize: .85em;
 $navLinkGap: 20px;
+
+// Nav Side Dot
+$navDotSize: 8px;
+$navDotGap: 25px;

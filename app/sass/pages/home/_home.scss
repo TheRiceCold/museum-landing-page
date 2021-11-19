@@ -1,4 +1,5 @@
-@import 'landing', 'sections';
+@import 'landing', 'sections', 'footer';
+@import '../../components/cards.scss', '../../components/navDots';
 
 #arc2 {
   display: flex;
@@ -81,13 +82,5 @@
     :last-child:hover {
       transform: translateY(-70px); 
     }
-  }
-  #scrolldown1 {
-    font-family: 'Cera Medium';
-    font-size: .95em;
-    position: absolute; 
-    transform: translateY(215px) translateX(30px) rotate(-90deg); 
-    text-decoration: none;  
-    color: $fontColor;
   }
 }
