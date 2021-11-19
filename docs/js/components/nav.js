@@ -18,10 +18,10 @@ const navMenu = `
       </div>
     </button>
     <ul>
-      <li><a href="#">home</a></li>
-      <li><a href="#">about</a></li>
-      <li><a href="#">gallery</a></li>
-      <li><a href="#">places</a></li>
+      <li id="home-link">home</li>
+      <li id="news-link">news</li>
+      <li id="gallery-link">gallery</li>
+      <li id="places-link">places</li>
     </ul>
   </div>
 </div>`

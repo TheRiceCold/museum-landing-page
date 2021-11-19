@@ -63,25 +63,22 @@
       transform-origin: top right;
       transition: all 0.3s ease 0.1s;
       li {
+        color: $fontColor;
+        text-transform: uppercase;
+        font-family: $navFont;
+        line-height: 1.25em;
+        font-size: $navFontSize;
+        cursor: pointer;
+        
+        margin-left: $navLinkGap;
         opacity: 0;
         padding: 10px;
         position: relative;
         transition: 0.2s ease-in;
         transform: translatex(-10px);
-        a {
-          text-decoration: none;
-          color: $fontColor;
-          text-transform: uppercase;
-          display: inline-block;
-          font-family: $navFont;
-          line-height: 1.25em;
-          font-size: $navFontSize;
-          margin-left: $navLinkGap;
-          transition: color .3s ease;
-        }
-        a:hover {
-          color: $primaryColor;
-        }
+      }
+      li:hover {
+        color: $primaryColor;
       }
     }
   }
