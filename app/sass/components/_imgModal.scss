@@ -10,7 +10,7 @@
   transition: 0.25s ease-out;
   .full-img {
     position: absolute;
-    height: 70%;
+    height: $imgViewModalHeight;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.5);

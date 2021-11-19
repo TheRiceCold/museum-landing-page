@@ -1,26 +1,25 @@
 @import 'utils/resets';
-@import 'components/landing', 'components/home';
-@import 'components/sections','components/navMenu';
+@import 'components/nav';
+@import 'pages/home/home';
 @import 'components/imgModal';
 
 body {
-  height: 100%;
   background: $bgColor;
   overflow-x: hidden;
   // box-shadow: inset 0 0 100px rgb(10, 10, 10);
   
 }
 ::-webkit-scrollbar-track {
-  border-radius: 10px;
+  border-radius: $scrollRadius;
   background: $bgColor;
 
 }
 ::-webkit-scrollbar {
-  width: 8px;
-  background-color: $bgColor;
+  width: $scrollWidth;
+  background: $bgColor;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background-color: $primaryColor;
+  border-radius: $scrollRadius;
+  background: $primaryColor;
 }

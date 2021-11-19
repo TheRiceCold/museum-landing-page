@@ -1,8 +1,8 @@
 @import '../utils/var', '../utils/fontface';
 #navmenu {
   position: fixed;
-  left: 1225px;
-  top: 25px;
+  left: $navLeftPosition;
+  top: $navTopPosition;
   opacity: 1;
   z-index: $navLayer;
   .list-container {
@@ -14,9 +14,9 @@
       position: relative;
       font-size: 1.5em;
       background: $bgColor;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
+      width: $navButtonSize;
+      height: $navButtonSize;
+      border-radius: $navRadius;
       padding: 0;
       cursor: pointer;
       transition: 0.2s ease-in;
@@ -52,8 +52,8 @@
     ul {
       display: flex;
       list-style-type: none;
-      width: 140px;
-      height: 170px;
+      width: $navListWidth;
+      height: $navListHeight;
       padding: 6px;
       position: absolute;
       right: 285px;
@@ -65,7 +65,6 @@
       li {
         opacity: 0;
         padding: 10px;
-        border-radius: 4px;
         position: relative;
         transition: 0.2s ease-in;
         transform: translatex(-10px);
@@ -74,10 +73,10 @@
           color: $fontColor;
           text-transform: uppercase;
           display: inline-block;
-          font-family: 'Cera Medium';
+          font-family: $navFont;
           line-height: 1.25em;
-          font-size: .85em;
-          margin-left: 20px;
+          font-size: $navFontSize;
+          margin-left: $navLinkGap;
           transition: color .3s ease;
         }
         a:hover {

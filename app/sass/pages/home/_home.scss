@@ -1,7 +1,9 @@
-#home {
+@import 'landing', 'sections';
+
+#arc2 {
   display: flex;
   flex-direction: row;
-  height: 90vh;
+  height: 100vh;
   justify-content: space-between;
   align-items: center;
   #{&}__right{
