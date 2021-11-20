@@ -1,9 +1,9 @@
 @import '../../utils/fontface';
-@import '../../utils/var';
+@import '../../utils/variables';
 
 footer {
   padding-top: 115px;
-  background: $primaryColor;
+  background: linear-gradient(-45deg, #facc6b 0%, #fabc3c 94%);
   .container {
     display: flex;
     justify-content: space-around;

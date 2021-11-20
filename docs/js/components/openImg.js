@@ -5,7 +5,7 @@ export function openImg() {
 
   sectionImg.forEach(img => img.addEventListener('click', () => open(img)))
   arc2Img.forEach(img => img.addEventListener('click', () => open(img)))
-  landingImg.addEventListener('click', () => open(landingImg))
+  // landingImg.addEventListener('click', () => open(landingImg))
 
 }
 
@@ -23,4 +23,3 @@ function open(img) {
     original.classList.remove('open')
   })
 }
-

@@ -1,10 +1,4 @@
-import { aboutArc } from "./about.js"
-import { pricingCards } from "./eventTicket.js"
-import { footer } from "./footer.js"
-import { landingArc } from "./landing.js"
-import { visitArc } from "./visit.js"
-
-let homeArcs = `
+export let infoSection = `
   <article class="section" id="info-arc">
     <img src="./img/black-gold-skull.png" alt="Black Gold Skull" 
     style="height: 400px; width: 400px; margin-left:100px; cursor:pointer" 
@@ -18,6 +12,4 @@ let homeArcs = `
     </div>
     </article>`
 
-let homeArticles = landingArc + homeArcs + aboutArc + visitArc + footer
-document.body.innerHTML += homeArticles
 

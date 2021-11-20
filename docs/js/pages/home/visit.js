@@ -1,4 +1,4 @@
-export const visitArc= `
+export const visitSection = `
 <article id="visit-arc">
   <h1>Visiting the Museum</h1>
   <div class="content">

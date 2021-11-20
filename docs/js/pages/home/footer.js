@@ -7,7 +7,7 @@ const footerNav = [
   'Curators'
 ]
 
-export const footer = `
+export const footerSection = `
   <footer id="footer">
     <div class="container">
       <div class="row">

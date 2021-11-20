@@ -1,0 +1,15 @@
+@import 'variables';
+
+::-webkit-scrollbar-track {
+  border-radius: $scrollRadius;
+  background: $bgColor;
+}
+::-webkit-scrollbar {
+  width: $scrollWidth;
+  background: $bgColor;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: $scrollRadius;
+  background: $primaryColor;
+}
