@@ -1,0 +1,101 @@
+@import '../../utils/fontface', '../../utils/var';
+
+#visit-arc {
+  height: 85vh;
+  border: 1px $primaryColor solid;
+  margin: 0 150px;
+  border-radius: 15px;
+  margin-bottom: 10vh;
+  
+  h1 {
+    margin-top: 25px;
+    font-family: 'Cera Bold';
+    color: $primaryColor;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .content {
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 25px;
+    color: $fontColor;
+    :first-child {
+      width: 90%;
+      span {
+        font-family: 'Cera Medium';
+        i {
+          display: inline;
+          color: $primaryColor;
+        }
+        h3 {
+          display: inline;
+          margin-left: 10px;
+          font-size: 1.5em;
+        }
+        h3:nth-child(4) {
+          margin-left: 100px;
+        }
+        h3:nth-child(11) {
+          margin-left: 15px;
+        }
+      }
+      p {
+        margin-top: 15px;
+        font-family: 'Cera Light';
+        font-size: 1.15em;
+      }
+    }
+    h3 {
+      font-size: 1.5em;
+      font-family: 'Cera Medium';
+      ul {
+        font-family: 'Cera Light';
+        font-size: .75em;
+        list-style: none;
+        li {
+          margin-bottom: 10px;
+        }
+        button {
+          font-family: 'Cera Medium', sans-serif;
+          display: flex;
+          overflow: hidden;
+          padding: 12px 25px;
+  
+          cursor: pointer;
+          user-select: none;
+          transition: all 150ms linear;
+          text-align: center;
+          text-decoration: none !important;
+          text-transform: uppercase;
+  
+          border-radius: 36px;
+          font-size: .9em;
+          appearance: none;
+        
+          justify-content: center;
+          align-items: center;
+          
+          color: $fontColor;
+          background: black;
+          margin-top: 20px; 
+          margin-left: 200px;
+          &:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px;
+          }
+          &:hover {
+            color: #202129;
+            background: #e1e2e2;
+            opacity: 1;
+          }   
+          &:active {
+            background: #d5d6d6;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+} 

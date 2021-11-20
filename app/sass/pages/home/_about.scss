@@ -1,0 +1,77 @@
+#arc2 {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  #{&}__right{
+    span {color: $lightColor;}
+    h4#first {
+      font-family: 'Cera Light';
+      color:$fontColor; 
+      font-size: .95em; 
+      margin-right: 200px; 
+      text-align: left; 
+      margin-bottom: 150px;
+    }
+    h4#second {
+      font-family: 'Cera Light';
+      color: $fontColor; 
+      font-size: 1em; 
+      margin-right: 200px; 
+      text-align: left;
+    }
+  }
+  .img-box {
+    display:flex; 
+    flex-direction: column;
+    :first-child{
+      height: 200px; 
+      width:200px; 
+      transform: translateY(60px); 
+      transition: 1s ease;
+      animation: idleup 7s infinite;
+      z-index: $topImgLayer;
+      @keyframes idleup {
+        0% {
+          transform: translateY(-20px);
+        }
+        50% {
+          transform: translateY(50px);
+        }
+        100% {
+          transform: translateY(-20px);
+        }
+      }
+    }
+    :first-child:hover {
+      transform: translateY(0px); 
+    }
+    :nth-child(2) {
+      height: 200px; 
+      width:200px; 
+      transform: translateY(-40px);
+    }
+    :last-child {
+      height: 190px; 
+      width:190px; 
+      transform: translateY(-130px);
+      transition: 1s ease;
+      animation: idledown 7s infinite;
+      @keyframes idledown {
+        0% {
+          transform: translateY(-30px);
+        }
+        50% {
+          transform: translateY(-100px);
+        }
+        100% {
+          transform: translateY(-30px);
+        }
+      }
+    }
+    :last-child:hover {
+      transform: translateY(-70px); 
+    }
+  }
+}

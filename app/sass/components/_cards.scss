@@ -1,8 +1,7 @@
 .background {
   padding: 0 25px 25px;
   position: relative;
-  width: 100%;
-  background: #252527;
+  width: 80%;
 }
 
 @media (min-width: 900px) {
@@ -13,7 +12,6 @@
 
 .background .container {
   margin: 0 auto;
-  padding: 50px 0 0;
   max-width: 1160px;
   width: 100%;
 }
@@ -23,7 +21,6 @@
   padding: 15px 25px;
   position: relative;
   width: 100%;
-  z-index: 10;
 }
 
 .pricing-table {

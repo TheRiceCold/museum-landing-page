@@ -1,18 +1,17 @@
 @import 'utils/resets';
+@import 'utils/media';
 @import 'components/nav';
-@import 'pages/home/home', 'pages/news/news';
+@import 'pages/home/home';
 @import 'components/imgModal';
 
 body {
   background: $bgColor;
   overflow-x: hidden;
   // box-shadow: inset 0 0 100px rgb(10, 10, 10);
-  
 }
 ::-webkit-scrollbar-track {
   border-radius: $scrollRadius;
   background: $bgColor;
-
 }
 ::-webkit-scrollbar {
   width: $scrollWidth;
@@ -22,4 +21,11 @@ body {
 ::-webkit-scrollbar-thumb {
   border-radius: $scrollRadius;
   background: $primaryColor;
+}
+
+body #web-logo {
+  position:absolute; 
+  height: 60px; 
+  left: 50px; 
+  top: 3vh;
 }

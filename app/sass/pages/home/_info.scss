@@ -23,7 +23,7 @@
     opacity: 1;
   }
 
-  :last-child.slide-section {
+  :nth-child(2).slide-section {
     line-height: 1.5em;
     font-size: 1.25em;
     width: 500px;
@@ -34,8 +34,19 @@
     opacity: 0;
     transition: 1s ease-out;
   }
-  :last-child.slide-section.faded-in {
+  :nth-child(2).slide-section.faded-in {
     transform: translateX(0);
     opacity: 1;
+  }
+  .move-down {
+    position: relative;
+    left: 100%;
+    bottom: 7%;
+    a {
+      color: $fontColor;
+      :hover {
+        color: $primaryColor;
+      }
+    }
   }
 }
