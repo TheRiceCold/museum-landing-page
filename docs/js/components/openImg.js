@@ -1,9 +1,12 @@
 export function openImg() {
   const landingImg = document.querySelector('#landing .image-wrapper img')
   const sectionImg = document.querySelectorAll('.section img')
+  const arc2Img = document.querySelector('#arc2 #arc2__left img')
 
   sectionImg.forEach(img => img.addEventListener('click', () => open(img)))
+  arc2Img.forEach(img => img.addEventListener('click', () => open(img)))
   landingImg.addEventListener('click', () => open(landingImg))
+
 }
 
 function open(img) {

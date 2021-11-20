@@ -7,7 +7,7 @@ readMore()
 slideAnim()
 openImg()
 
-window.addEventListener('keyup', e => {
+window.addEventListener('keydown', e => {
   switch(e.key) {
     case 'ArrowLeft': 
       console.log('Left')

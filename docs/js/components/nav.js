@@ -10,6 +10,8 @@ const navbar = `
 </nav>`;
 
 const navMenu = `
+<span class="dot"></span>
+<img src="img/logo.png" alt="" id="web-logo">
 <div id="navmenu">
   <div class="list-container">
     <button class="more-button" onclick="navOpen()">
