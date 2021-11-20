@@ -1127,7 +1127,8 @@ footer {
   height: 100%;
   opacity: 0;
   pointer-events: none;
-  transition: 0.25s ease-out; }
+  transition: 0.25s ease-out;
+  z-index: 1000; }
   .modal .full-img {
     position: absolute;
     height: 70%;

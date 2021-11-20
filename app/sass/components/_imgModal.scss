@@ -8,6 +8,7 @@
   opacity: 0;
   pointer-events: none; 
   transition: 0.25s ease-out;
+  z-index: 1000;
   .full-img {
     position: absolute;
     height: $imgViewModalHeight;
