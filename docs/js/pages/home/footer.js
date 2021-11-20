@@ -1,3 +1,12 @@
+const footerNav = [
+  'Terms',
+  'Abous Us',
+  'FAQ',
+  'Contact',
+  'Colophon',
+  'Curators'
+]
+
 export const footer = `
   <footer id="footer">
     <div class="container">
@@ -47,12 +56,12 @@ export const footer = `
         <i class="fab fa-instagram"></i>
       </div>
       <div class="footer-nav">
-        <a href="">Terms</a>
-        <a href="">About us</a>
-        <a href="">FAQ</a>
-        <a href="">Contact</a>
-        <a href="">Colophon</a>
-        <a href="">Curators</a>
+        <a href="">${footerNav[0]}</a>
+        <a href="">${footerNav[1]}</a>
+        <a href="">${footerNav[2]}</a>
+        <a href="">${footerNav[3]}</a>
+        <a href="">${footerNav[4]}</a>
+        <a href="">${footerNav[5]}</a>
       </div>
       <div>
         <img src="img/bankgiroloterij.png" alt="" style="position: relative; height: 90px"/>

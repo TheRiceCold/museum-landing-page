@@ -28,8 +28,8 @@
   src: url(../fonts/CeraPro/Cera-Pro-Black-Italic.otf); }
 #navmenu {
   position: fixed;
-  left: 1225px;
-  top: 25px;
+  right: 20px;
+  top: 20px;
   opacity: 1;
   z-index: 5; }
   #navmenu .list-container {
@@ -56,7 +56,7 @@
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
-        transition: transform .33s ease-out; }
+        transition: transform 0.3s ease-out; }
         #navmenu .list-container button .menu-icon-wrapper span {
           background: whitesmoke;
           border-radius: 2px;
@@ -149,245 +149,72 @@
 @font-face {
   font-family: 'Cera Black Italic';
   src: url(../fonts/CeraPro/Cera-Pro-Black-Italic.otf); }
-@media (max-width: 1080px) {
-  body #web-logo {
-    position: absolute;
-    height: 60px;
-    left: 25px;
-    top: 2vh; }
-
-  body span.dot {
-    position: absolute;
-    top: 200px;
-    right: 170px;
-    height: 220px;
-    width: 220px;
-    border-radius: 50%;
-    display: inline-block;
-    border: 5px solid #c7a05b; }
-
-  body #navmenu {
-    left: 1000px; }
-
-  body #home #landing .container-inner .image-wrapper img {
-    height: 300px;
-    width: 300px; }
-  body #home #landing .main-content .more-info {
-    margin-left: 215px; }
-    body #home #landing .main-content .more-info h4 {
-      margin-bottom: 2px; }
-  body #home #landing .main-headings {
-    font-size: 1.25em;
-    margin-left: 50px; }
-    body #home #landing .main-headings h1 {
-      margin-top: 1px; }
-    body #home #landing .main-headings h3 {
-      margin-left: 55px; }
-    body #home #landing .main-headings button {
-      font-size: 1.5em;
-      margin-bottom: 10px; } }
-@media (max-width: 1020px) {
-  body #web-logo {
-    position: absolute;
-    height: 60px;
-    left: 20px;
-    top: 1vh; }
-
-  body span.dot {
-    position: absolute;
-    top: 210px;
-    right: 100px;
-    height: 220px;
-    width: 220px;
-    border-radius: 50%;
-    display: inline-block;
-    border: 5px solid #c7a05b; }
-
-  body #navmenu {
-    left: 725px; }
-
-  body #home #landing .container-inner .image-wrapper img {
-    height: 300px;
-    width: 300px; }
-  body #home #landing .main-content .more-info {
-    margin-left: 160px; }
-    body #home #landing .main-content .more-info h4 {
-      margin-bottom: 2px; }
-  body #home #landing .main-headings {
-    font-size: 1em;
-    margin-left: 10px; }
-    body #home #landing .main-headings h1 {
-      margin-top: 1px; }
-    body #home #landing .main-headings h3 {
-      margin-left: 55px; }
-    body #home #landing .main-headings button {
-      font-size: 1.5em;
-      margin-bottom: 10px; } }
-@media (max-width: 667px) {
-  body #web-logo {
-    display: none; }
-
-  body span.dot {
-    position: absolute;
-    top: 210px;
-    right: 100px;
-    height: 220px;
-    width: 220px;
-    border-radius: 50%;
-    display: inline-block;
-    border: 5px solid #c7a05b; }
-
-  body #navmenu {
-    left: 780px; }
-
-  body #home #landing .container-inner .image-wrapper img {
-    height: 300px;
-    width: 300px; }
-  body #home #landing .main-content .more-info {
-    margin-left: 160px; }
-    body #home #landing .main-content .more-info h4 {
-      margin-bottom: 2px; }
-  body #home #landing .main-headings {
-    font-size: 1em;
-    margin-left: 10px; }
-    body #home #landing .main-headings h1 {
-      margin-top: 1px; }
-    body #home #landing .main-headings h3 {
-      margin-left: 55px; }
-    body #home #landing .main-headings button {
-      font-size: 1.5em;
-      margin-bottom: 10px; } }
-@media (max-width: 375px) {
-  body #web-logo {
-    position: absolute;
-    height: .1px;
-    left: 0;
-    top: 2vh; }
-
-  body span.dot {
-    position: absolute;
-    top: 210px;
-    right: 100px;
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-    display: inline-block;
-    border: 5px solid #c7a05b; }
-
-  body #navmenu {
-    left: 320px; }
-    body #navmenu ul {
-      padding: 0; }
-      body #navmenu ul li {
-        padding: 0;
-        font-size: .01em; }
-
-  body #home #landing .container-inner .image-wrapper img {
-    margin-top: 50px;
-    height: 500px;
-    width: 500px; }
-  body #home #landing .main-content .more-info h4 {
-    margin-bottom: 2px; }
-  body #home #landing .main-headings {
-    font-size: .5em;
-    margin-right: 100px; }
-    body #home #landing .main-headings h1 {
-      margin-top: 1px; }
-    body #home #landing .main-headings button {
-      font-size: 1.5em;
-      margin-bottom: 10px; } }
-span.dot {
-  position: absolute;
-  top: 200px;
-  right: 165px;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  display: inline-block;
-  border: 10px solid #c7a05b; }
-
 #landing {
-  margin: 0 auto;
-  padding-top: 75px;
-  width: 90vw;
+  margin-top: 145px;
+  margin-left: 120px;
   height: 100vh;
-  font-size: 1em;
   color: whitesmoke; }
   #landing .container-inner {
     display: flex;
-    position: relative;
-    align-items: center;
     animation: fade-in 1.5s ease, slide-in 1.2s ease; }
-    #landing .container-inner .main-content {
+    #landing .container-inner .main-content .main-headings {
       display: flex;
-      flex-direction: column; }
-      #landing .container-inner .main-content .main-headings {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        animation: scaleDown 4s ease 2s;
-        -webkit-animation: scaleDown 4s ease 2s;
-        transition: transform .3s ease; }
-        #landing .container-inner .main-content .main-headings div {
-          margin-top: 10px;
-          margin-left: 100px; }
-          #landing .container-inner .main-content .main-headings div :first-child, #landing .container-inner .main-content .main-headings div :nth-child(2) {
-            font-family: 'Cera Light';
-            font-size: 400%; }
-          #landing .container-inner .main-content .main-headings div :first-child {
-            margin-left: 70px; }
-          #landing .container-inner .main-content .main-headings div :nth-child(2) {
-            margin-left: 120px; }
-          #landing .container-inner .main-content .main-headings div :last-child {
-            margin-top: -40px;
-            font-size: 800%;
-            font-weight: 800;
-            letter-spacing: 2px;
-            color: #c7a05b;
-            text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
-        #landing .container-inner .main-content .main-headings button {
-          cursor: pointer;
-          padding: 10px;
-          margin-left: 110px;
-          align-self: flex-start;
-          font-weight: bold;
-          font-size: 120%;
-          font-family: 'Cera Medium';
-          text-decoration: none;
+      flex-direction: column;
+      animation: scaleDown 4s ease 2s;
+      -webkit-animation: scaleDown 4s ease 2s;
+      transition: transform .3s ease; }
+      #landing .container-inner .main-content .main-headings div {
+        margin-left: 50px;
+        margin-right: 100px; }
+        #landing .container-inner .main-content .main-headings div h3 {
+          font-family: 'Cera Light';
+          font-size: 4em; }
+        #landing .container-inner .main-content .main-headings div :first-child {
+          margin-left: 70px; }
+        #landing .container-inner .main-content .main-headings div :nth-child(2) {
+          margin-left: 120px; }
+        #landing .container-inner .main-content .main-headings div h1 {
+          margin-top: -40px;
+          font-size: 800%;
+          font-weight: 800;
+          letter-spacing: 2px;
           color: #c7a05b;
-          background: transparent; }
-      #landing .container-inner .main-content .more-info {
-        margin-top: -30px;
-        width: 50%;
-        height: 0;
-        margin-left: 180px;
-        margin-right: auto;
-        overflow: hidden;
-        animation: reveal-info 3s ease 2s;
-        -webkit-animation: reveal-info 3s ease 2s;
-        transition: height .3s ease; }
-        #landing .container-inner .main-content .more-info h4 {
-          font-family: 'Cera Medium';
-          margin-bottom: 15px;
-          color: #c7a05b; }
-        #landing .container-inner .main-content .more-info h2 {
-          font-family: 'Cera Medium'; }
-        #landing .container-inner .main-content .more-info p {
-          font-family: 'Cera Light'; }
-    #landing .container-inner .image-wrapper {
-      margin-top: 75px;
-      width: 80%;
-      height: 80%;
+          text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
+      #landing .container-inner .main-content .main-headings button {
+        cursor: pointer;
+        padding: 12px 50px;
+        margin-top: 25px;
+        margin-left: 110px;
+        align-self: flex-start;
+        font-weight: bold;
+        font-size: .95em;
+        font-family: 'Cera light';
+        text-decoration: none;
+        color: whitesmoke;
+        background: transparent;
+        border: 1px solid #c7a05b;
+        border-radius: 25px; }
+    #landing .container-inner .main-content .more-info {
+      margin-top: -25px;
+      width: 350px;
+      height: 0;
+      margin-left: 180px;
       overflow: hidden;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center; }
-      #landing .container-inner .image-wrapper img {
-        width: 80%;
-        height: auto;
-        position: relative;
-        cursor: pointer; }
+      animation: reveal-info 3s ease 2s;
+      -webkit-animation: reveal-info 3s ease 2s;
+      transition: height 0.3s ease;
+      border: 0;
+      border-radius: 25px; }
+      #landing .container-inner .main-content .more-info h4 {
+        font-family: 'Cera Medium';
+        color: #c7a05b;
+        text-transform: uppercase; }
+      #landing .container-inner .main-content .more-info p {
+        font-family: 'Cera Light'; }
+    #landing .container-inner img {
+      width: 400px;
+      height: auto;
+      cursor: pointer; }
   #landing .move-down {
     position: absolute;
     left: 50%;
@@ -513,10 +340,6 @@ span.dot {
   #heading3 {
     margin-top: -30px !important; }
 
-  .short-bio {
-    margin-top: -20px !important;
-    margin-left: 60px !important; }
-
   .link {
     display: none; }
 
@@ -582,13 +405,21 @@ span.dot {
     transform: scale(1); } }
 @keyframes reveal-info {
   0% {
-    height: 0; }
+    padding: 0;
+    height: 0;
+    border: 0; }
   5% {
-    height: 150px; }
+    padding: 20px;
+    height: 165px;
+    border: 1px solid #c7a05b; }
   95% {
-    height: 150px; }
+    padding: 20px;
+    height: 165px;
+    border: 1px solid #c7a05b; }
   100% {
-    height: 0; } }
+    padding: 0;
+    height: 0;
+    border: 0; } }
 @font-face {
   font-family: 'Cera Light';
   src: url(../fonts/CeraPro/Cera-Pro-Light.otf); }
@@ -956,7 +787,7 @@ footer {
         footer .container .row:last-child .location .col img {
           height: 80px; }
     footer .container hr {
-      border: 0.15em solid #252527;
+      border: .15em solid black;
       margin: 0 0; }
     footer .container h2 {
       text-align: center;
@@ -979,7 +810,7 @@ footer {
       align-items: center; }
     footer .footer-bottom .social-links i {
       margin-left: 25px;
-      font-size: 1.25em; }
+      font-size: 1em; }
     footer .footer-bottom .footer-nav {
       display: flex;
       justify-content: space-evenly;

@@ -1,0 +1,19 @@
+@mixin navAnim() {
+  @keyframes onePulse {
+    0% {
+      box-shadow: 0px 0px 0px 0px rgba(245, 213, 30, 0.3);
+    }
+    50% {
+      box-shadow: 0px 0px 0px 12px rgba(245, 213, 30, 0.1);
+    }
+    100% {
+      box-shadow: 0px 0px 0px 4px rgba(245, 213, 30, 0.3);
+    }
+  }
+  @keyframes fadeInItem {
+    100% {
+      transform: translatex(0px);
+      opacity: 1;
+    }
+  }
+}

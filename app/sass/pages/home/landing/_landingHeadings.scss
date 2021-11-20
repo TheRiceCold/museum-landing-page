@@ -1,0 +1,70 @@
+@import 'landingMore';
+
+@mixin landingHeadings($left, $gap, $fontSize) {
+  .main-content {
+    .main-headings {
+      display: flex;
+      flex-direction: column;
+      animation: scaleDown 4s ease 2s;
+      -webkit-animation: scaleDown 4s ease 2s;
+      transition: transform .3s ease;
+      div {
+        margin-left: $left;
+        margin-right: $gap;
+        h3 {
+          font-family: 'Cera Light';
+          font-size: $fontSize;
+        }
+        :first-child {
+          margin-left: 70px;
+        }
+        :nth-child(2) {
+          margin-left: 120px;
+        }
+        @include bigHeading();
+      }
+      @include moreButton();
+    }
+    @include landingMore(350px);
+  }
+}
+
+@mixin bigHeading() {
+  h1 {
+    margin-top: -40px;
+    font-size: 800%;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: $primaryColor;
+    text-shadow: 0 2px 0 rgb(22, 22, 22),
+           0 2px 0 #1a1a1a,
+           0 3px 0 rgb(29, 29, 29),
+           0 4px 0 #272727,
+           0 5px 0 rgb(26, 26, 26),
+           0 6px 1px rgba(0,0,0,.1),
+           0 0 5px rgba(0,0,0,.1),
+           0 1px 3px rgba(0,0,0,.3),
+           0 3px 5px rgba(0,0,0,.2),
+           0 5px 10px rgba(0,0,0,.25),
+           0 10px 10px rgba(0,0,0,.2),
+           0 20px 20px rgba(0,0,0,.15);
+  }
+}
+
+@mixin moreButton() {
+  button {
+    cursor: pointer;
+    padding: 12px 50px;
+    margin-top: 25px;
+    margin-left: 110px;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: .95em;
+    font-family: 'Cera light';
+    text-decoration: none;
+    color: $fontColor;
+    background: transparent;
+    border: 1px solid $primaryColor;
+    border-radius: 25px;
+  }
+}

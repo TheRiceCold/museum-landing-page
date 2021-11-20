@@ -1,0 +1,13 @@
+@import '../../utils/var', '../../utils/fontface';
+@import 'navButton', 'navList', 'navListActive', 'navAnim';
+
+#navmenu {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  opacity: 1;
+  z-index: $navLayer;
+  @include navList();
+  @include navListActive();
+  @include navAnim();
+}

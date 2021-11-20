@@ -1,0 +1,29 @@
+@mixin navIcon() {
+  .menu-icon-wrapper {
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+    span {
+      background: $fontColor;
+      border-radius: 2px;
+      width: 100%;
+      height: 2px;
+    }
+    :first-child {
+      transition: transform .3s cubic-bezier(0.52, -0.8, 0.52, 0.52);
+      transform-origin: right;
+      width: 50%;
+    }
+    :last-child {
+      align-self: flex-end;
+      transition: transform .3s cubic-bezier(0.52, -0.8, 0.52, 0.52);
+      transform-origin: left;
+      width: 50%;
+    }
+  }
+}

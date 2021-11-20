@@ -1,3 +1,10 @@
+const navList = [
+  'home', 
+  'info',
+  'schedule',
+  'contact'
+]
+
 const navbar = `
 <nav>
   <img src="img/logo.svg" style="height: 75px; cursor: pointer"/>
@@ -20,10 +27,10 @@ const navMenu = `
       </div>
     </button>
     <ul>
-      <li><a href="#home">home</a></li>
-      <li id="news-link"><a href="#info-arc">info</a></li>
-      <li id="gallery-link"><a href="#visit-arc">schedule</a></li>
-      <li id="places-link"><a href="#footer">contact</li>
+      <li><a href="#home">${navList[0]}</a></li>
+      <li id="news-link"><a href="#info-arc">${navList[1]}</a></li>
+      <li id="gallery-link"><a href="#visit-arc">${navList[2]}</a></li>
+      <li id="places-link"><a href="#footer">${navList[3]}</li>
     </ul>
   </div>
 </div>`

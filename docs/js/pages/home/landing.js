@@ -1,3 +1,11 @@
+const heading1 = 'The Skull'
+const heading2 = 'is Nature\'s'
+const heading3 = 'Sculpture'
+const readMoreBtn = 'tell me more'
+const infoTitle = 'Magnifica Museum'
+const landingImg = 'black-gold-mask'
+const info = 'One of the largest art museum in the world by gallery space. it was founded in 1764 when King Walter the Great acquired an impressive collection of paintings from the Berlin merchant Johann Liebert.'
+
 export let landingArc = `
 <section id="home">
   <article id="landing">
@@ -5,19 +13,19 @@ export let landingArc = `
       <div class="main-content">
         <div class="main-headings" id="main-headings-js">
           <div>
-            <h3>The Skull</h3>
-            <h3>is Nature's</h3>
-            <h1>Sculpture</h1>
+            <h3>${heading1}</h3>
+            <h3>${heading2}</h3>
+            <h1>${heading3}</h1>
           </div>
-          <button id="read-more">What are we?</button>
+          <button id="read-more">${readMoreBtn}</button>
         </div>
         <div class="more-info " id="more-info-js">
-          <h4>Magnifica Museum</h4>
-          <p>One of hte the largest art museum in the world by gallery space. it was founded in 1764 when King Walter the Great acquired an impressive collection of paintings from the Berlin merchant Johann Liebert.</p>
+          <h4>${infoTitle}</h4>
+          <p>${info}</p>
         </div>
       </div>
       <div class="image-wrapper">
-        <img class="image" src="img/black-gold-mask.png" alt="" data="black-gold-mask"/>
+        <img class="image" src="img/${landingImg}.png" alt="${landingImg}" data="${landingImg}"/>
       </div>
     </div>
     <div class="move-down">

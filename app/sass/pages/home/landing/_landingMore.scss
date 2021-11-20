@@ -1,0 +1,22 @@
+@mixin landingMore($width) {
+  .more-info {
+    margin-top: -25px;
+    width: $width;
+    height: 0;
+    margin-left: 180px;
+    overflow: hidden;
+    animation: reveal-info 3s ease 2s;
+    -webkit-animation: reveal-info 3s ease 2s;
+    transition: height 0.3s ease;
+    border: 0;
+    border-radius: 25px;
+    h4 {
+      font-family: 'Cera Medium';
+      color: $primaryColor;
+      text-transform: uppercase;
+    }
+    p {
+      font-family: 'Cera Light';
+    }
+  }
+}
