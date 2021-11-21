@@ -41,9 +41,9 @@
   top: 20px;
   opacity: 1;
   z-index: 5; }
-  #nav-menu .list-container {
+  #nav-menu .list-container-one {
     position: relative; }
-    #nav-menu .list-container button {
+    #nav-menu .list-container-one button {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -57,7 +57,7 @@
       cursor: pointer;
       transition: 0.2s ease-in;
       z-index: 2; }
-      #nav-menu .list-container button .menu-icon-wrapper {
+      #nav-menu .list-container-one button .menu-icon-wrapper {
         border-radius: 2px;
         width: 20px;
         height: 20px;
@@ -66,21 +66,21 @@
         justify-content: space-between;
         cursor: pointer;
         transition: transform 0.3s ease-out; }
-        #nav-menu .list-container button .menu-icon-wrapper span {
+        #nav-menu .list-container-one button .menu-icon-wrapper span {
           background: whitesmoke;
           border-radius: 2px;
           width: 100%;
           height: 2px; }
-        #nav-menu .list-container button .menu-icon-wrapper :first-child {
+        #nav-menu .list-container-one button .menu-icon-wrapper :first-child {
           transition: transform 0.3s cubic-bezier(0.52, -0.8, 0.52, 0.52);
           transform-origin: right;
           width: 50%; }
-        #nav-menu .list-container button .menu-icon-wrapper :last-child {
+        #nav-menu .list-container-one button .menu-icon-wrapper :last-child {
           align-self: flex-end;
           transition: transform 0.3s cubic-bezier(0.52, -0.8, 0.52, 0.52);
           transform-origin: left;
           width: 50%; }
-    #nav-menu .list-container ul {
+    #nav-menu .list-container-one ul {
       display: flex;
       list-style-type: none;
       width: 140px;
@@ -93,7 +93,7 @@
       transform: scale(0);
       transform-origin: top right;
       transition: all 0.3s ease 0.1s; }
-      #nav-menu .list-container ul li {
+      #nav-menu .list-container-one ul li {
         margin-left: 20px;
         opacity: 0;
         padding: 10px;
@@ -101,33 +101,112 @@
         transition: 0.2s ease-in;
         transform: translatex(-10px);
         text-decoration: none; }
-        #nav-menu .list-container ul li a {
+        #nav-menu .list-container-one ul li a {
           text-decoration: none;
           color: whitesmoke;
           text-transform: uppercase;
           font-family: "Cera Medium";
           line-height: 1.25em;
           font-size: 0.85em; }
-      #nav-menu .list-container ul li a:hover {
+      #nav-menu .list-container-one ul li a:hover {
         color: #c7a05b; }
-  #nav-menu .list-container.active ul {
+  #nav-menu .list-container-two {
+    position: relative; }
+    #nav-menu .list-container-two button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      font-size: 1.5em;
+      background: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      padding: 0;
+      cursor: pointer;
+      transition: 0.2s ease-in;
+      z-index: 2; }
+      #nav-menu .list-container-two button .menu-icon-wrapper {
+        border-radius: 2px;
+        width: 20px;
+        height: 20px;
+        display: inherit;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: transform 0.3s ease-out; }
+        #nav-menu .list-container-two button .menu-icon-wrapper span {
+          background: whitesmoke;
+          border-radius: 2px;
+          width: 100%;
+          height: 2px; }
+        #nav-menu .list-container-two button .menu-icon-wrapper :first-child {
+          transition: transform 0.3s cubic-bezier(0.52, -0.8, 0.52, 0.52);
+          transform-origin: right;
+          width: 50%; }
+        #nav-menu .list-container-two button .menu-icon-wrapper :last-child {
+          align-self: flex-end;
+          transition: transform 0.3s cubic-bezier(0.52, -0.8, 0.52, 0.52);
+          transform-origin: left;
+          width: 50%; }
+    #nav-menu .list-container-two ul {
+      display: flex;
+      list-style-type: none;
+      width: 140px;
+      height: 170px;
+      padding: 6px;
+      position: absolute;
+      right: 300px;
+      top: 0;
+      opacity: 0;
+      transform: scale(0);
+      transform-origin: top right;
+      transition: all 0.3s ease 0.1s; }
+      #nav-menu .list-container-two ul li {
+        margin-left: 20px;
+        opacity: 0;
+        padding: 10px;
+        position: relative;
+        transition: 0.2s ease-in;
+        transform: translatex(-10px);
+        text-decoration: none; }
+  #nav-menu .list-container-one.active ul {
     opacity: 1;
     transform: scale(1); }
-    #nav-menu .list-container.active ul li {
+    #nav-menu .list-container-one.active ul li {
       animation: fadeInItem 0.6s 0.2s forwards; }
-    #nav-menu .list-container.active ul li:nth-child(2) {
+    #nav-menu .list-container-one.active ul li:nth-child(2) {
       animation-delay: 0.4s; }
-    #nav-menu .list-container.active ul li:nth-child(3) {
+    #nav-menu .list-container-one.active ul li:nth-child(3) {
       animation-delay: 0.6s; }
-    #nav-menu .list-container.active ul li:nth-child(4) {
+    #nav-menu .list-container-one.active ul li:nth-child(4) {
       animation-delay: 0.8s; }
-  #nav-menu .list-container.active button {
+  #nav-menu .list-container-one.active button {
     animation: onePulse 0.6s forwards linear; }
-  #nav-menu .list-container.active .menu-icon-wrapper {
+  #nav-menu .list-container-one.active .menu-icon-wrapper {
     transform: rotate(-45deg); }
-    #nav-menu .list-container.active .menu-icon-wrapper :first-child {
+    #nav-menu .list-container-one.active .menu-icon-wrapper :first-child {
       transform: rotate(-90deg) translateX(1px); }
-    #nav-menu .list-container.active .menu-icon-wrapper :last-child {
+    #nav-menu .list-container-one.active .menu-icon-wrapper :last-child {
+      transform: rotate(-90deg) translateX(-1px); }
+  #nav-menu .list-container-two.active ul {
+    opacity: 1;
+    transform: scale(1); }
+    #nav-menu .list-container-two.active ul li {
+      animation: fadeInItem 0.6s 0.2s forwards; }
+    #nav-menu .list-container-two.active ul li:nth-child(2) {
+      animation-delay: 0.4s; }
+    #nav-menu .list-container-two.active ul li:nth-child(3) {
+      animation-delay: 0.6s; }
+    #nav-menu .list-container-two.active ul li:nth-child(4) {
+      animation-delay: 0.8s; }
+  #nav-menu .list-container-two.active button {
+    animation: onePulse 0.6s forwards linear; }
+  #nav-menu .list-container-two.active .menu-icon-wrapper {
+    transform: rotate(-45deg); }
+    #nav-menu .list-container-two.active .menu-icon-wrapper :first-child {
+      transform: rotate(-90deg) translateX(1px); }
+    #nav-menu .list-container-two.active .menu-icon-wrapper :last-child {
       transform: rotate(-90deg) translateX(-1px); }
 @keyframes onePulse {
   0% {

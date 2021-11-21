@@ -3,6 +3,7 @@ import {infoSection} from './pages/home/info.js'
 import {aboutSection} from './pages/home/about.js'
 import {visitSection} from './pages/home/visit.js'
 import { footerSection } from './pages/home/footer.js'
+import { navButton } from './components/nav/nav.js'
 
 const includeHTML = (...args) => document.body.innerHTML += args
 includeHTML(
@@ -10,5 +11,6 @@ includeHTML(
   infoSection,
   aboutSection,
   visitSection,
-  footerSection
+  footerSection,
+  navButton
 )

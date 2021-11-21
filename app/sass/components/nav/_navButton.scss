@@ -1,13 +1,13 @@
 @import 'navIcon';
 
-@mixin navButton() {
+@mixin navButton($color) {
   button {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     font-size: 1.5em;
-    background: $bgColor;
+    background: $color;
     width: $navButtonSize;
     height: $navButtonSize;
     border-radius: $navRadius;

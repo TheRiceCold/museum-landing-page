@@ -1,7 +1,7 @@
 @mixin navList() {
-  .list-container {
+  .list-container-one {
     position: relative;
-    @include navButton();
+    @include navButton($bgColor);
     ul {
       display: flex;
       list-style-type: none;
@@ -35,6 +35,34 @@
       }
       li a:hover {
         color: $primaryColor;
+      }
+    }
+  }
+
+  .list-container-two {
+    position: relative;
+    @include navButton(white);
+    ul {
+      display: flex;
+      list-style-type: none;
+      width: $navListWidth;
+      height: $navListHeight;
+      padding: 6px;
+      position: absolute;
+      right: 300px;
+      top: 0;
+      opacity: 0;
+      transform: scale(0);
+      transform-origin: top right;
+      transition: all 0.3s ease 0.1s;
+      li {
+        margin-left: $navLinkGap;
+        opacity: 0;
+        padding: 10px;
+        position: relative;
+        transition: 0.2s ease-in;
+        transform: translatex(-10px);
+        text-decoration: none;
       }
     }
   }
