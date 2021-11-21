@@ -8,7 +8,7 @@ const footerNav = [
 ]
 
 export const footerSection = `
-  <footer id="footer">
+  <footer id="footer-arc">
     <div class="container">
       <div class="row">
         <h4>newsletter</h4>

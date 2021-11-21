@@ -6,6 +6,7 @@ $bgColor: #252527;
 $accentColor: #23d8a0;
 
 // Layers
+$navButtonLayer: 2;
 $navLayer: 5;
 $navDotLayer: 5;
 $darkWrapper: 6;
@@ -18,16 +19,16 @@ $scrollWidth: 8px;
 // Image View Modal
 $imgViewModalHeight: 70%;
 
-// Nav
-$navLeftPosition: 1225px;
-$navTopPosition: 25px;
+// Nav Button
+$navButtonRight: 30px;
 $navButtonSize: 50px;
-$navRadius: 50%;
+// Nav List
 $navListWidth: 140px;
-$navListHeight: 170px;
+$navListHeight: 50px;
 $navFont: 'Cera Medium';
 $navFontSize: .85em;
-$navLinkGap: 20px;
+$navLinkGap: 30px;
+$navListRight: 280px;
 
 // Nav Side Dot
 $navDotSize: 8px;

@@ -1,4 +1,4 @@
-export function keyboard () {
+export function navKeys() {
   window.addEventListener('keydown', e => {
     switch(e.key) {
       case 'ArrowLeft': 

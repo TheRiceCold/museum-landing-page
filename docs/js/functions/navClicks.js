@@ -1,18 +1,20 @@
-export function navToggle() {
+export function navClicks() {
   let navBtnOne = document.querySelector('#nav-menu .list-container-one .more-button')
-  let navBtnTwo = document.querySelector('#nav-menu .list-container-two .more-button')
-  let navToggle = false
-  let navToggleTwo = false
 
+  let clickCount = 0
   navBtnOne.addEventListener('click', () => {
-    navToggle = !navToggle
-    if (navToggle) {
-      navToggleTwo = true
+    if (clickCount === 0) {
       document.querySelector('#nav-menu .list-container-one').classList.add('active')
+      clickCount++
     }
-    else if (navToggleTwo) {
+    else if (clickCount === 1) {
       document.querySelector('#nav-menu .list-container-one').classList.remove('active')
       document.querySelector('#nav-menu .list-container-two').classList.add('active')
+      clickCount++
+    }
+    else {
+      document.querySelector('#nav-menu .list-container-two').classList.remove('active')
+      clickCount = 0
     }
   })
 }

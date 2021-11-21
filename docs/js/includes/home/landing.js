@@ -7,7 +7,7 @@ const landingImg = 'black-gold-mask'
 const info = 'One of the largest art museum in the world by gallery space. it was founded in 1764 when King Walter the Great acquired an impressive collection of paintings from the Berlin merchant Johann Liebert.'
 
 export let landingSection = `
-<section id="home">
+<section id="home-arc">
   <article id="landing">
     <div class="container-inner">
       <div class="main-content">

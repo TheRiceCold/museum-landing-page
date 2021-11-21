@@ -1,8 +1,9 @@
-@import 'navListAnim';
+@import 'navAnimations/navListAnim', 'navAnimations/navIconAnim';
 
 @mixin navListActive() {
   .list-container-one.active {
     @include navListAnim();
+    @include navIconAnim();
   }
   .list-container-two.active {
     @include navListAnim();

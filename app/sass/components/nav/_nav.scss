@@ -1,5 +1,5 @@
 @import '../../utils/variables', '../../utils/fontface';
-@import 'navButton', 'navList', 'navListActive', 'navAnim';
+@import 'navButton', 'navListContainer', 'navListActive';
 
 #nav-menu {
   position: fixed;
@@ -7,7 +7,6 @@
   top: 20px;
   opacity: 1;
   z-index: $navLayer;
-  @include navList();
+  @include navListContainer();
   @include navListActive();
-  @include navAnim();
 }

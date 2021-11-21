@@ -1,0 +1,11 @@
+@mixin navIconAnim() {
+  .menu-icon-wrapper {
+    transform: rotate(-45deg);
+    :first-child {
+      transform: rotate(-90deg) translateX(1px);
+    }
+    :last-child {
+      transform: rotate(-90deg) translateX(-1px);
+    }
+  }
+}

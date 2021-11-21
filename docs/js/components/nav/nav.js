@@ -1,4 +1,7 @@
-const navList = ['home', 'info','schedule','contact']
+const navList = [
+  ['home', 'info','schedule','contact'],
+  ['home', 'gallery','events','locations']
+]
 
 export const navButton = `
 <div id="nav-menu">
@@ -11,21 +14,19 @@ export const navButton = `
       </div>
     </button>
     <ul>
-      <li><a href="#home">${navList[0]}</a></li>
-      <li><a href="#info-arc">${navList[1]}</a></li>
-      <li><a href="#visit-arc">${navList[2]}</a></li>
-      <li><a href="#footer">${navList[3]}</a></li>
+      <li id="home-link">${navList[0][0]}</=></li>
+      <li id="info-link">${navList[0][1]}</=></li>
+      <li id="visit-link">${navList[0][2]}</a></li>
+      <li id="footer-link">${navList[0][3]}</li>
     </ul>
   </div>
 
   <div class="list-container-two">
-    <button class="more-button">
-    </button>
     <ul>
-      <li>${navList[0]}</li>
-      <li>${navList[1]}</li>
-      <li>${navList[2]}</li>
-      <li>${navList[3]}</li>
+      <li>${navList[1][0]}</li>
+      <li>${navList[1][1]}</li>
+      <li>${navList[1][2]}</li>
+      <li>${navList[1][3]}</li>
     </ul>
   </div>
 </div>`

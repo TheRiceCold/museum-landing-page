@@ -1,3 +1,5 @@
+@import 'navAnimations/navIconAnim';
+
 @mixin navIcon() {
   .menu-icon-wrapper {
     border-radius: 2px;
@@ -7,7 +9,7 @@
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
-    transition: transform 0.3s ease-out;
+    transition: all 0.3s ease-out;
     span {
       background: $fontColor;
       border-radius: 2px;
