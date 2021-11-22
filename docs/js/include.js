@@ -9,7 +9,6 @@ const includeHTML = (...args) => document.body.innerHTML += args.join('')
 
 includeHTML(
   landingSection,
-  infoSection,
   aboutSection,
   visitSection,
   footerSection,
