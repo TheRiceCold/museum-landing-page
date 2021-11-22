@@ -68,5 +68,5 @@ export const footerSection = `
       </div>
     </div>
   </footer>
-</section>
+</main>
 `

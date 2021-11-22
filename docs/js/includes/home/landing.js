@@ -7,8 +7,8 @@ const landingImg = 'black-gold-mask'
 const info = 'One of the largest art museum in the world by gallery space. it was founded in 1764 when King Walter the Great acquired an impressive collection of paintings from the Berlin merchant Johann Liebert.'
 
 export let landingSection = `
-<section id="home-arc" class="transition-circle active">
-  <article id="landing">
+<main id="home-arc" class="transition-circle active">
+  <section id="landing">
     <div class="container-inner">
       <div class="main-content">
         <div class="main-headings" id="main-headings-js">
@@ -28,4 +28,4 @@ export let landingSection = `
         <img class="image" src="img/${landingImg}.png" alt="${landingImg}" data="${landingImg}"/>
       </div>
     </div>
-  </article>`
+  </section>`

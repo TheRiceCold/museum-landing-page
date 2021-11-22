@@ -140,7 +140,7 @@
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
   overflow-x: hidden;
-  background: #222;
+  background: #252527;
   clip-path: circle(1px at calc(100% - 45px) 45px); }
 
 ::-webkit-scrollbar-track {
@@ -1139,7 +1139,7 @@ footer {
       justify-content: center;
       position: fixed;
       right: 30px;
-      background: transparent;
+      background: #252527;
       width: 50px;
       height: 50px;
       border-radius: 50%;
@@ -1404,7 +1404,7 @@ footer {
       justify-content: center;
       position: fixed;
       right: 30px;
-      background: transparent;
+      background: #252527;
       width: 50px;
       height: 50px;
       border-radius: 50%;
@@ -1669,7 +1669,7 @@ footer {
       justify-content: center;
       position: fixed;
       right: 30px;
-      background: transparent;
+      background: #252527;
       width: 50px;
       height: 50px;
       border-radius: 50%;
@@ -2106,7 +2106,7 @@ footer {
       justify-content: center;
       position: fixed;
       right: 30px;
-      background: transparent;
+      background: #252527;
       width: 50px;
       height: 50px;
       border-radius: 50%;
@@ -2511,7 +2511,7 @@ footer {
       justify-content: center;
       position: fixed;
       right: 30px;
-      background: transparent;
+      background: #252527;
       width: 50px;
       height: 50px;
       border-radius: 50%;
@@ -3167,7 +3167,7 @@ footer {
       justify-content: center;
       position: fixed;
       right: 30px;
-      background: transparent;
+      background: #252527;
       width: 50px;
       height: 50px;
       border-radius: 50%;
@@ -3431,7 +3431,7 @@ footer {
       justify-content: center;
       position: fixed;
       right: 30px;
-      background: transparent;
+      background: #252527;
       width: 50px;
       height: 50px;
       border-radius: 50%;
@@ -3695,7 +3695,7 @@ footer {
       justify-content: center;
       position: fixed;
       right: 30px;
-      background: transparent;
+      background: #252527;
       width: 50px;
       height: 50px;
       border-radius: 50%;
@@ -4135,12 +4135,10 @@ footer {
 /*#region*/
 /*#endregion*/
 body {
-  background: #252527;
-  overflow-x: hidden; }
+  background: #252527; }
 
 body #home-arc {
   position: relative;
-  overflow-x: hidden;
   width: 100%; }
 
 body #web-logo {
