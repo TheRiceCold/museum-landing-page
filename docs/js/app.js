@@ -5,6 +5,7 @@ import { readMore } from './functions/readMoreBtn.js'
 import { navClicks } from './functions/navClicks.js'
 import { navKeys } from './functions/navKeys.js'
 import { navLinks } from './functions/navLinks.js'
+import { transitionCircle } from './functions/transitionCircle.js'
 
 window.onload = () => {
   navKeys()
@@ -14,6 +15,7 @@ window.onload = () => {
   openImg()
   navClicks()
   navLinks()
+  transitionCircle()
 }
 window.addEventListener('scroll', slideAnim)
 

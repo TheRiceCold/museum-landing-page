@@ -1,2 +1,8 @@
 @import 'landing/landing', 'info', 'about', 'visit', 'footer';
 @import '../../components/cards.scss', '../../components/navDots';
+
+.transition-circle.active#home-arc {
+  opacity: 1;
+  clip-path: circle(75%);
+  overflow-y: scroll;
+}

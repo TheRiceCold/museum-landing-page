@@ -1,0 +1,15 @@
+@import '../pages/events/eventPage.scss';
+
+.transition-circle {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition-property: clip-path, opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  overflow-x: hidden;
+  background: #222;
+  clip-path: circle(1px at calc(100% - 45px) 45px);
+}

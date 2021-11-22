@@ -23,9 +23,9 @@ export const navButton = `
 
   <div class="list-container-two">
     <ul>
-      <li>${navList[1][0]}</li>
+      <li id="home-arc-link">${navList[1][0]}</li>
       <li>${navList[1][1]}</li>
-      <li>${navList[1][2]}</li>
+      <li id="events-page-link">${navList[1][2]}</li>
       <li>${navList[1][3]}</li>
     </ul>
   </div>
