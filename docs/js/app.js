@@ -8,7 +8,9 @@ import { navLinks } from './functions/navLinks.js'
 
 window.onload = () => {
   navKeys()
-  setTimeout(() => readMore(), 6000)
+  setTimeout(() => readMore(), 
+  // 6000
+  )
   openImg()
   navClicks()
   navLinks()

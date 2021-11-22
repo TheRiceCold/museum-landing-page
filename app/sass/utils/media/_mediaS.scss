@@ -1,12 +1,49 @@
-@media(max-width: 425px){
+@media(max-width: 600px){
   /*#region LandingArc */
-  #landing .container-inner {
-    flex-direction: column-reverse;
-    justify-content: center;
-  }
   @include landingArc(
     100vh,      // viewHeight
     50px,       // top
+    35px,       // left
+    250px,      // imgSize
+    0,       // headingLeft
+    0,          // headingRight
+    1.5em,        // fontSize
+    .85em,      // btnFontSize
+    25px,       // btnRadius
+    50px,       // headingOneLeft
+    100px,      // headingTwoLeft
+    12px 50px,  // btnPadding
+    25px,       // btnLeft
+    -20px,      // bigHeadingTop
+    .7em,       // infoFontSize
+    235px,      // infoWidth
+    0,        // infoLeft
+    20px,      // infoTop
+    25px,       // infoRadius
+    -15px,      // infoTopActive
+    125px,      // infoHeightActive
+    15px,       // infoPaddingActive
+    1px,        // infoBorderActive
+  );
+  /*#endregion LandingArc */
+}
+
+@media(max-width: 425px){
+  @include navMenu(
+    10px, // top
+    0,    // right
+    50px, // btnSize
+    30px, // btnRight
+    140px,// listWidth  
+    50px, // listHeight
+    275px,// listRight
+    30px, // gap
+    .8em // fontSize
+  );
+  /*#region LandingArc */
+  @include landingArc(
+    100vh,      // viewHeight
+    70px,       // top
     30px,       // left
     325px,      // imgSize
     15px,       // headingLeft
@@ -33,14 +70,20 @@
 }
 
 @media(max-width: 375px){
-  /*#region LandingArc */
-  #landing .container-inner {
-    flex-direction: column-reverse;
-    justify-content: center;
-  }
+  @include navMenu(
+    10px, // top
+    0,    // right
+    50px, // btnSize
+    30px, // btnRight
+    140px,// listWidth  
+    50px, // listHeight
+    225px,// listRight
+    20px, // gap
+    .8em // fontSize
+  );
   @include landingArc(
     100vh,      // viewHeight
-    50px,       // top
+    90px,       // top
     30px,       // left
     325px,      // imgSize
     15px,       // headingLeft
@@ -68,33 +111,95 @@
 
 @media(max-width: 360px){
   /*#region LandingArc */
-  #landing .container-inner {
-    flex-direction: column-reverse;
-    justify-content: center;
+  @include navMenu(
+    10px, // top
+    0,    // right
+    50px, // btnSize
+    30px, // btnRight
+    140px,// listWidth  
+    50px, // listHeight
+    180px,// listRight
+    20px, // gap
+    .65em // fontSize
+  );
+
+
+  @include landingArc(
+    90vh,      // viewHeight
+    70px,       // top
+    50px,       // left
+    220px,      // imgSize
+    0,          // headingLeft
+    0,          // headingRight
+    1.4em,      // fontSize
+    .8em,      // btnFontSize
+    25px,       // btnRadius
+    10px,       // headingOneLeft
+    60px,       // headingTwoLeft
+    8px 40px,  // btnPadding
+    20px,       // btnLeft
+    -10px,      // bigHeadingTop
+    .6em,       // infoFontSize
+    200px,      // infoWidth
+    5px,        // infoLeft
+    20px,      // infoTop
+    25px,       // infoRadius
+    -5px,      // infoTopActive
+    125px,      // infoHeightActive
+    15px,       // infoPaddingActive
+    1px,        // infoBorderActive
+  );
+  /*#endregion LandingArc */
+
+  @include infoArc(225px, 20px, .8em, column, 225px);
+  .section#info-arc :first-child.slide-section, :nth-child(2).slide-section{
+    transition: none !important;
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media(max-width: 240px){
+  /*#region LandingArc */
+  #landing {
+    .container-inner {
+      flex-direction: column-reverse;
+      justify-content: center;
+      .main-headings {
+        animation: none !important;
+      }
+      .more-info {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+    .move-down {
+      display: none;
+    }
   }
   @include landingArc(
-    100vh,      // viewHeight
-    50px,       // top
-    30px,       // left
-    325px,      // imgSize
-    15px,       // headingLeft
+    200vh,      // viewHeight
+    70px,       // top
+    50px,       // left
+    220px,      // imgSize
+    0,          // headingLeft
     0,          // headingRight
-    2em,        // fontSize
-    .85em,      // btnFontSize
+    1.4em,      // fontSize
+    .8em,      // btnFontSize
     25px,       // btnRadius
-    50px,       // headingOneLeft
-    100px,      // headingTwoLeft
-    12px 50px,  // btnPadding
-    75px,       // btnLeft
-    -20px,      // bigHeadingTop
-    .85em,      // infoFontSize
-    300px,      // infoWidth
-    10px,       // infoLeft
-    0,          // infoTop
+    10px,       // headingOneLeft
+    60px,       // headingTwoLeft
+    8px 40px,  // btnPadding
+    20px,       // btnLeft
+    -10px,      // bigHeadingTop
+    .6em,       // infoFontSize
+    200px,      // infoWidth
+    5px,        // infoLeft
+    20px,      // infoTop
     25px,       // infoRadius
-    -25px,      // infoTopActive
-    165px,      // infoHeightActive
-    20px,       // infoPaddingActive
+    -5px,      // infoTopActive
+    125px,      // infoHeightActive
+    15px,       // infoPaddingActive
     1px,        // infoBorderActive
   );
   /*#endregion LandingArc */

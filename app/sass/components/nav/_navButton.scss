@@ -1,15 +1,15 @@
 @import 'navIcon', 'navAnimations/navButtonAnim';
 
-@mixin navButton($color) {
+@mixin navButton($size, $right) {
   button {
     display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
-    right: $navButtonRight;
-    background: $color;
-    width: $navButtonSize;
-    height: $navButtonSize;
+    right: $right;
+    background: transparent;
+    width: $size;
+    height: $size;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s ease-in;

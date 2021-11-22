@@ -1,12 +1,24 @@
 @import 'navList';
 
-@mixin navListContainer() {
+@mixin navListContainer(
+  $btnSize, $btnRight, $listWidth, 
+  $listHeight, $listRight,
+  $gap, $fontSize
+  ) {
   .list-container-one {
-    @include navButton($bgColor);
-    @include navList();
+    @include navButton($btnSize, $btnRight);
+    @include navList(
+      $listWidth, $listHeight, 
+      $listRight, $gap, 
+      $fontSize
+    );
   }
   .list-container-two {
     position: relative;
-    @include navList();
+    @include navList(
+      $listWidth, $listHeight, 
+      $listRight, $gap, 
+      $fontSize
+    );
   }
 }

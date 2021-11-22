@@ -16,7 +16,6 @@
       display: flex;
       flex-direction: column;
       animation: scaleDown 4s ease 2s;
-      -webkit-animation: scaleDown 4s ease 2s;
       transition: transform .3s ease;
       div {
         margin-left: $left;

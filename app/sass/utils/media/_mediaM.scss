@@ -1,5 +1,30 @@
-@media(max-width: 768px){
+@media(max-width: 800px){
   /*#region LandingArc */
+  body #home-arc::-webkit-scrollbar {
+    display: none;
+  }
+  body #home-arc {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
+  
+  /*#region LandingArc */
+  #landing {
+    .container-inner {
+      flex-direction: column-reverse;
+      justify-content: center;
+      .main-headings {
+        animation: none !important;
+      }
+      .more-info {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+    .move-down {
+      display: none;
+    }
+  }
   @include landingArc(
     100vh,      // viewHeight
     130px,      // top
@@ -28,31 +53,104 @@
   /*#endregion LandingArc */
 }
 
-@media(max-width: 720px){
+@media(max-width: 768px){
+  @include navMenu(
+    10px, // top
+    0,    // right
+    50px, // btnSize
+    30px, // btnRight
+    140px,// listWidth  
+    50px, // listHeight
+    350px,// listRight
+    30px, // gap
+    1em // fontSize
+  );
   /*#region LandingArc */
+  #landing {
+    .container-inner {
+      flex-direction: column-reverse;
+      justify-content: center;
+      .main-headings {
+        animation: none !important;
+      }
+      .more-info {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+    .move-down {
+      display: none;
+    }
+  }
   @include landingArc(
     100vh,      // viewHeight
-    130px,      // top
-    50px,       // left
-    325px,      // imgSize
-    15px,       // headingLeft
+    100px,       // top
+    145px,       // left
+    500px,      // imgSize
+    0,       // headingLeft
     0,          // headingRight
-    2.95em,     // fontSize
+    4.25em,        // fontSize
+    1.25em,      // btnFontSize
+    25px,       // btnRadius
+    50px,       // headingOneLeft
+    100px,      // headingTwoLeft
+    12px 50px,  // btnPadding
+    15px,       // btnLeft
+    -20px,      // bigHeadingTop
+    1em,       // infoFontSize
+    395px,      // infoWidth
+    75px,        // infoLeft
+    20px,      // infoTop
+    25px,       // infoRadius
+    -45px,      // infoTopActive
+    160px,      // infoHeightActive
+    15px,       // infoPaddingActive
+    1px,        // infoBorderActive
+  );
+  /*#endregion LandingArc */
+}
+
+@media(max-width: 720px){
+  /*#region LandingArc */
+  #landing {
+    .container-inner {
+      flex-direction: column-reverse;
+      justify-content: center;
+      .main-headings {
+        animation: none !important;
+      }
+      .more-info {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+    .move-down {
+      display: none;
+    }
+  }
+  @include landingArc(
+    100vh,      // viewHeight
+    50px,       // top
+    65px,       // left
+    250px,      // imgSize
+    0,       // headingLeft
+    0,          // headingRight
+    1.5em,        // fontSize
     .85em,      // btnFontSize
     25px,       // btnRadius
     50px,       // headingOneLeft
     100px,      // headingTwoLeft
     12px 50px,  // btnPadding
-    75px,       // btnLeft
+    25px,       // btnLeft
     -20px,      // bigHeadingTop
-    .85em,       // infoFontSize
-    300px,      // infoWidth
-    29px,       // infoLeft
-    0,          // infoTop
+    .7em,       // infoFontSize
+    235px,      // infoWidth
+    0,        // infoLeft
+    20px,      // infoTop
     25px,       // infoRadius
-    -25px,      // infoTopActive
-    165px,      // infoHeightActive
-    20px,       // infoPaddingActive
+    -15px,      // infoTopActive
+    125px,      // infoHeightActive
+    15px,       // infoPaddingActive
     1px,        // infoBorderActive
   );
   /*#endregion LandingArc */

@@ -28,9 +28,4 @@ export let landingSection = `
         <img class="image" src="img/${landingImg}.png" alt="${landingImg}" data="${landingImg}"/>
       </div>
     </div>
-    <div class="move-down">
-      <a href="#info-arc">
-        <i class="fas fa-chevron-down"></i>
-      </a>
-    </div>
   </article>`

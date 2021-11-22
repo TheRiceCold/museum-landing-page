@@ -1,19 +1,19 @@
-@mixin navList() {
+@mixin navList($width, $height, $right, $gap, $fontSize) {
   ul {
     display: flex;
     align-items: center;
     list-style-type: none;
-    width: $navListWidth;
-    height: $navListHeight;
+    width: $width;
+    height: $height;
     position: absolute;
-    right: $navListRight;
+    right: $right;
     top: 0;
     opacity: 0;
     transform: scale(0);
     transform-origin: top right;
     transition: all 0.3s ease 0.1s;
     li {
-      margin-left: $navLinkGap;
+      margin-left: $gap;
       opacity: 0;
       position: relative;
       transition: 0.3s ease-in;
@@ -23,7 +23,7 @@
       text-transform: uppercase;
       font-family: $navFont;
       line-height: 1.25em;
-      font-size: $navFontSize;
+      font-size: $fontSize;
       cursor: pointer;
       }
     li:hover {
