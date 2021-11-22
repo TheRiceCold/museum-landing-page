@@ -17,6 +17,8 @@
   border-radius: 10px;
   background: #c7a05b; }
 
+/*#region*/
+/*#endregion*/
 @font-face {
   font-family: 'Cera Light';
   src: url(../fonts/CeraPro/Cera-Pro-Light.otf); }
@@ -195,6 +197,45 @@
 @font-face {
   font-family: 'Cera Black Italic';
   src: url(../fonts/CeraPro/Cera-Pro-Black-Italic.otf); }
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes slide-in {
+  0% {
+    transform: translateY(-100px); }
+  100% {
+    transform: translateY(0); } }
+@keyframes scaleDown {
+  0% {
+    transform: scale(1); }
+  10% {
+    transform: scale(0.7); }
+  95% {
+    transform: scale(0.7); }
+  100% {
+    transform: scale(1); } }
+@keyframes reveal-info {
+  0% {
+    padding: 0;
+    height: 0;
+    border: 0; }
+  5% {
+    margin-top: -25px;
+    padding: 20px;
+    height: 165px;
+    border: 1px solid #c7a05b; }
+  95% {
+    margin-top: -25px;
+    padding: 20px;
+    height: 165px;
+    border: 1px solid #c7a05b; }
+  100% {
+    margin-top: 10px;
+    padding: 0;
+    height: 0;
+    border: 0; } }
 #landing {
   margin-top: 145px;
   margin-left: 120px;
@@ -221,7 +262,7 @@
           margin-left: 120px; }
         #landing .container-inner .main-content .main-headings div h1 {
           margin-top: -40px;
-          font-size: 800%;
+          font-size: 8em;
           font-weight: 800;
           letter-spacing: 2px;
           color: #c7a05b;
@@ -233,23 +274,24 @@
         margin-left: 60px;
         align-self: flex-start;
         font-weight: bold;
-        font-size: .95em;
+        font-size: 1em;
         font-family: 'Cera light';
         text-decoration: none;
         color: whitesmoke;
         background: transparent;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; }
+        border: 0.06em solid #c7a05b;
+        border-radius: 4em;
+        transition: all .2s ease; }
+    #landing .container-inner .main-content .main-headings.active {
+      transform: scale(0.7); }
     #landing .container-inner .main-content .more-info {
-      margin-top: -25px;
+      margin-top: 10px;
       width: 350px;
       height: 0;
-      margin-left: 180px;
+      margin-left: 155px;
       overflow: hidden;
       animation: reveal-info 3s ease 2s;
-      -webkit-animation: reveal-info 3s ease 2s;
-      transition: height 0.3s ease;
-      border: 0;
+      transition: all .2s ease;
       border-radius: 25px; }
       #landing .container-inner .main-content .more-info h4 {
         font-family: 'Cera Medium';
@@ -257,6 +299,11 @@
         text-transform: uppercase; }
       #landing .container-inner .main-content .more-info p {
         font-family: 'Cera Light'; }
+    #landing .container-inner .main-content .more-info.active {
+      margin-top: -25px;
+      padding: 20px;
+      height: 165px;
+      border: 1px solid #c7a05b; }
     #landing .container-inner img {
       width: 400px;
       height: auto; }
@@ -269,44 +316,6 @@
       #landing .move-down a :hover {
         color: #c7a05b; }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@keyframes slide-in {
-  0% {
-    transform: translateY(-100px); }
-  100% {
-    transform: translateY(0); } }
-@keyframes scaleDown {
-  0% {
-    transform: scale(1); }
-  10% {
-    transform: scale(0.7); }
-  95% {
-    transform: scale(0.7); }
-  100% {
-    transform: scale(1); } }
-@keyframes reveal-info {
-  0% {
-    padding: 0;
-    height: 0;
-    border: 0; }
-  5% {
-    padding: 20px;
-    height: 165px;
-    border: 1px solid #c7a05b; }
-  95% {
-    padding: 20px;
-    height: 165px;
-    border: 1px solid #c7a05b; }
-  100% {
-    padding: 0;
-    height: 0;
-    border: 0; } }
-/*#region*/
-/*#endregion*/
 @font-face {
   font-family: 'Cera Light';
   src: url(../fonts/CeraPro/Cera-Pro-Light.otf); }
@@ -861,6 +870,143 @@ footer {
 
 .full-img.open {
   transform: translate(-50%, -50%) scale(1); }
+
+@font-face {
+  font-family: 'Cera Light';
+  src: url(../fonts/CeraPro/Cera-Pro-Light.otf); }
+@font-face {
+  font-family: 'Cera Regular Italic';
+  src: url(../fonts/CeraPro/Cera-Pro-Regular-Italic.otf); }
+@font-face {
+  font-family: 'Cera Medium';
+  src: url(../fonts/CeraPro/Cera-Pro-Medium.otf); }
+@font-face {
+  font-family: 'Cera Bold';
+  src: url(../fonts/CeraPro/Cera-Pro-Bold.otf); }
+@font-face {
+  font-family: 'Cera Black';
+  src: url(../fonts/CeraPro/Cera-Pro-Black.otf); }
+@font-face {
+  font-family: 'Cera Black Italic';
+  src: url(../fonts/CeraPro/Cera-Pro-Black-Italic.otf); }
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes slide-in {
+  0% {
+    transform: translateY(-100px); }
+  100% {
+    transform: translateY(0); } }
+@keyframes scaleDown {
+  0% {
+    transform: scale(1); }
+  10% {
+    transform: scale(0.7); }
+  95% {
+    transform: scale(0.7); }
+  100% {
+    transform: scale(1); } }
+@keyframes reveal-info {
+  0% {
+    padding: 0;
+    height: 0;
+    border: 0; }
+  5% {
+    margin-top: -25px;
+    padding: 20px;
+    height: 165px;
+    border: 1px solid #c7a05b; }
+  95% {
+    margin-top: -25px;
+    padding: 20px;
+    height: 165px;
+    border: 1px solid #c7a05b; }
+  100% {
+    margin-top: 10px;
+    padding: 0;
+    height: 0;
+    border: 0; } }
+#landing {
+  margin-top: 145px;
+  margin-left: 120px;
+  height: 100vh;
+  color: whitesmoke; }
+  #landing .container-inner {
+    display: flex;
+    animation: fade-in 1.5s ease, slide-in 1.2s ease; }
+    #landing .container-inner .main-content .main-headings {
+      display: flex;
+      flex-direction: column;
+      animation: scaleDown 4s ease 2s;
+      -webkit-animation: scaleDown 4s ease 2s;
+      transition: transform .3s ease; }
+      #landing .container-inner .main-content .main-headings div {
+        margin-left: 50px;
+        margin-right: 100px; }
+        #landing .container-inner .main-content .main-headings div h3 {
+          font-family: 'Cera Light';
+          font-size: 4em; }
+        #landing .container-inner .main-content .main-headings div :first-child {
+          margin-left: 70px; }
+        #landing .container-inner .main-content .main-headings div :nth-child(2) {
+          margin-left: 120px; }
+        #landing .container-inner .main-content .main-headings div h1 {
+          margin-top: -40px;
+          font-size: 8em;
+          font-weight: 800;
+          letter-spacing: 2px;
+          color: #c7a05b;
+          text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
+      #landing .container-inner .main-content .main-headings button {
+        cursor: pointer;
+        padding: 12px 50px;
+        margin-top: 25px;
+        margin-left: 60px;
+        align-self: flex-start;
+        font-weight: bold;
+        font-size: 1em;
+        font-family: 'Cera light';
+        text-decoration: none;
+        color: whitesmoke;
+        background: transparent;
+        border: 0.06em solid #c7a05b;
+        border-radius: 4em;
+        transition: all .2s ease; }
+    #landing .container-inner .main-content .main-headings.active {
+      transform: scale(0.7); }
+    #landing .container-inner .main-content .more-info {
+      margin-top: 10px;
+      width: 350px;
+      height: 0;
+      margin-left: 155px;
+      overflow: hidden;
+      animation: reveal-info 3s ease 2s;
+      transition: all .2s ease;
+      border-radius: 25px; }
+      #landing .container-inner .main-content .more-info h4 {
+        font-family: 'Cera Medium';
+        color: #c7a05b;
+        text-transform: uppercase; }
+      #landing .container-inner .main-content .more-info p {
+        font-family: 'Cera Light'; }
+    #landing .container-inner .main-content .more-info.active {
+      margin-top: -25px;
+      padding: 20px;
+      height: 165px;
+      border: 1px solid #c7a05b; }
+    #landing .container-inner img {
+      width: 400px;
+      height: auto; }
+  #landing .move-down {
+    position: absolute;
+    left: 50%;
+    bottom: 7%; }
+    #landing .move-down a {
+      color: whitesmoke; }
+      #landing .move-down a :hover {
+        color: #c7a05b; }
 
 body {
   background: #252527;

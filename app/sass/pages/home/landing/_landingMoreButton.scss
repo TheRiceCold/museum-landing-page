@@ -1,17 +1,22 @@
-@mixin moreButton($left) {
+@mixin moreButton($left, $fontSize, $padding) {
   button {
     cursor: pointer;
-    padding: 12px 50px;
+    padding: $padding;
     margin-top: 25px;
     margin-left: $left;
     align-self: flex-start;
     font-weight: bold;
-    font-size: .95em;
+    font-size: $fontSize * .25;
     font-family: 'Cera light';
     text-decoration: none;
     color: $fontColor;
     background: transparent;
-    border: 1px solid $primaryColor;
-    border-radius: 25px;
+    border: $fontSize * .015 solid $primaryColor;
+    border-radius: $fontSize;
+    transition: all .2s ease;
   }
+  // button:hover {
+  //   padding: 12px 30px;
+  //   margin-left: 80px;
+  // }
 }

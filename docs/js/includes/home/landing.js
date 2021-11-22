@@ -19,7 +19,7 @@ export let landingSection = `
           </div>
           <button id="read-more">${readMoreBtn}</button>
         </div>
-        <div class="more-info " id="more-info-js">
+        <div class="more-info ">
           <h4>${infoTitle}</h4>
           <p>${info}</p>
         </div>

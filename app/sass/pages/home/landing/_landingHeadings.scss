@@ -1,6 +1,12 @@
 @import 'landingMoreInfo', 'landingMoreButton';
 
-@mixin landingHeadings($left, $gap, $fontSize) {
+@mixin landingHeadings(
+  $left, $gap, $fontSize, 
+  $btnPadding, $btnLeft, $bigHeadingTop,
+  $infoWidth, $infoLeft, $infoTop,
+  $infoRadius, $infoTopActive, $infoHeightActive,
+  $infoPaddingActive, $infoBorderActive
+  ) {
   .main-content {
     .main-headings {
       display: flex;
@@ -21,18 +27,25 @@
         :nth-child(2) {
           margin-left: 120px;
         }
-        @include bigHeading();
+        @include bigHeading($fontSize, $bigHeadingTop);
       }
-      @include moreButton(60px); // left
+      @include moreButton($btnLeft, $fontSize, $btnPadding); // left // fontSize // btnPadding
     }
-    @include landingMore(350px); // width
+    .main-headings.active {
+      transform: scale(0.7);
+    }
+    @include landingMore(
+      $infoWidth, $infoLeft, $infoTop, $infoRadius, 
+      $infoTopActive, $infoHeightActive, 
+      $infoPaddingActive, $infoBorderActive
+      ); // width
   }
 }
 
-@mixin bigHeading() {
+@mixin bigHeading($fontSize, $top) {
   h1 {
-    margin-top: -40px;
-    font-size: 800%;
+    margin-top: $top;
+    font-size: $fontSize * 2;
     font-weight: 800;
     letter-spacing: 2px;
     color: $primaryColor;

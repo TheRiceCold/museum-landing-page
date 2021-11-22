@@ -37,16 +37,19 @@
       border: 0;
     }
     5% {
+      margin-top: -25px;
       padding: 20px;
       height: 165px;
       border: 1px solid $primaryColor; 
     }
     95% {
+      margin-top: -25px;
       padding: 20px;
       height: 165px;
       border: 1px solid $primaryColor;
     }
     100% {
+      margin-top: 10px;
       padding: 0;
       height: 0;
       border: 0;

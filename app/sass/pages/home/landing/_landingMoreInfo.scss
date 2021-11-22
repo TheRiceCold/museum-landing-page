@@ -1,15 +1,18 @@
-@mixin landingMore($width) {
+@mixin landingMore(
+  $width, $left, $top, $radius, 
+  $topActive, $heightActive, 
+  $paddingActive, $borderActive
+  ) {
   .more-info {
-    margin-top: -25px;
+    margin-top: $top;
     width: $width;
     height: 0;
-    margin-left: 180px;
+    margin-left: $left;
     overflow: hidden;
     animation: reveal-info 3s ease 2s;
-    -webkit-animation: reveal-info 3s ease 2s;
-    transition: height 0.3s ease;
-    border: 0;
-    border-radius: 25px;
+    // border: 1px solid $primaryColor;
+    transition: all .2s ease;
+    border-radius: $radius;
     h4 {
       font-family: 'Cera Medium';
       color: $primaryColor;
@@ -18,5 +21,12 @@
     p {
       font-family: 'Cera Light';
     }
+  }
+
+  .more-info.active {
+    margin-top: $topActive;
+    padding: $paddingActive;
+    height: $heightActive;
+    border: $borderActive solid $primaryColor; 
   }
 }
