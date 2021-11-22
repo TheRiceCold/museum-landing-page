@@ -1,4 +1,4 @@
-@mixin moreButton($left, $fontSize, $padding) {
+@mixin moreButton($left, $fontSize, $padding, $radius) {
   button {
     cursor: pointer;
     padding: $padding;
@@ -6,13 +6,13 @@
     margin-left: $left;
     align-self: flex-start;
     font-weight: bold;
-    font-size: $fontSize * .25;
+    font-size: $fontSize;
     font-family: 'Cera light';
     text-decoration: none;
     color: $fontColor;
     background: transparent;
     border: $fontSize * .015 solid $primaryColor;
-    border-radius: $fontSize;
+    border-radius: $radius;
     transition: all .2s ease;
   }
   // button:hover {

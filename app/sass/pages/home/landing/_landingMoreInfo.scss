@@ -1,9 +1,12 @@
 @mixin landingMore(
-  $width, $left, $top, $radius, 
-  $topActive, $heightActive, 
-  $paddingActive, $borderActive
+  $fontSize, $width, 
+  $left, $top, 
+  $radius, $topActive, 
+  $heightActive, $paddingActive, 
+  $borderActive
   ) {
   .more-info {
+    font-size: $fontSize;
     margin-top: $top;
     width: $width;
     height: 0;

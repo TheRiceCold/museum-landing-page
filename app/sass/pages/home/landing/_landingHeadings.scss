@@ -1,11 +1,14 @@
 @import 'landingMoreInfo', 'landingMoreButton';
 
 @mixin landingHeadings(
-  $left, $gap, $fontSize, $btnFontSize,
+  $left, $gap, $fontSize, 
+  $btnFontSize, $btnRadius, 
   $headingOneLeft, $headingTwoLeft,
-  $btnPadding, $btnLeft, $bigHeadingTop,
-  $infoWidth, $infoLeft, $infoTop,
-  $infoRadius, $infoTopActive, $infoHeightActive,
+  $btnPadding, $btnLeft, 
+  $bigHeadingTop, $infoFontSize, 
+  $infoWidth, $infoLeft, 
+  $infoTop, $infoRadius, 
+  $infoTopActive, $infoHeightActive,
   $infoPaddingActive, $infoBorderActive
   ) {
   .main-content {
@@ -30,13 +33,15 @@
         }
         @include bigHeading($fontSize, $bigHeadingTop);
       }
-      @include moreButton($btnLeft, $btnFontSize, $btnPadding); // left // fontSize // btnPadding
+      @include moreButton($btnLeft, $btnFontSize, $btnPadding, $btnRadius); // left // fontSize // btnPadding
     }
     .main-headings.active {
       transform: scale(0.7);
     }
     @include landingMore(
-      $infoWidth, $infoLeft, $infoTop, $infoRadius, 
+      $infoFontSize,
+      $infoWidth, $infoLeft, 
+      $infoTop, $infoRadius, 
       $infoTopActive, $infoHeightActive, 
       $infoPaddingActive, $infoBorderActive
       ); // width
