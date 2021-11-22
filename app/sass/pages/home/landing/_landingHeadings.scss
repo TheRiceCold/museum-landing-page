@@ -1,7 +1,8 @@
 @import 'landingMoreInfo', 'landingMoreButton';
 
 @mixin landingHeadings(
-  $left, $gap, $fontSize, 
+  $left, $gap, $fontSize, $btnFontSize,
+  $headingOneLeft, $headingTwoLeft,
   $btnPadding, $btnLeft, $bigHeadingTop,
   $infoWidth, $infoLeft, $infoTop,
   $infoRadius, $infoTopActive, $infoHeightActive,
@@ -22,14 +23,14 @@
           font-size: $fontSize;
         }
         :first-child {
-          margin-left: 70px;
+          margin-left: $headingOneLeft;
         }
         :nth-child(2) {
-          margin-left: 120px;
+          margin-left: $headingTwoLeft;
         }
         @include bigHeading($fontSize, $bigHeadingTop);
       }
-      @include moreButton($btnLeft, $fontSize, $btnPadding); // left // fontSize // btnPadding
+      @include moreButton($btnLeft, $btnFontSize, $btnPadding); // left // fontSize // btnPadding
     }
     .main-headings.active {
       transform: scale(0.7);

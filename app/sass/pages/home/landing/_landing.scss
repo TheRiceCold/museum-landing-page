@@ -4,6 +4,8 @@
 @mixin landingArc(
   $top, $left, $imgSize, 
   $headingLeft, $headingRight, $fontSize, 
+  $btnFontSize,
+  $headingOneLeft, $headingTwoLeft,
   $btnPadd, $btnLeft, $bigHeadingTop,
   $infoWidth, $infoLeft, $infoTop,
   $infoRadius, $infoTopActive, $infoHeightActive,
@@ -19,6 +21,7 @@
       animation: fade-in 1.5s ease, slide-in 1.2s ease;
       @include landingHeadings(
         $headingLeft, $headingRight, $fontSize, 
+        $btnFontSize, $headingOneLeft, $headingTwoLeft,
         $btnPadd, $btnLeft, $bigHeadingTop,
         $infoWidth, $infoLeft, $infoTop,
         $infoRadius, $infoTopActive, $infoHeightActive,
@@ -41,26 +44,5 @@
       }
     }
   }
+  @include landingAnim();
 }
-
-@include landingAnim();
-
-@include landingArc(
-  145px,  // top
-  120px,  // left
-  400px,  // imgSize
-  50px,   // headingLeft
-  100px,  // headingRight
-  4em,    // fontSize
-  12px 50px, // btnPadding
-  60px,   // btnLeft
-  -40px,  // bigHeadingTop
-  350px,  // infoWidth
-  155px,  // infoLeft
-  10px,   // infoTop
-  25px,   // infoRadius
-  -25px,  // infoTopActive
-  165px,  // infoHeightActive
-  20px,   // infoPaddingActive
-  1px,    // infoBorderActive
-);

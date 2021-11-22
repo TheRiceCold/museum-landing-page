@@ -1,4 +1,67 @@
+@import '../../pages/home/landing/landing';
 
+@media(max-width: 1920px){}
+@media(max-width: 1366px){}
+@media (max-width: 1080px){}
+@media(max-width: 1024px){}
+@media(max-width: 720px){}
+@media(max-width: 667px){}
+@media(max-width: 375px){
+#landing .container-inner {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+/*#region LandingArc */
+@include landingArc(
+  80px,  // top
+  30px,  // left
+  325px,  // imgSize
+  30px,   // headingLeft
+  0,  // headingRight
+  2em,    // fontSize
+  .75em,    // btnFontSize
+  50px,   // headingOneLeft
+  100px,  // headingTwoLeft
+  12px 50px, // btnPadding
+  75px,   // btnLeft
+  -20px,  // bigHeadingTop
+  350px,  // infoWidth
+  155px,  // infoLeft
+  10px,   // infoTop
+  25px,   // infoRadius
+  -25px,  // infoTopActive
+  165px,  // infoHeightActive
+  20px,   // infoPaddingActive
+  1px,    // infoBorderActive
+);
+/*#endregion LandingArc */
+}
+@media(max-width: 360px){
+/*#region LandingArc */
+@include landingArc(
+  145px,  // top
+  120px,  // left
+  400px,  // imgSize
+  50px,   // headingLeft
+  100px,  // headingRight
+  4em,    // fontSize
+  2em,    // btnFontSize
+  70px,   // headingOneLeft
+  120px,  // headingTwoLeft
+  12px 50px, // btnPadding
+  60px,   // btnLeft
+  -40px,  // bigHeadingTop
+  350px,  // infoWidth
+  155px,  // infoLeft
+  10px,   // infoTop
+  25px,   // infoRadius
+  -25px,  // infoTopActive
+  165px,  // infoHeightActive
+  20px,   // infoPaddingActive
+  1px,    // infoBorderActive
+);
+/*#endregion LandingArc */
+}
 
 /*#region*/
 // @media (min-width: 350px) and (max-width: 529px) {
