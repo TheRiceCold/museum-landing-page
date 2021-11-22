@@ -6,7 +6,7 @@ import { navClicks } from './includes/nav/navClicks.js'
 import { navKeys } from './includes/nav/navKeys.js'
 import { navLinks } from './includes/nav/navLinks.js'
 import { transitionCircle } from './functions/transitionCircle.js'
-import { gallerySlide } from './includes/gallery/galleryslide.js'
+import { gallerySlide } from './includes/gallery/gallerySlide.js'
 
 window.onload = () => {
   navKeys()
