@@ -1,5 +1,5 @@
 const navList = [
-  ['home', 'info','schedule','contact'],
+  ['home', 'history','schedule','contact'],
   ['home', 'gallery','events','locations']
 ]
 
@@ -15,7 +15,7 @@ export const navButton = `
     </button>
     <ul>
       <li id="home-link">${navList[0][0]}</=></li>
-      <li id="info-link">${navList[0][1]}</=></li>
+      <li id="history-link">${navList[0][1]}</=></li>
       <li id="visit-link">${navList[0][2]}</a></li>
       <li id="footer-link">${navList[0][3]}</li>
     </ul>

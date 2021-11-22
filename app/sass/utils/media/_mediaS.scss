@@ -38,7 +38,7 @@
     50px, // listHeight
     275px,// listRight
     30px, // gap
-    .8em // fontSize
+    .8em  // fontSize
   );
   /*#region LandingArc */
   @include landingArc(
@@ -151,7 +151,7 @@
   );
   /*#endregion LandingArc */
 
-  @include infoArc(225px, 20px, .8em, column, 225px);
+  // @include infoArc(225px, 20px, .8em, column, 225px);
   .section#info-arc :first-child.slide-section, :nth-child(2).slide-section{
     transition: none !important;
     transform: translateX(0);

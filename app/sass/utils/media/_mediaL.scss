@@ -85,20 +85,20 @@
 @media(max-width: 1366px){ 
   /*#region Nav Menu */
   @include navMenu(
-    20px, // top
-    20px, // right
+    20px,  // top
+    20px,  // right
     50px,  // btnSize
-    30px,
-    140px,
-    50px,
-    280px,
-    30px,
-    .85em
+    30px,  // btnRight
+    140px, // listWidth
+    50px,  // listHeight
+    300px, // listRight
+    30px,  // gap
+    .85em  // fontSize
   );
 
   /*#region Landing Arc */
   @include landingArc(
-    100vh,      //viewHeight
+    80vh,      //viewHeight
     145px,      // top
     155px,      // left
     400px,      // imgSize
@@ -124,7 +124,7 @@
   );
   /*#endregion Landing Arc */
   /*#region Info Arc*/
-  @include infoArc(400px, 0, 1.25em, row, 500px);
+  // @include infoArc(400px, 0, 1.25em, row, 500px);
 }
 @media (max-width: 1080px){
   /*#region LandingArc */

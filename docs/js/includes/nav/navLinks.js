@@ -1,6 +1,6 @@
 export function navLinks() {
   linkSection('home')
-  linkSection('info')
+  linkSection('history')
   linkSection('visit')
   linkSection('footer')
 }
