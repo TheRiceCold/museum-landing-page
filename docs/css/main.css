@@ -958,13 +958,13 @@
 #exhibition-arc .card input[type=checkbox] {
   display: none; }
 #exhibition-arc .card:first-child .wrapper {
-  background: url(../../docs/img/059ce3112176709.600fec3f723e5.jpg) center/cover no-repeat; }
+  background: url(../docs/img/059ce3112176709.600fec3f723e5.jpg) center/cover no-repeat; }
 #exhibition-arc .card:nth-child(2) .wrapper {
-  background: url(../../docs/img/btfrxqgudrfnclxwpad2.jpg) center/cover no-repeat; }
+  background: url(../docs/img/btfrxqgudrfnclxwpad2.jpg) center/cover no-repeat; }
 #exhibition-arc .card:nth-child(3) .wrapper {
-  background: url(../../docs/img/c69355112176709.600fec3f72b54.jpg) center/cover no-repeat; }
+  background: url(../docs/img/c69355112176709.600fec3f72b54.jpg) center/cover no-repeat; }
 #exhibition-arc .card:last-child .wrapper {
-  background: url(../../docs/img/e05257112176709.600fec3f71242.jpg) center/cover no-repeat; }
+  background: url(../docs/img/e05257112176709.600fec3f71242.jpg) center/cover no-repeat; }
 #exhibition-arc .card .header {
   color: whitesmoke;
   padding: 1em; }
