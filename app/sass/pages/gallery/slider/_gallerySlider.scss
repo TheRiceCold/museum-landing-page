@@ -1,0 +1,191 @@
+@import 'gallerySliderAnim';
+@import '../../../utils/variables';
+
+@mixin gallerySlider() {
+  .container {
+    margin: 0 auto;
+    margin-top: 15vh;
+    position: relative;
+    max-width: 71.25rem;
+    width: 100%;
+    height: 100vh;
+    @include gridGallery();
+    img {
+      width: 100%;
+      height: 43vh;
+      object-fit: cover;
+    }
+    .vertical {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .intro {
+      position: relative;
+      z-index: 2;
+      opacity: 0;
+      animation: fadeIn 0.8s 0.4s ease forwards;
+    }
+    .description {
+      position: relative;
+      z-index: 1;
+      margin: 1rem 0 1.5rem 0;
+      font-size: 1rem;
+      opacity: 0;
+      animation: fadeIn 0.8s 0.6s ease forwards;
+      color: whitesmoke;
+    }
+    .slider-item {
+      display: none;
+    }
+    .slider-item.active {
+      display: block;
+      .hide-mobile {
+        display: none;
+      }
+      .show-mobile {
+        display: block;
+        margin: 1rem 0;
+      }
+    }
+    button {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      outline: none;
+      border: 0;
+      vertical-align: middle;
+      text-decoration: none;
+      background: transparent;
+      margin: 0;
+      padding: 0;
+      font-size: 100%;
+      font: inherit;
+      font-size: inherit;
+      width: 55px;
+      height: 55px;
+    }
+    .controls {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: flex-end;
+      padding: 0.25rem 0 0.25rem 0;
+      .previous {
+        border: 1px solid #fff;
+      }
+      .next {
+        border-top: 1px solid #fff;
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+      }
+      .icon {
+        position: relative;
+        margin: auto;
+        width: 20px;
+        height: 1px;
+        color: #fff;
+      }
+      .icon.arrow-left::before {
+        content: "";
+        position: absolute;
+        left: 1px;
+        top: -4px;
+        width: 9px;
+        height: 9px;
+        border-top: 1px solid;
+        border-right: 1px solid;
+        transform: rotate(-135deg);
+      }
+      .icon.arrow-right::before {
+        content: "";
+        position: absolute;
+        right: 1px;
+        top: -4px;
+        width: 9px;
+        height: 9px;    
+        border-top: 1px solid;
+        border-right: 1px solid;
+        transform: rotate(45deg);
+      }
+    }
+
+    .previous, .next {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-basis: 15%;
+      font-size: 2rem;
+      color: #232323;
+    }
+    .previous:hover .icon, .next:hover .icon {
+      transform: scale(1.2);
+    }
+    .previous .icon, .next .icon {
+      transition: transform 0.1s ease;
+    }
+    .active .image-holder::before {
+      position: absolute;
+      content: "";
+      z-index: 1;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #252527;
+      transform-origin: 100% 50%;
+      animation: revealRight 1s cubic-bezier(0.23, 1, 0.75, 1) forwards;
+    }
+    @include gallerySliderAnim();
+    @media (min-width: 62rem) {
+      #logo {
+        font-size: 1.25rem;
+      }
+
+      .controls {
+        padding: 1.75rem 0 1.75rem 0;
+      }
+
+      .intro {
+        animation: fadeInLeft 0.8s 0.4s ease forwards;
+      }
+      .intro .title {
+        font-size: 4.25rem;
+        padding: 2.5rem 2.5rem 3rem 2.5rem;
+        color: $primaryColor;
+        text-decoration: none;
+      }
+
+      img {
+        height: 60vh;
+      }
+
+      .description {
+        font-size: 1.25rem;
+        margin: 1rem 0 0 0;
+      }
+
+      .previous, .next {
+        flex-basis: 8.33%;
+      }
+
+      .slider-item.active .hide-mobile {
+        display: block;
+      }
+
+      .slider-item.active .show-mobile {
+        display: none;
+      }
+    }
+    .visually-hidden {
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+    }
+  }
+}

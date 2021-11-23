@@ -1,6 +1,6 @@
 export let galleryPage = `
 <main class="transition-circle" id="gallery-page"> 
-<div class="container">
+  <div class="container">
     <div class="grid">
       <div class="column-xs-12">
         <ul class="slider">
@@ -8,9 +8,7 @@ export let galleryPage = `
             <div class="grid vertical">
               <div class="column-xs-12 column-md-2 hide-mobile">
                 <div class="intro">
-                  <a href="#">
-                    <h1 class="title"><span class="underline">Explore Tokyo</span></h1>
-                  </a>
+                  <h1 class="title">Explore</h1>
                 </div>
               </div>
               <div class="column-xs-12 column-md-10">
@@ -20,11 +18,9 @@ export let galleryPage = `
                 <div class="grid">
                   <div class="column-xs-12 column-md-9">
                     <div class="intro show-mobile">
-                      <a href="#">
-                        <h1 class="title"><span class="underline">Explore Tokyo</span></h1>
-                      </a>
+                      <h1 class="title">Explore</h1>
                     </div>
-                    <p class="description">Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples.</p>
+                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste odio, in necessitatibus quas obcaecati optio sint hic delectus sit atque?</p>
                   </div>
                 </div>
               </div>
@@ -34,9 +30,7 @@ export let galleryPage = `
             <div class="grid vertical">
               <div class="column-xs-12 column-md-2 hide-mobile">
                 <div class="intro">
-                  <a href="#">
-                    <h1 class="title"><span class="underline">Explore Kyoto</span></h1>
-                  </a>
+                  <h1 class="title">Learn</h1>
                 </div>
               </div>
               <div class="column-xs-12 column-md-10">
@@ -46,11 +40,9 @@ export let galleryPage = `
                 <div class="grid">
                   <div class="column-xs-12 column-md-9">
                     <div class="intro show-mobile">
-                      <a href="#">
-                        <h1 class="title"><span class="underline">Explore Kyoto</span></h1>
-                      </a>
+                      <h1 class="title">Learn</h1>
                     </div>
-                    <p class="description">Kyoto is famous for its numerous classical Buddhist temples, gardens, imperial palaces, Shinto shrines and traditional wooden houses.</p>
+                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste odio, in necessitatibus quas obcaecati optio sint hic delectus sit atque?</p>
                   </div>
                 </div>
               </div>
@@ -60,9 +52,7 @@ export let galleryPage = `
             <div class="grid vertical">
               <div class="column-xs-12 column-md-2 hide-mobile">
                 <div class="intro">
-                  <a href="#">
-                      <h1 class="title"><span class="underline">Explore Osaka</span></h1>
-                  </a>
+                  <h1 class="title">Develop</h1>
                 </div>
               </div>
               <div class="column-xs-12 column-md-10">
@@ -72,11 +62,9 @@ export let galleryPage = `
                 <div class="grid">
                   <div class="column-xs-12 column-md-9">
                     <div class="intro show-mobile">
-                      <a href="#">
-                        <h1 class="title"><span class="underline">Explore Osaka</span></h1>
-                      </a>
+                      <h1 class="title">Develop</h1>
                     </div>
-                    <p class="description">Osaka is a large port city and commercial center known for its modern architecture, nightlife and hearty street food.</p>
+                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste odio, in necessitatibus quas obcaecati optio sint hic delectus sit atque?</p>
                   </div>
                 </div>
               </div>
@@ -86,9 +74,7 @@ export let galleryPage = `
             <div class="grid vertical">
               <div class="column-xs-12 column-md-2 hide-mobile">
                 <div class="intro">
-                  <a href="#">
-                    <h1 class="title"><span class="underline">Explore Hokkaido</span></h1>
-                  </a>
+                    <h1 class="title">Never Give up</h1>
                 </div>
               </div>
               <div class="column-xs-12 column-md-10">
@@ -99,10 +85,10 @@ export let galleryPage = `
                   <div class="column-xs-12 column-md-9">
                     <div class="intro show-mobile">
                       <a href="#">
-                        <h1 class="title"><span class="underline">Explore Hokkaido</span></h1>
+                        <h1 class="title">Never Give Up</h1>
                       </a>
                     </div>
-                    <p class="description">Hokkaido, the northernmost of Japan’s main islands, is known for its volcanoes, natural hot springs ("onsen") and ski areas.</p>
+                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste odio, in necessitatibus quas obcaecati optio sint hic delectus sit atque?</p>
                   </div>
                 </div>
               </div>
@@ -124,5 +110,44 @@ export let galleryPage = `
           </div>
       </div>
     </div>
-  </div>
+    </div>
 </main>`
+
+
+  //   <div class="wrapper">
+  //   <nav>
+  //     <div class="titles">
+  //       <h4 style="text-align: right; font-weight: 400;">its Our Great Flows</h4>
+  //       <hr />
+  //       <h1>From Our Gallery</h1>
+  //     </div>
+  //     <div class="items">
+  //       <span class="item active" data-name="all">All</span>
+  //       <span class="item" data-name="bag">Sculpture</span>
+  //       <span class="item" data-name="camera">Paintings</span>
+  //       <span class="item" data-name="shoe">Modern Art</span>
+  //       <span class="item" data-name="watch">Vintage Art</span>
+  //       <span class="item" data-name="headphone">Others</span>
+  //     </div>
+  //   </nav>
+  //   <!-- filter Images -->
+  //   <div class="gallery">
+  //     <div class="image" data-name="bag"><span><img src="suzu.jpg" alt=""></span></div>
+  //     <div class="image" data-name="headphone"><span><img src="suzu.jpg" alt=""></span></div>
+  //     <div class="image" data-name="camera"><span><img src="docs/img/black-gold-mask-original.png" alt=""></span></div>
+  //     <div class="image" data-name="shoe"><span><img src="images/shoe-1.jpg" alt=""></span></div>
+  //     <div class="image" data-name="headphone"><span><img src="docs/img/c69355112176709.600fec3f72b54.jpg" alt=""></span></div>
+  //     <div class="image" data-name="watch"><span><img src="docs/img/db193f48383189.5896aa09666fa.jpg""></span></div>
+  //     <div class="image" data-name="shoe"><span><img src="docs/img/c2ae77112176709.600fec3f717db.jpg" alt=""></span></div>
+  //     <div class="image" data-name="camera"><span><img src="images/camera-2.jpg" alt=""></span></div>
+  //   </div>
+  //   </div>
+  //   <!-- fullscreen img preview box -->
+  //   <div class="preview-box">
+  //   <div class="details">
+  //     <span class="title">Image Category: <p></p></span>
+  //     <span class="icon fas fa-times"></span>
+  //   </div>
+  //   <div class="image-box"><img src="" alt=""></div>
+  // </div>
+  // <div class="shadow"></div>
