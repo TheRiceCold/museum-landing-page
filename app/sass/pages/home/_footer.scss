@@ -1,6 +1,7 @@
 @import '../../utils/fontface';
 @import '../../utils/variables';
 @mixin footerArc(
+  $height,
   $paddTop, $rowWidth, 
   $rowHeight, $btnPadd, 
   $btnFontSize, $btnRadius,
@@ -22,6 +23,7 @@
   footer {
     padding-top: $paddTop;
     background: linear-gradient(-45deg, #facc6b 0%, #fabc3c 94%);
+    height: 70vh;
     .container {
       display: flex;
       justify-content: space-around;

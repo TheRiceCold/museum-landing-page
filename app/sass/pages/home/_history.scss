@@ -1,50 +1,54 @@
 @import '../../utils/variables', '../../utils/fontface';
-#history-arc {
-  height: 110vh;
-  background: #252527;
-  .container {
-    display: flex;
-    justify-content: space-evenly;
-    
-  .headings {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    text-align: right;
-    color: whitesmoke;
-    font-size: 1.25em;
-    line-height: 1.5em;
-    margin-right: 50px;
-    font-family: 'Cera Light';
-  }
-  h1 {
-    font-family: 'Cera Medium';
-    color: #c7a05b;
-    text-transform: uppercase;
-    font-size: 2.25em;
-  }
-  p {
-    margin-top: 30px;
-    text-align: justify;
-  }
-  img {
-    width: 50%;
-    height: auto;
-  }
-  a {
-    margin-top: 50px;
-    cursor: pointer;
-    padding: 8px 50px;
-    font-weight: bold;
-    font-size: .75em;
-    font-family: 'Cera light';
-    text-decoration: none;
-    color: $fontColor;
-    background: transparent;
-    border: 1px solid $primaryColor;
-    border-radius: 25px;
-  }
+@mixin historyArc() {
+  #history-arc {
+    height: 110vh;
+    background: #252527;
+    .container {
+      display: flex;
+      justify-content: space-evenly;
+      
+    .headings {
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30%;
+      text-align: right;
+      color: whitesmoke;
+      font-size: 1.25em;
+      line-height: 1.5em;
+      margin-right: 50px;
+      font-family: 'Cera Light';
+    }
+    h1 {
+      font-family: 'Cera Medium';
+      color: #c7a05b;
+      text-transform: uppercase;
+      font-size: 2.25em;
+    }
+    p {
+      margin-top: 30px;
+      text-align: justify;
+    }
+    img {
+      width: 50%;
+      height: auto;
+    }
+    a {
+      margin-top: 50px;
+      cursor: pointer;
+      padding: 8px 50px;
+      font-weight: bold;
+      font-size: .75em;
+      font-family: 'Cera light';
+      text-decoration: none;
+      color: $fontColor;
+      background: transparent;
+      border: 1px solid $primaryColor;
+      border-radius: 25px;
+    }
+    }
   }
 }
+
+@include historyArc();

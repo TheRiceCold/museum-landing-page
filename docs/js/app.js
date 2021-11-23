@@ -7,17 +7,18 @@ import { navKeys } from './includes/nav/navKeys.js'
 import { navLinks } from './includes/nav/navLinks.js'
 import { transitionCircle } from './functions/transitionCircle.js'
 import { gallerySlide } from './includes/gallery/gallerySlide.js'
+import { countdown } from './includes/events/countdown.js';
 
 window.onload = () => {
   navKeys()
-  setTimeout(() => readMore(), 
-  // 6000
-  )
+  setTimeout(readMore, 6000)
   gallerySlide()
   openImg()
   navClicks()
   navLinks()
   transitionCircle()
+  countdown()
+  setInterval(countdown, 1000)
 }
 window.addEventListener('scroll', slideAnim)
 

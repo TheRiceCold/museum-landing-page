@@ -3,7 +3,6 @@ export let eventPage = `
   <header>
   <div class="container">
     <div class="eight columns"> <span class="typcn typcn-thumbs-ok icon"></span>
-      <h2 class="preheader">Welcome to</h2>
       <h1 class="header">The Grand Auction</h1>
       <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>

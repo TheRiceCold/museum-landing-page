@@ -8,17 +8,35 @@ export let galleryPage = `
             <div class="grid vertical">
               <div class="column-xs-12 column-md-2 hide-mobile">
                 <div class="intro">
-                  <h1 class="title">Explore</h1>
                 </div>
               </div>
               <div class="column-xs-12 column-md-10">
                 <div class="image-holder">
-                  <img src="https://source.unsplash.com/cddaZDt6uRw">
+                  <img src="img/gallery-slider1.jpg">
                 </div>
                 <div class="grid">
                   <div class="column-xs-12 column-md-9">
                     <div class="intro show-mobile">
-                      <h1 class="title">Explore</h1>
+                    </div>
+                    <p class="description">The aim of art is not to represent the outward appearance of things, but their inward significance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="slider-item">
+            <div class="grid vertical">
+              <div class="column-xs-12 column-md-2 hide-mobile">
+                <div class="intro">
+                </div>
+              </div>
+              <div class="column-xs-12 column-md-10">
+                <div class="image-holder">
+                  <img src="img/gallery-slider2.jpg">
+                </div>
+                <div class="grid">
+                  <div class="column-xs-12 column-md-9">
+                    <div class="intro show-mobile">
                     </div>
                     <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste odio, in necessitatibus quas obcaecati optio sint hic delectus sit atque?</p>
                   </div>
@@ -30,41 +48,17 @@ export let galleryPage = `
             <div class="grid vertical">
               <div class="column-xs-12 column-md-2 hide-mobile">
                 <div class="intro">
-                  <h1 class="title">Learn</h1>
                 </div>
               </div>
               <div class="column-xs-12 column-md-10">
                 <div class="image-holder">
-                  <img src="https://source.unsplash.com/Pz3EHf-KJfc">
+                  <img src="img/gallery-slider3.jpg">
                 </div>
                 <div class="grid">
                   <div class="column-xs-12 column-md-9">
                     <div class="intro show-mobile">
-                      <h1 class="title">Learn</h1>
                     </div>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste odio, in necessitatibus quas obcaecati optio sint hic delectus sit atque?</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="slider-item">
-            <div class="grid vertical">
-              <div class="column-xs-12 column-md-2 hide-mobile">
-                <div class="intro">
-                  <h1 class="title">Develop</h1>
-                </div>
-              </div>
-              <div class="column-xs-12 column-md-10">
-                <div class="image-holder">
-                  <img src="https://source.unsplash.com/peYW3VwICpE">
-                </div>
-                <div class="grid">
-                  <div class="column-xs-12 column-md-9">
-                    <div class="intro show-mobile">
-                      <h1 class="title">Develop</h1>
-                    </div>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste odio, in necessitatibus quas obcaecati optio sint hic delectus sit atque?</p>
+                    <p class="description">"A beautiful body perishes a work of art dies not."</p>
                   </div>
                 </div>
               </div>
@@ -79,16 +73,15 @@ export let galleryPage = `
               </div>
               <div class="column-xs-12 column-md-10">
                 <div class="image-holder">
-                  <img src="https://source.unsplash.com/VmeOZQjTVGE">
+                  <img src="img/gallery-slider3.jpg">
                 </div>
                 <div class="grid">
                   <div class="column-xs-12 column-md-9">
                     <div class="intro show-mobile">
                       <a href="#">
-                        <h1 class="title">Never Give Up</h1>
                       </a>
                     </div>
-                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste odio, in necessitatibus quas obcaecati optio sint hic delectus sit atque?</p>
+                    <p class="description">"A beautiful body perishes a work of art dies not."</p>
                   </div>
                 </div>
               </div>

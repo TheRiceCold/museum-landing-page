@@ -1,5 +1,4 @@
-export function countDown() {
-  function count() {
+export function countdown() {
     const countDate = new Date('December 17, 2021 00:00:00').getTime()
     const now = new Date().getTime()
     const gap = countDate - now
@@ -14,11 +13,8 @@ export function countDown() {
     const textMinute = Math.floor((gap % hour) / minute)
     const textSecond = Math.floor((gap % minute) / second)
 
-    document.querySelector('.day').innerText = textDay
-    document.querySelector('.hour').innerText = textHour
-    document.querySelector('.minute').innerText = textMinute
-    document.querySelector('.second').innerText = textSecond
-  } 
-  countdown();
-  setInterval(countdown, 1000)
-  }
+    document.querySelector('.days').innerText = textDay
+    document.querySelector('.hours').innerText = textHour
+    document.querySelector('.minutes').innerText = textMinute
+    document.querySelector('.seconds').innerText = textSecond
+} 
