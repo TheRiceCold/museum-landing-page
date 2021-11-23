@@ -1,24 +1,24 @@
 import { loader } from './functions/loader.js'
 import { slideAnim } from './functions/slideAnim.js'
 import { openImg } from './functions/openImg.js'
-import { readMore } from './includes/home/readMoreBtn.js'
-import { navClicks } from './includes/nav/navClicks.js'
-import { navKeys } from './includes/nav/navKeys.js'
-import { navLinks } from './includes/nav/navLinks.js'
+import { readMore } from './includes/pages/home/landing section/readMoreBtn.js'
+import { navClicks } from './includes/navMenu/navClicks.js'
+import { navKeys } from './includes/navMenu/navKeys.js'
+import { navLinks } from './includes/navMenu/navLinks.js'
 import { transitionCircle } from './functions/transitionCircle.js'
-import { gallerySlide } from './includes/gallery/gallerySlide.js'
-import { countdown } from './includes/events/countdown.js';
+import { gallerySlide } from './includes/pages/gallery/gallerySlide.js'
+import { countdown } from './includes/pages/events/countdown.js';
 
 window.onload = () => {
-  navKeys()
-  setTimeout(readMore, 6000)
+  navKeys() // Allows to navigate pages through keyboard arrow keys(left and right)
+  setTimeout(readMore, 6000) // Delays the click so it doesn't conflict the animation
   gallerySlide()
   openImg()
   navClicks()
   navLinks()
-  transitionCircle()
+  transitionCircle() // Toggles(open and close) the clipped pages inside a circle.
   countdown()
-  setInterval(countdown, 1000)
+  setInterval(countdown, 1000)  // Countdown for the event page
 }
-window.addEventListener('scroll', slideAnim)
+// window.addEventListener('scroll', slideAnim)
 

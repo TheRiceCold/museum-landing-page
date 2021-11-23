@@ -1,21 +1,14 @@
-import { landingSection } from './includes/home/landing.js'
-import { aboutSection } from './includes/home/about.js'
-import { visitSection } from './includes/home/visit.js'
-import { footerSection } from './includes/home/footer.js'
-import { navButton } from './includes/nav/nav.js'
-import { eventPage } from './includes/events/eventsPage.js'
-import { galleryPage } from './includes/gallery/galleryPage.js'
-import { historySection } from './includes/home/history.js'
-import { exhibitionsSection } from './includes/home/exhibitions.js'
+import { homePage } from './includes/pages/home/homePage.js'
+import { eventPage } from './includes/pages/events/eventsPage.js'
+import { galleryPage } from './includes/pages/gallery/galleryPage.js'
+import { navButton } from './includes/navMenu/nav.js'
 
-const includeHTML = (...args) => document.body.innerHTML += args.join('')
+// function that accepts array of arguments(parameters), parse it to string and remove separators(,) 
+const includeHTML = (...args) => document.body.innerHTML += args.join('') 
 
+// include html string here!
 includeHTML(
-  landingSection,
-  historySection,
-  exhibitionsSection,
-  visitSection,
-  footerSection,
+  homePage,
   galleryPage,
   eventPage,
   navButton

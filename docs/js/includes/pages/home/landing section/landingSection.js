@@ -3,8 +3,14 @@ const heading2 = 'is Nature\'s'
 const heading3 = 'Sculpture'
 const readMoreBtn = 'tell me more'
 const infoTitle = 'Magnifica Museum'
-const landingImg = 'black-gold-mask'
-const info = 'One of the largest art museum in the world by gallery space. it was founded in 1764 when King Walter the Great acquired an impressive collection of paintings from the Berlin merchant Johann Liebert.'
+const landingImgSrc = 'black-gold-mask'
+const info = 
+  'One of the largest art museum in the world by gallery space. it was founded in 1764 when King Walter the Great acquired an impressive collection of paintings from the Berlin merchant Johann Liebert.'
+
+const landingImg = () =>
+`<div class="image-wrapper">
+<img class="image" src="img/${landingImgSrc}.png" alt="${landingImgSrc}" data="${landingImgSrc}"/>
+</div>`
 
 export let landingSection = `
 <main id="home-arc" class="transition-circle active">
@@ -24,8 +30,6 @@ export let landingSection = `
           <p>${info}</p>
         </div>
       </div>
-      <div class="image-wrapper">
-        <img class="image" src="img/${landingImg}.png" alt="${landingImg}" data="${landingImg}"/>
-      </div>
+      ${landingImg()}
     </div>
   </section>`
