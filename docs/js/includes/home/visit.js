@@ -1,5 +1,5 @@
 export const visitSection = `
-<article id="visit-arc">
+<section id="visit-arc">
   <h1>Visiting the Museum</h1>
   <div class="content">
     <div class="content__left">
@@ -30,4 +30,4 @@ export const visitSection = `
       </ul>
     </h3>
   </div>
-</article>`
+</section>`

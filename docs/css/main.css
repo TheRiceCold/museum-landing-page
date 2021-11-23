@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -883,10 +884,10 @@
     #history-arc .container img {
       width: 50%;
       height: auto; }
-    #history-arc .container button {
+    #history-arc .container a {
       margin-top: 50px;
       cursor: pointer;
-      padding: 12px 50px;
+      padding: 8px 50px;
       font-weight: bold;
       font-size: .75em;
       font-family: 'Cera light';
@@ -895,6 +896,112 @@
       background: transparent;
       border: 1px solid #c7a05b;
       border-radius: 25px; }
+
+@font-face {
+  font-family: 'Cera Light';
+  src: url(../fonts/CeraPro/Cera-Pro-Light.otf); }
+@font-face {
+  font-family: 'Cera Regular Italic';
+  src: url(../fonts/CeraPro/Cera-Pro-Regular-Italic.otf); }
+@font-face {
+  font-family: 'Cera Medium';
+  src: url(../fonts/CeraPro/Cera-Pro-Medium.otf); }
+@font-face {
+  font-family: 'Cera Bold';
+  src: url(../fonts/CeraPro/Cera-Pro-Bold.otf); }
+@font-face {
+  font-family: 'Cera Black';
+  src: url(../fonts/CeraPro/Cera-Pro-Black.otf); }
+@font-face {
+  font-family: 'Cera Black Italic';
+  src: url(../fonts/CeraPro/Cera-Pro-Black-Italic.otf); }
+#exhibition-arc #heading {
+  font-family: 'Cera Medium';
+  color: #c7a05b;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin-left: 30px; }
+#exhibition-arc .row {
+  margin-top: 5vh;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+#exhibition-arc .card {
+  height: 60vh;
+  width: 20vw; }
+#exhibition-arc .card .wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2); }
+#exhibition-arc .card .wrapper:hover .data {
+  transform: translateY(0); }
+#exhibition-arc .card .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(calc(70px + 1em));
+  transition: transform 0.3s; }
+#exhibition-arc .card .data .content {
+  padding: 1em;
+  position: relative;
+  z-index: 1; }
+#exhibition-arc .card .author {
+  font-size: 12px; }
+#exhibition-arc .card .title {
+  margin-bottom: 30px; }
+#exhibition-arc .card .text {
+  height: 70px;
+  margin: 0; }
+#exhibition-arc .card input[type=checkbox] {
+  display: none; }
+#exhibition-arc .card:first-child .wrapper {
+  background: url(../../docs/img/059ce3112176709.600fec3f723e5.jpg) center/cover no-repeat; }
+#exhibition-arc .card:nth-child(2) .wrapper {
+  background: url(../../docs/img/btfrxqgudrfnclxwpad2.jpg) center/cover no-repeat; }
+#exhibition-arc .card:nth-child(3) .wrapper {
+  background: url(../../docs/img/c69355112176709.600fec3f72b54.jpg) center/cover no-repeat; }
+#exhibition-arc .card:last-child .wrapper {
+  background: url(../../docs/img/e05257112176709.600fec3f71242.jpg) center/cover no-repeat; }
+#exhibition-arc .card .header {
+  color: whitesmoke;
+  padding: 1em; }
+#exhibition-arc .card .header::before, #exhibition-arc .card .header::after {
+  content: "";
+  display: table; }
+#exhibition-arc .card .header::after {
+  clear: both; }
+#exhibition-arc .card .header .date {
+  float: left;
+  font-size: 12px; }
+#exhibition-arc .card .data {
+  color: whitesmoke;
+  transform: translateY(calc(70px + 4em)); }
+#exhibition-arc .card .title a {
+  color: whitesmoke; }
+#exhibition-arc .card .button {
+  display: block;
+  width: 100px;
+  margin: 2em auto 1em;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1;
+  position: relative;
+  font-weight: 700; }
+#exhibition-arc .card .button::after {
+  content: "→";
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.3s; }
+#exhibition-arc .card .button:hover::after {
+  transform: translate(5px, -50%);
+  opacity: 1; }
 
 @font-face {
   font-family: 'Cera Light';
