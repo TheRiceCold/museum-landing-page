@@ -1,0 +1,153 @@
+@import 'headings/button', 'headings/moreInfo', 'headings/headings';
+
+@mixin container() {
+  @media (max-width: 1920px) and (max-height: 1080px) { 
+    .container-inner {
+      display: flex;
+      animation: fade-in 1.5s ease, slide-in 1.2s ease;
+      .main-content {
+        .main-headings {
+          display: flex;
+          flex-direction: column;
+          animation: scaleDown 4s ease 2s;
+          transition: transform .3s ease;
+          @include headings();
+          @include moreButton();
+        }
+        .main-headings.active {
+          transform: scale(0.7);
+        }
+        @include landingMore(); 
+      }
+      img {
+        width: 400px;
+        height: auto;
+      }
+    }
+  }
+  
+  @media (max-width: 1366px) and (max-height: 768px) { 
+    .container-inner {
+      display: flex;
+      animation: fade-in 1.5s ease, slide-in 1.2s ease;
+      .main-content {
+        .main-headings {
+          display: flex;
+          flex-direction: column;
+          animation: scaleDown 4s ease 2s;
+          transition: transform .3s ease;
+          @include headings();
+          @include moreButton();
+        }
+        .main-headings.active {
+          transform: scale(0.7);
+        }
+        @include landingMore(); 
+      }
+      img {
+        width: 400px;
+        height: auto;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) and (max-height: 1024px) { 
+    .container-inner {
+      display: flex;
+      animation: fade-in 1.5s ease, slide-in 1.2s ease;
+      .main-content {
+        .main-headings {
+          display: flex;
+          flex-direction: column;
+          animation: scaleDown 4s ease 2s;
+          transition: transform .3s ease;
+          @include headings();
+          @include moreButton();
+        }
+        .main-headings.active {
+          transform: scale(0.7);
+        }
+        @include landingMore(); 
+      }
+      img {
+        width: 400px;
+        height: auto;
+      }
+    }
+  }
+
+  @media (max-width: 375px) and (max-height: 667px) { 
+    .container-inner {
+      display: flex;
+      animation: fade-in 1.5s ease, slide-in 1.2s ease;
+      .main-content {
+        .main-headings {
+          display: flex;
+          flex-direction: column;
+          animation: scaleDown 4s ease 2s;
+          transition: transform .3s ease;
+          @include headings();
+          @include moreButton();
+        }
+        .main-headings.active {
+          transform: scale(0.7);
+        }
+        @include landingMore(); 
+      }
+      img {
+        width: 400px;
+        height: auto;
+      }
+    }
+  }
+
+  @media (max-width: 360px) and (max-height: 720px) { 
+    .container-inner {
+      display: flex;
+      animation: fade-in 1.5s ease, slide-in 1.2s ease;
+      .main-content {
+        .main-headings {
+          display: flex;
+          flex-direction: column;
+          animation: scaleDown 4s ease 2s;
+          transition: transform .3s ease;
+          @include headings();
+          @include moreButton();
+        }
+        .main-headings.active {
+          transform: scale(0.7);
+        }
+        @include landingMore(); 
+      }
+      img {
+        width: 400px;
+        height: auto;
+      }
+    }
+  }
+
+  @media (max-width: 360px) and (max-height: 640px) { 
+    .container-inner {
+      display: flex;
+      animation: fade-in 1.5s ease, slide-in 1.2s ease;
+      .main-content {
+        .main-headings {
+          display: flex;
+          flex-direction: column;
+          animation: scaleDown 4s ease 2s;
+          transition: transform .3s ease;
+          @include headings();
+          @include moreButton();
+        }
+        .main-headings.active {
+          transform: scale(0.7);
+        }
+        @include landingMore(); 
+      }
+      img {
+        width: 400px;
+        height: auto;
+      }
+    }
+  }
+}

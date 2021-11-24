@@ -1,0 +1,110 @@
+@import 'bigHeading';
+
+@mixin headings() {
+  @media (max-width: 1920px) and (max-height: 1080px) { 
+    div {
+      margin-left: 15px;
+      margin-right: 100px;
+      h3 {
+        font-family: 'Cera Light';
+        font-size: 4em;
+      }
+      :first-child {
+        margin-left: 70px;
+      }
+      :nth-child(2) {
+        margin-left: 120px;
+      }
+      @include bigHeading();
+    }
+  }
+  @media (max-width: 1366px) and (max-height: 768px) { 
+    div {
+      margin-left: 15px;
+      margin-right: 100px;
+      h3 {
+        font-family: 'Cera Light';
+        font-size: 4em;
+      }
+      :first-child {
+        margin-left: 70px;
+      }
+      :nth-child(2) {
+        margin-left: 120px;
+      }
+      @include bigHeading();
+    }
+  }
+
+  @media (max-width: 768px) and (max-height: 1024px) { 
+    div {
+      margin-left: 15px;
+      margin-right: 100px;
+      h3 {
+        font-family: 'Cera Light';
+        font-size: 4em;
+      }
+      :first-child {
+        margin-left: 70px;
+      }
+      :nth-child(2) {
+        margin-left: 120px;
+      }
+      @include bigHeading();
+    }
+  }
+
+  @media (max-width: 375px) and (max-height: 667px) { 
+    div {
+      margin-left: 15px;
+      margin-right: 100px;
+      h3 {
+        font-family: 'Cera Light';
+        font-size: 4em;
+      }
+      :first-child {
+        margin-left: 70px;
+      }
+      :nth-child(2) {
+        margin-left: 120px;
+      }
+      @include bigHeading();
+    }
+  }
+
+  @media (max-width: 360px) and (max-height: 720px) { 
+    div {
+      margin-left: 15px;
+      margin-right: 100px;
+      h3 {
+        font-family: 'Cera Light';
+        font-size: 4em;
+      }
+      :first-child {
+        margin-left: 70px;
+      }
+      :nth-child(2) {
+        margin-left: 120px;
+      }
+      @include bigHeading();
+    }
+  }
+
+  @media (max-width: 360px) and (max-height: 640px) { 
+    div {
+      margin-left: 15px;
+      margin-right: 100px;
+      h3 {
+        font-family: 'Cera Light';
+        font-size: 4em;
+      }
+      :first-child {
+        margin-left: 70px;
+      }
+      :nth-child(2) {
+        margin-left: 120px;
+      }
+      @include bigHeading();
+    }
+  }
+}

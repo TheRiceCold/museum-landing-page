@@ -1,0 +1,17 @@
+@mixin moreButton() {
+  button {
+    cursor: pointer;
+    padding: 12px 50px;
+    margin-top: 25px;
+    margin-left: 30px;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: .95em;
+    font-family: 'Cera light';
+    text-decoration: none;
+    color: $fontColor;
+    background: transparent;
+    border: 1px solid $primaryColor;
+    border-radius: 25px;
+  }
+}

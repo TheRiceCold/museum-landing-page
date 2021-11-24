@@ -1,0 +1,18 @@
+@import 'headings';
+
+@media (max-width: 1366px) and (max-height: 768px) { 
+  #history-arc {
+    height: 110vh;
+    background: $bgColor;
+    .container {
+      display: flex;
+      justify-content: space-evenly;  
+      align-items: center;
+      @include headings();
+      img {
+        width: 650px;
+        height: auto;
+      }
+    }
+  }
+}

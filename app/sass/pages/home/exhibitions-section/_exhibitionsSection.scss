@@ -3,13 +3,15 @@
 #exhibition-arc {
   #heading {
     font-family: 'Cera Medium';
-    color: #c7a05b;
+    color: $primaryColor;
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 3em;
     margin-left: 30px;
+    text-align: center;
+    letter-spacing: .2em;
+    margin-bottom: 50px;
   }
   .row {
-    margin-top: 5vh;
     height: 100vh;
     width: 100vw;
     display: grid;

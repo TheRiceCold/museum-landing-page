@@ -1,0 +1,56 @@
+@mixin bigHeading() {
+  @media (max-width: 1920px) and (max-height: 1080px) { 
+    h1 {
+      margin-top: -40px;
+      font-size: 8em;
+      color: $primaryColor;
+      text-shadow: 0 2px 0 rgb(22, 22, 22),
+            0 2px 0 #1a1a1a,
+            0 3px 0 rgb(29, 29, 29),
+            0 4px 0 #272727,
+            0 5px 0 rgb(26, 26, 26),
+            0 6px 1px rgba(0,0,0,.1),
+            0 0 5px rgba(0,0,0,.1),
+            0 1px 3px rgba(0,0,0,.3),
+            0 3px 5px rgba(0,0,0,.2),
+            0 5px 10px rgba(0,0,0,.25),
+            0 10px 10px rgba(0,0,0,.2),
+            0 20px 20px rgba(0,0,0,.15);
+    }
+  }
+  
+  @media (max-width: 1366px) and (max-height: 768px) { 
+    h1 {
+      margin-top: -40px;
+      font-size: 8em;
+    }
+  }
+  
+  @media (max-width: 768px) and (max-height: 1024px) { 
+    h1 {
+      margin-top: -40px;
+      font-size: 8em;
+    }
+  }
+  
+  @media (max-width: 375px) and (max-height: 667px) { 
+    h1 {
+      margin-top: -40px;
+      font-size: 8em;
+    }
+  }
+  
+  @media (max-width: 360px) and (max-height: 720px) { 
+    h1 {
+      margin-top: -40px;
+      font-size: 8em;
+    }
+  }
+  
+  @media (max-width: 360px) and (max-height: 640px) { 
+    h1 {
+      margin-top: -40px;
+      font-size: 8em;
+    }
+  }
+}
