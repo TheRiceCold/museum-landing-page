@@ -1,0 +1,14 @@
+@mixin textFields() {
+  input{
+    margin: 0 15px;
+    font-size: 1em;
+    padding: 8px 5px;
+    width: 220px;
+    border:none;
+    background: transparent;
+    border-bottom: .15em black solid;
+  }
+  input:focus{ 
+    outline:none; 
+  }
+}

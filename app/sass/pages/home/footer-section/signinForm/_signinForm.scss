@@ -1,0 +1,12 @@
+@import 'signinBtn', 'textFields', 'labels';
+
+@mixin signinForm() {
+  form { 
+    .group { 
+      position:relative;  
+      @include textFields();
+      @include labels();
+    }
+    @include signinBtn();
+  }
+}

@@ -1,0 +1,30 @@
+@import 'signinForm/signinForm';
+@import 'locations/locations';
+
+@mixin container() {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    #one, #two {
+      width: 500px;
+      height: 250px;
+      h1 {
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Cera Medium';
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      @include signinForm();
+    }
+    #one h4, #two h4{
+      text-transform: uppercase;
+      font-family: 'Cera Light';
+      text-align: center;
+    }
+    @include locations();
+    hr {
+      border: .15em solid black;
+    }
+  }
+}

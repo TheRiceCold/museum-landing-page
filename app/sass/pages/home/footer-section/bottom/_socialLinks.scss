@@ -1,0 +1,15 @@
+@mixin socialLinks() {
+  .social-links {
+    display: flex;
+    align-items: center;
+    i {
+      margin-left: 25px;
+      font-size: 20px;
+      cursor: pointer;
+      transition: color .3s ease;
+    }
+    i:hover {
+      color: $fontColor;
+    }
+  }
+}

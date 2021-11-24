@@ -10,9 +10,9 @@ const footerNav = [
 export const footerSection = `
   <footer id="footer-arc">
     <div class="container">
-      <div class="row">
+      <div id="one">
         <h4>newsletter</h4>
-        <h1>Dale likes to send you emails</h1><form>
+        <h1>Dale likes to send you emails</h1>
         <form>
           <div class="group">      
             <input type="text" required>
@@ -27,17 +27,17 @@ export const footerSection = `
             <span class="bar"></span>
             <label>Email</label>
           </div>
+          <button>signin</button>
         </form>
-        <button>signin</button>
       </div>
       <hr />
-      <div class="row">
+      <div id="two">
         <h4>One Museum two locations</h4>
         <div class="location">
           <div class="col">
             <img src="img/museum-icon.svg" alt="" />
-            <h2 style="text-align: center;">HOF</h2>
-            <h4 style="text-align: center;">Groot Heiligland 62 2011 ES Haarlem</h4>
+            <h2>HOF</h2>
+            <h4>Groot Heiligland 62 2011 ES Haarlem</h4>
             <a href="">Open Hours</a>
           </div>
           <div class="col">
@@ -64,7 +64,7 @@ export const footerSection = `
         <a href="">${footerNav[5]}</a>
       </div>
       <div>
-        <img src="img/bankgiroloterij.png" alt="" style="position: relative; height: 90px"/>
+        <img src="img/bankgiroloterij.png" alt=""/>
       </div>
     </div>
   </footer>

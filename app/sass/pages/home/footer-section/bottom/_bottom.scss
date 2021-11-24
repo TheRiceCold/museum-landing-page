@@ -1,0 +1,19 @@
+@import 'nav', 'socialLinks';
+
+@mixin bottom() {
+  .footer-bottom {
+    display: flex;
+    height: 115px;
+    justify-content: space-around;
+    div {
+      height: 100px;
+      width: 250px;
+    }
+    @include socialLinks();
+    @include nav();
+    img {
+      position: relative; 
+      height: 90px;
+    }
+  }
+}

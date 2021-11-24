@@ -1,0 +1,26 @@
+@mixin locations() {
+  #two .location{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    .col{
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      height: 200px;
+      h2 {
+        font-family: 'Cera Light';
+        text-align: center;
+      }
+      a {
+        color: black;
+        font-family: 'Cera Light';
+        margin-left: 25%;
+        text-decoration: underline;
+      }
+      img {
+        height: 80px;
+      }
+    }
+  }
+}

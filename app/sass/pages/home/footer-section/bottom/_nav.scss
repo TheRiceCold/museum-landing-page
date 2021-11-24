@@ -1,0 +1,18 @@
+@mixin nav() {
+  .footer-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    align-items: center;
+    a {
+      text-decoration: none;
+      color: black;
+      transition: color .3s ease;
+      font-family: 'Cera Light';
+      font-size: 1em;
+    }
+    a:hover {
+      color: $fontColor;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@mixin labels {
+  label{
+    top: 10px;
+    left: 20px;
+    font-family: 'Cera Light';
+    color: black; 
+    font-size: 1em;
+    position: absolute;
+    pointer-events: none;
+    transition:0.2s ease all; 
+  }      
+  input:focus ~ label, input:valid ~ label{
+    top: -15px;
+    font-size: .85em;
+    color:$bgColor;
+  }
+}

@@ -1,0 +1,25 @@
+@mixin signinBtn() {
+  button {
+    margin-top: 20px;
+    margin-left: 220px;
+    font-family: 'Cera Medium', sans-serif;
+    padding: 12px 25px;
+    cursor: pointer;
+    transition: all 150ms linear;
+    border-radius: 20px;
+    font-size: .9em;
+    color: $fontColor;
+    background: black;
+    &:focus {
+      outline: 1px dotted #959595;
+      outline-offset: -4px;
+    }
+    &:hover {
+      color: #202129;
+      background: $fontColor;
+    }   
+    &:active {
+      background: #d5d6d6;
+    }
+  }
+}
