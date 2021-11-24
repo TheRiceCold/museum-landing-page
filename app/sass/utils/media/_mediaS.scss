@@ -87,40 +87,6 @@
     20px, // gap
     .8em // fontSize
   );
-  /*#region LandingArc */
-  // @include landingArc(
-  //   100vh,      // viewHeight
-  //   90px,       // top
-  //   30px,       // left
-  //   325px,      // imgSize
-  //   15px,       // headingLeft
-  //   0,          // headingRight
-  //   2em,        // fontSize
-  //   .85em,      // btnFontSize
-  //   25px,       // btnRadius
-  //   50px,       // headingOneLeft
-  //   100px,      // headingTwoLeft
-  //   12px 50px,  // btnPadding
-  //   75px,       // btnLeft
-  //   -20px,      // bigHeadingTop
-  //   .85em,      // infoFontSize
-  //   300px,      // infoWidth
-  //   10px,       // infoLeft
-  //   0,          // infoTop
-  //   25px,       // infoRadius
-  //   -25px,      // infoTopActive
-  //   165px,      // infoHeightActive
-  //   20px,       // infoPaddingActive
-  //   1px,        // infoBorderActive
-  // );
-  // /*#endregion LandingArc */
-
-  footer .container {
-    flex-direction: column;
-    hr {
-      display: none;
-    }
-  }
 }
 
 @media(max-width: 360px){
@@ -135,41 +101,6 @@
     20px, // gap
     .65em // fontSize
     );
-    
-    
-  // /*#region LandingArc */
-  // @include landingArc(
-  //   70vh,      // viewHeight
-  //   75px,       // top
-  //   50px,       // left
-  //   220px,      // imgSize
-  //   0,          // headingLeft
-  //   0,          // headingRight
-  //   1.4em,      // fontSize
-  //   .8em,      // btnFontSize
-  //   25px,       // btnRadius
-  //   10px,       // headingOneLeft
-  //   60px,       // headingTwoLeft
-  //   8px 40px,  // btnPadding
-  //   20px,       // btnLeft
-  //   -10px,      // bigHeadingTop
-  //   .6em,       // infoFontSize
-  //   200px,      // infoWidth
-  //   5px,        // infoLeft
-  //   20px,      // infoTop
-  //   25px,       // infoRadius
-  //   -5px,      // infoTopActive
-  //   125px,      // infoHeightActive
-  //   15px,       // infoPaddingActive
-  //   1px,        // infoBorderActive
-  // );
-  // /*#endregion LandingArc */
-
-  .section#info-arc :first-child.slide-section, :nth-child(2).slide-section{
-    transition: none !important;
-    transform: translateX(0);
-    opacity: 1;
-  }
 }
 
 @media(max-width: 240px){

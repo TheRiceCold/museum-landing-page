@@ -1,26 +1,119 @@
 @mixin landingMore() {
-  .more-info {
-    font-size: .85em;
-    width: 300px;
-    height: 0;
-    margin-left: 45px;
-    overflow: hidden;
-    animation: reveal-info 3s ease 2s;
-    transition: all .2s ease;
-    border-radius: 25px;
-    h4 {
-      font-family: 'Cera Medium';
-      color: $primaryColor;
-      text-transform: uppercase;
+  @media (max-width: 1920px) and (max-height: 1080px) { 
+    .more-info {
+      font-size: .85em;
+      width: 300px;
+      height: 0;
+      margin-left: 45px;
+      overflow: hidden;
+      animation: reveal-info 3s ease 2s;
+      transition: all .2s ease;
+      border-radius: 25px;
+      h4 {
+        font-family: 'Cera Medium';
+        color: $primaryColor;
+        text-transform: uppercase;
+      }
+      p {
+        font-family: 'Cera Light';
+      }
     }
-    p {
-      font-family: 'Cera Light';
+    .more-info.active {
+      margin-top: -25px;
+      padding: 20px;
+      height: 165px;
+      border: 1px solid $primaryColor; 
     }
   }
-  .more-info.active {
-    margin-top: -25px;
-    padding: 20px;
-    height: 165px;
-    border: 1px solid $primaryColor; 
+  
+  @media (max-width: 1366px) and (max-height: 768px) { 
+    .more-info {
+      font-size: .85em;
+      width: 300px;
+      height: 0;
+      margin-left: 45px;
+      overflow: hidden;
+      animation: reveal-info 3s ease 2s;
+      transition: all .2s ease;
+      border-radius: 25px;
+      h4 {
+        font-family: 'Cera Medium';
+        color: $primaryColor;
+        text-transform: uppercase;
+      }
+      p {
+        font-family: 'Cera Light';
+      }
+    }
+    .more-info.active {
+      margin-top: -25px;
+      padding: 20px;
+      height: 165px;
+      border: 1px solid $primaryColor; 
+    }
+  }
+  
+  @media (max-width: 768px) and (max-height: 1024px) { 
+    .more-info {
+      transition: none !important;
+      animation: none !important;
+      font-size: .85em;
+      width: 300px;
+      height: 0;
+      margin-left: 45px;
+      overflow: hidden;
+      animation: reveal-info 3s ease 2s;
+      transition: all .2s ease;
+      border-radius: 25px;
+    }
+    .more-info.active {
+      margin-top: -25px;
+      padding: 20px;
+      height: 165px;
+    }
+  }
+  
+  @media (max-width: 375px) and (max-height: 667px) { 
+    .more-info {
+      font-size: .85em;
+      width: 300px;
+      height: 0;
+      margin-left: 10px;
+    }
+    .more-info.active {
+      margin-top: -25px;
+      padding: 20px;
+      height: 165px;
+    }
+  }
+  
+  @media (max-width: 360px) and (max-height: 720px) { 
+    .more-info {
+      margin-top: 20px;
+      font-size: .6em;
+      width: 200px;
+      height: 0;
+      margin-left: 5px;
+    }
+    .more-info.active {
+      margin-top: -5px;
+      padding: 15px;
+      height: 125px;
+    }
+  }
+  
+  @media (max-width: 360px) and (max-height: 640px) { 
+    .more-info {
+      margin-top: 20px;
+      font-size: .6em;
+      width: 200px;
+      height: 0;
+      margin-left: 5px;
+    }
+    .more-info.active {
+      margin-top: -5px;
+      padding: 15px;
+      height: 125px;
+    }
   }
 }

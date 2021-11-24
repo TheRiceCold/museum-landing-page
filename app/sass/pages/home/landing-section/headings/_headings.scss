@@ -38,73 +38,47 @@
 
   @media (max-width: 768px) and (max-height: 1024px) { 
     div {
-      margin-left: 15px;
-      margin-right: 100px;
+      margin-left: 0;
+      margin-right: 0;
       h3 {
-        font-family: 'Cera Light';
-        font-size: 4em;
+        font-size: 4.25em;
       }
       :first-child {
-        margin-left: 70px;
+        margin-left: 50px;
       }
       :nth-child(2) {
-        margin-left: 120px;
+        margin-left: 100px;
       }
-      @include bigHeading();
     }
   }
 
   @media (max-width: 375px) and (max-height: 667px) { 
     div {
       margin-left: 15px;
-      margin-right: 100px;
-      h3 {
-        font-family: 'Cera Light';
-        font-size: 4em;
-      }
-      :first-child {
-        margin-left: 70px;
-      }
-      :nth-child(2) {
-        margin-left: 120px;
-      }
-      @include bigHeading();
+      margin-right: 0px;
+      h3 {font-size: 2em;}
+      :first-child {margin-left: 50px;}
+      :nth-child(2) { margin-left: 100px;}
     }
   }
 
   @media (max-width: 360px) and (max-height: 720px) { 
     div {
-      margin-left: 15px;
-      margin-right: 100px;
-      h3 {
-        font-family: 'Cera Light';
-        font-size: 4em;
-      }
-      :first-child {
-        margin-left: 70px;
-      }
-      :nth-child(2) {
-        margin-left: 120px;
-      }
-      @include bigHeading();
+      margin-left: 0;
+      margin-right: 0;
+      h3 {font-size: 1.4em;}
+      :first-child {margin-left: 10px;}
+      :nth-child(2) {margin-left: 60px;}
     }
   }
 
   @media (max-width: 360px) and (max-height: 640px) { 
     div {
-      margin-left: 15px;
-      margin-right: 100px;
-      h3 {
-        font-family: 'Cera Light';
-        font-size: 4em;
-      }
-      :first-child {
-        margin-left: 70px;
-      }
-      :nth-child(2) {
-        margin-left: 120px;
-      }
-      @include bigHeading();
+      margin-left: 0;
+      margin-right: 0;
+      h3 {font-size: 1.4em;}
+      :first-child {margin-left: 10px;}
+      :nth-child(2) {margin-left: 60px;}
     }
   }
 }

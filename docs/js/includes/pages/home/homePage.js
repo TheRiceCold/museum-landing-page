@@ -8,7 +8,7 @@ export let homePage =
   ''.concat(
     landingSection,
     historySection,
-    // exhibitionsSection,
-    // visitSection,
-    // footerSection,
+    exhibitionsSection,
+    visitSection,
+    footerSection,
     )

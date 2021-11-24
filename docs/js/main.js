@@ -11,7 +11,8 @@ import { countdown } from './includes/pages/events/countdown.js';
 
 window.onload = () => {
   navKeys() // Allows to navigate pages through keyboard arrow keys(left and right)
-  setTimeout(readMore, 6000) // Delays the click so it doesn't conflict the animation
+  // setTimeout(readMore, 6000) // Delays the click so it doesn't conflict the animation
+  readMore()
   gallerySlide()
   openImg()
   navClicks()

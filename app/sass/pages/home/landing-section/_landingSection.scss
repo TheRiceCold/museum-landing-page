@@ -35,9 +35,9 @@
 
 @media (max-width: 375px) and (max-height: 667px) { 
   #landing {
-    margin-top: 145px;
-    margin-left: 155px;
-    height: 80vh;
+    height: 75vh;
+    margin-top: 90px;
+    margin-left: 30px;
     color: $fontColor;
     @include container();
   }
@@ -46,9 +46,9 @@
 
 @media (max-width: 360px) and (max-height: 720px) { 
   #landing {
-    margin-top: 145px;
-    margin-left: 155px;
-    height: 80vh;
+    height: 75vh;
+    margin-top: 75px;
+    margin-left: 50px;
     color: $fontColor;
     @include container();
   }
@@ -57,9 +57,9 @@
 
 @media (max-width: 360px) and (max-height: 640px) { 
   #landing {
-    margin-top: 145px;
-    margin-left: 155px;
-    height: 80vh;
+    height: 75vh;
+    margin-top: 75px;
+    margin-left: 50px;
     color: $fontColor;
     @include container();
   }
