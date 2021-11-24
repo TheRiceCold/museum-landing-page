@@ -6,11 +6,14 @@ const btnLabel = 'more history'
 export let historySection = `
 <section id="history-arc">
   <div class="container">
-    <img src="${imgSrc}" alt="" />
+    <div class="img-box">
+      <h1 id="title-mobile">${title}</h1> 
+      <img src="${imgSrc}" alt="" />
+    </div>
     <div class="headings">
       <h1>${title}</h1>
       <p>${description}</p>
       <a href="#exhibition-arc">${btnLabel}</a>
     </div>
-  </div>
+  </>
 </section>`

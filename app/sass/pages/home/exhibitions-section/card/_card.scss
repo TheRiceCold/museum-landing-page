@@ -1,29 +1,79 @@
 @import 'images', 'date', 'contents';
 
 @mixin card() {
-  .card {
-    height: 60vh;
-    width: 20vw;
-    @include cardDates();
-    .wrapper {
-      height: 100%;
-      width: 100%;
-      position: relative;
-      overflow: hidden;
-      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
-      .data {
-        position: absolute;
-        bottom: 0;
+  @media (max-width: 1920px) and (max-height: 1080px) { 
+    .card {
+      height: 80%;
+      width: 85%;
+      margin: 0 auto;
+      @include cardDates();
+      .wrapper {
+        height: 100%;
         width: 100%;
-        transform: translateY(calc(90px + 4em));
-        transition: transform 0.3s;
-        color: $fontColor;
-        @include cardContents();
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+        .data {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          transform: translateY(calc(90px + 4em));
+          transition: transform 0.3s;
+          color: $fontColor;
+          @include cardContents();
+        }
+      }
+      .wrapper:hover .data {
+        transform: translateY(0);
       }
     }
-    .wrapper:hover .data {
-      transform: translateY(0);
-    }
+    @include cardImages();
   }
-  @include cardImages();
+  
+  @media (max-width: 1366px) and (max-height: 768px) { 
+    #landing {
+      margin-top: 145px;
+      margin-left: 155px;
+      height: 80vh;
+      color: $fontColor;
+      @include container();
+    }
+    @include landingAnim();
+  }
+  
+  @media (max-width: 768px) and (max-height: 1024px) { 
+    #landing {
+      margin-top: 145px;
+      margin-left: 155px;
+      height: 80vh;
+      color: $fontColor;
+      @include container();
+    }
+    @include landingAnim();
+  }
+  
+  @media (max-width: 375px) and (max-height: 667px) { 
+    #landing {
+      height: 75vh;
+      margin-top: 90px;
+      margin-left: 30px;
+      color: $fontColor;
+      @include container();
+    }
+    @include landingAnim();
+  }
+  
+  @media (max-width: 360px) and (max-height: 720px) { 
+    #landing {
+      height: 75vh;
+      margin-top: 75px;
+      margin-left: 50px;
+      color: $fontColor;
+      @include container();
+    }
+    @include landingAnim();
+  }
+  
+  @media (max-width: 360px) and (max-height: 640px) { 
+  }
 }
