@@ -1,0 +1,12 @@
+@mixin cardDates() {
+  .header {
+    color: whitesmoke;
+    padding: 1em;
+    .date {
+      float: left;
+      font-size: .85em;
+      font-family: 'Cera Light';
+    }
+  }
+  
+}

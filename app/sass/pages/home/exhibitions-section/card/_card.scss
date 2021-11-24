@@ -1,0 +1,29 @@
+@import 'images', 'date', 'contents';
+
+@mixin card() {
+  .card {
+    height: 60vh;
+    width: 20vw;
+    @include cardDates();
+    .wrapper {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+      .data {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        transform: translateY(calc(90px + 4em));
+        transition: transform 0.3s;
+        color: $fontColor;
+        @include cardContents();
+      }
+    }
+    .wrapper:hover .data {
+      transform: translateY(0);
+    }
+  }
+  @include cardImages();
+}

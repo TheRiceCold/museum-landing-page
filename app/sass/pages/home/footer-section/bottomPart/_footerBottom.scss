@@ -1,0 +1,40 @@
+@mixin footerBottom($height, $width, $linkFontSize, $socialIconGap, $socialIconSize) {
+  .footer-bottom {
+    display: flex;
+    height: $height;
+    justify-content: space-around;
+    div {
+      height: 100px;
+      width: 250px;
+    }
+    .social-links {
+      display: flex;
+      align-items: center;
+      i {
+        margin-left: $socialIconGap;
+        font-size: $socialIconSize;
+        cursor: pointer;
+        transition: color .3s ease;
+      }
+      i:hover {
+        color: $fontColor;
+      }
+    }
+    .footer-nav{
+      display: flex;
+      justify-content: space-evenly;
+      width: $width;
+      align-items: center;
+      a {
+        text-decoration: none;
+        color: black;
+        transition: color .3s ease;
+        font-family: 'Cera Light';
+        font-size: $linkFontSize;
+      }
+      a:hover {
+        color: $fontColor;
+      }
+    }
+  }
+}

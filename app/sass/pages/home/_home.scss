@@ -1,4 +1,7 @@
-@import 'landing/landing','history','exhibitions','visit','footer';
+@import 'landing-section/landingSection';
+@import 'history','visit';
+@import 'footer-section/footer';
+@import 'exhibitions-section/exhibitionsSection';
 @import '../../components/cards.scss', '../../components/navDots';
 
 .transition-circle.active#home-arc {

@@ -1,0 +1,26 @@
+@import 'readMore';
+
+@mixin cardContents() {
+  .content {
+    padding: 1em;
+    position: relative;
+    z-index: 1;
+    font-family: 'Cera Light';
+    .author {
+      font-size: 12px;
+    }
+    .title {
+      margin-bottom: 30px;
+      font-family: 'Cera Medium';
+      a {
+        text-decoration: none;
+        color: $fontColor;
+      }
+    }
+    .text {
+      height: 70px;
+      margin: 0;
+    }
+    @include readMoreBtn();   
+  }
+}

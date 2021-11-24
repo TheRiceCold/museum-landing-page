@@ -1,0 +1,14 @@
+@mixin cardImages() {
+  .card:first-child .wrapper {
+    background: url(../img/exhibits1.jpg) center/cover no-repeat;
+  }
+  .card:nth-child(2) .wrapper {
+    background: url(../img/exhibits2.jpg) center/cover no-repeat;
+  }
+  .card:nth-child(3) .wrapper {
+    background: url(../img/exhibits3.jpg) center/cover no-repeat;
+  }
+  .card:last-child .wrapper {
+    background: url(../img/exhibits4.jpg) center/cover no-repeat;
+  }
+}

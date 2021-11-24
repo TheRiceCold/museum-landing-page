@@ -1,4 +1,4 @@
-@import 'landingMoreInfo', 'landingMoreButton';
+@import 'button', 'moreInfo';
 
 @mixin landingHeadings(
   $left, $gap, $fontSize, 

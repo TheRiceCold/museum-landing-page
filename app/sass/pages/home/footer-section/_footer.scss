@@ -1,5 +1,5 @@
-@import '../../utils/fontface';
-@import '../../utils/variables';
+@import 'bottomPart/footerBottom';
+
 @mixin footerArc(
   $height,
   $paddTop, $rowWidth, 
@@ -136,43 +136,44 @@
         letter-spacing: .1em;
       }
     }
-    .footer-bottom {
-      display: flex;
-      height: $navHeight;
-      justify-content: space-around;
-      div {
-        height: 100px;
-        width: 250px;
-      }
-      .social-links {
-        display: flex;
-        align-items: center;
-        i {
-          margin-left: $socialIconGap;
-          font-size: $socialIconSize;
-          cursor: pointer;
-          transition: color .3s ease;
-        }
-        i:hover {
-          color: $fontColor;
-        }
-      }
-      .footer-nav{
-        display: flex;
-        justify-content: space-evenly;
-        width: $navWidth;
-        align-items: center;
-        a {
-          text-decoration: none;
-          color: black;
-          transition: color .3s ease;
-          font-family: 'Cera Light';
-          font-size: $navLinkFontSize;
-        }
-        a:hover {
-          color: $fontColor;
-        }
-      }
-    }
+    @include footerBottom($navHeight, $navWidth, $navLinkFontSize, $socialIconGap, $socialIconSize);
   }
 }
+
+
+@include footerArc(
+  70vh,
+  115px,      // paddTop
+  500px,      // rowWidth
+  250px,      // rowHeight
+  12px 25px,  // btnPadd
+  .9em,       // btnFontSize
+  20px,       // btnRadius
+  20px,       // btnTop
+  220px,      // btnLeft
+  10px 5px,   // inputPadd
+  220px,      // inputWidth
+  1em,        // inputFontSize
+  15px,       // inputGap
+  1em,        // labelFontSize
+  10px,       // labelTop
+  20px,       // labelLeft
+  -15px,      // labelFocusTop
+  .85em,      // labelFocusFontSize
+  .15em,      // inputLine
+  20px,       // titleTop
+  2em,        // titleFontSize
+  20px,       // titleBot
+  30px,       // locationTop
+  200px,      // locationSize
+  25%,        // locationLinkLeft
+  80px,       // locationIconSize
+  1.25em,     // locationTitleFontSize
+  .95em,      // locationAddressFontSize
+  .15em,      // lineSize
+  115px,      // navHeight
+  600px,      // navWidth
+  1em,        // navLinkFontSize
+  25px,       // socialIconSize
+  20px,       // socialIconGap
+);

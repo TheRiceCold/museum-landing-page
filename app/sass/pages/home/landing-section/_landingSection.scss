@@ -1,5 +1,4 @@
-@import '../../../utils/fontface', '../../../utils/variables';
-@import 'landingHeadings', 'landingAnim';
+@import 'headings', 'anim';
 
 @mixin landingArc(
   $viewHeight,
