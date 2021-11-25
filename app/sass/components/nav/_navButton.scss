@@ -1,20 +1,38 @@
 @import 'navIcon', 'navAnimations/navButtonAnim';
 
 @mixin navButton() {
-  button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    right: 30px;
-    background: transparent;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.2s ease-in;
-    z-index: $navButtonLayer;        
-    @include navIcon();
+  @media (max-width: 1920px) and (max-height: 1080px) { 
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      right: 30px;
+      background: transparent;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: 0.2s ease-in;
+      z-index: $navButtonLayer;        
+      @include navIcon();
+    }
+    @include navButtonAnim();
   }
-  @include navButtonAnim();
+
+  @media (max-width: 1366px) and (max-height: 768px) { }
+
+  @media (max-width: 768px) and (max-height: 1024px) { }
+
+  @media (max-width: 375px) and (max-height: 667px) { }
+
+  @media (max-width: 360px) and (max-height: 720px) { }
+
+  @media (max-width: 360px) and (max-height: 640px) { 
+    button {
+      right: 30px;
+      width: 50px;
+      height: 50px;
+    }
+  }
 }

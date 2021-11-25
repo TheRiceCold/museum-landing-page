@@ -8,7 +8,6 @@ function loadData(data) {
 } 
 
 loadData(cards)
-// loadData('cards').then(d => console.log(d))
 
 let getCards = cards.map(c => card(c.month, c.day, c.year, c.artist, c.title, c.description, c.btnLabel)).join('')
 
