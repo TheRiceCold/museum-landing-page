@@ -2,6 +2,7 @@
 
 @media (max-width: 1920px) and (max-height: 1080px) { 
   #exhibition-arc {
+    margin-bottom: 8vh;
     #heading {
       font-family: 'Cera Medium';
       color: $primaryColor;
@@ -13,7 +14,7 @@
       margin-bottom: 50px;
     }
     .row {
-      height: 100vh;
+      height: 80vh;
       width: 100vw;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -23,6 +24,20 @@
 }
 
 @media (max-width: 1366px) and (max-height: 768px) { 
+  #exhibition-arc {
+    margin-bottom: 8vh;
+    margin-left: 5vw;
+    #heading {
+      font-size: 3em;
+      margin-right: 5vw;
+      letter-spacing: .2em;
+      margin-bottom: 50px;
+    }
+    .row {
+      height: 80vh;
+      width: 90vw;
+    }
+  }
 }
 
 @media (max-width: 768px) and (max-height: 1024px) { 

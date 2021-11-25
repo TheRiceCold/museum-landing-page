@@ -1,21 +1,15 @@
-@import '../../utils/variables', '../../utils/fontface';
-@import 'navButton', 'navListContainer', 'navListActive';
+@import 'navButton', 'navlist/navListContainer', 'navList/navListActive';
 
-@mixin navMenu(
-  $top, $right, 
-  $btnSize, $btnRight, $listWidth, 
-  $listHeight, $listRight, 
-  $gap, $fontSize) {
+@mixin navMenu() {
   #nav-menu {
     position: fixed;
-    right: $right;
-    top: $top;
+    right: 20px;
+    top: 20px;
     opacity: 1;
     z-index: $navLayer;
-    @include navListContainer(
-      $btnSize, $btnRight, $listWidth, 
-      $listHeight, $listRight, 
-      $gap, $fontSize);
+    @include navListContainer();
     @include navListActive();
   }
 }
+
+@include navMenu();

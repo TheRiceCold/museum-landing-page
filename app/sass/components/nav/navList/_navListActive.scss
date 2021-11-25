@@ -1,4 +1,4 @@
-@import 'navAnimations/navListAnim', 'navAnimations/navIconAnim';
+@import '../navAnimations/navListAnim', '../navAnimations/navIconAnim';
 
 @mixin navListActive() {
   .list-container-one.active {

@@ -1,0 +1,12 @@
+@import 'navList';
+
+@mixin navListContainer() {
+  .list-container-one {
+    @include navButton();
+    @include navList();
+  }
+  .list-container-two {
+    position: relative;
+    @include navList();
+  }
+}

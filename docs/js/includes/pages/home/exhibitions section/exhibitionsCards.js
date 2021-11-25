@@ -1,11 +1,11 @@
-export const card = (month, day, year, author, title, description, btnLabel) =>
+export const card = (month, day, year, artist, title, description, btnLabel) =>
 `<div class="card">
   <div class="wrapper" >
     <div class="header">
       ${cardDate(month, day, year)}      
     </div>
     <div class="data">
-      ${cardContent(author, title, description, btnLabel)}
+      ${cardContent(artist, title, description, btnLabel)}
     </div>
   </div>
 </div>`
@@ -17,9 +17,9 @@ const cardDate = (month, day, year) =>
   <span class="year">${year}</span>
 </div>`
 
-const cardContent = (author, title, description, btnLabel) =>
+const cardContent = (artist, title, description, btnLabel) =>
 `<div class="content">
-  <span class="author">${author}</span>
+  <span class="author">${artist}</span>
   <h1 class="title"><a href="#">${title}</a></h1>
   <p class="text">${description}</p>
   <a href="#" class="button">${btnLabel}</a>
