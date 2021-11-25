@@ -5447,125 +5447,197 @@
       justify-content: space-between;
       margin: 0 25px; } }
 
-footer {
-  padding-top: 115px;
-  background: linear-gradient(-45deg, #facc6b 0%, #fabc3c 94%);
-  height: 70vh; }
-  footer .container {
-    display: flex;
-    justify-content: space-around; }
-    footer .container #one, footer .container #two {
+@media (max-width: 1920px) and (max-height: 1080px) {
+  footer {
+    padding-top: 115px;
+    background: linear-gradient(-45deg, #facc6b 0%, #fabc3c 94%);
+    height: 70vh; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
+    footer .container {
+      display: flex;
+      justify-content: space-around; }
+      footer .container #one, footer .container #two {
+        width: 500px;
+        height: 250px; }
+        footer .container #one h1, footer .container #two h1 {
+          margin-top: 10px;
+          text-align: center;
+          font-family: 'Cera Medium';
+          font-size: 2em;
+          margin-bottom: 20px; }
+        footer .container #one form .group, footer .container #two form .group {
+          position: relative; }
+          footer .container #one form .group input, footer .container #two form .group input {
+            margin: 0 15px;
+            font-size: 1em;
+            padding: 8px 5px;
+            width: 220px;
+            border: none;
+            background: transparent;
+            border-bottom: .15em black solid; }
+          footer .container #one form .group input:focus, footer .container #two form .group input:focus {
+            outline: none; }
+          footer .container #one form .group label, footer .container #two form .group label {
+            top: 10px;
+            left: 20px;
+            font-family: 'Cera Light';
+            color: black;
+            font-size: 1em;
+            position: absolute;
+            pointer-events: none;
+            transition: 0.2s ease all; }
+          footer .container #one form .group input:focus ~ label, footer .container #one form .group input:valid ~ label, footer .container #two form .group input:focus ~ label, footer .container #two form .group input:valid ~ label {
+            top: -15px;
+            font-size: .85em;
+            color: #252527; }
+        footer .container #one form button, footer .container #two form button {
+          margin-top: 20px;
+          margin-left: 220px;
+          font-family: 'Cera Medium', sans-serif;
+          padding: 12px 25px;
+          cursor: pointer;
+          transition: all 150ms linear;
+          border-radius: 20px;
+          font-size: .9em;
+          color: whitesmoke;
+          background: black; }
+          footer .container #one form button:focus, footer .container #two form button:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px; }
+          footer .container #one form button:hover, footer .container #two form button:hover {
+            color: #202129;
+            background: whitesmoke; }
+          footer .container #one form button:active, footer .container #two form button:active {
+            background: #d5d6d6; }
+      footer .container #one h4, footer .container #two h4 {
+        text-transform: uppercase;
+        font-family: 'Cera Light';
+        text-align: center; }
+      footer .container #two .location {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around; }
+        footer .container #two .location .col {
+          display: flex;
+          flex-direction: column;
+          width: 200px;
+          height: 200px; }
+          footer .container #two .location .col h2 {
+            font-family: 'Cera Light';
+            text-align: center; }
+          footer .container #two .location .col a {
+            color: black;
+            font-family: 'Cera Light';
+            margin-left: 25%;
+            text-decoration: underline; }
+          footer .container #two .location .col img {
+            height: 80px; }
+      footer .container hr {
+        border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
+    footer .container #one, footer #two {
       width: 500px;
       height: 250px; }
-      footer .container #one h1, footer .container #two h1 {
+      footer .container #one h1, footer #two h1 {
         margin-top: 10px;
-        text-align: center;
-        font-family: 'Cera Medium';
         font-size: 2em;
         margin-bottom: 20px; }
-      footer .container #one form .group, footer .container #two form .group {
-        position: relative; }
-        footer .container #one form .group input, footer .container #two form .group input {
-          margin: 0 15px;
-          font-size: 1em;
-          padding: 8px 5px;
-          width: 220px;
-          border: none;
-          background: transparent;
-          border-bottom: .15em black solid; }
-        footer .container #one form .group input:focus, footer .container #two form .group input:focus {
-          outline: none; }
-        footer .container #one form .group label, footer .container #two form .group label {
-          top: 10px;
-          left: 20px;
-          font-family: 'Cera Light';
-          color: black;
-          font-size: 1em;
-          position: absolute;
-          pointer-events: none;
-          transition: 0.2s ease all; }
-        footer .container #one form .group input:focus ~ label, footer .container #one form .group input:valid ~ label, footer .container #two form .group input:focus ~ label, footer .container #two form .group input:valid ~ label {
-          top: -15px;
-          font-size: .85em;
-          color: #252527; }
-      footer .container #one form button, footer .container #two form button {
-        margin-top: 20px;
-        margin-left: 220px;
-        font-family: 'Cera Medium', sans-serif;
-        padding: 12px 25px;
-        cursor: pointer;
-        transition: all 150ms linear;
-        border-radius: 20px;
-        font-size: .9em;
-        color: whitesmoke;
-        background: black; }
-        footer .container #one form button:focus, footer .container #two form button:focus {
-          outline: 1px dotted #959595;
-          outline-offset: -4px; }
-        footer .container #one form button:hover, footer .container #two form button:hover {
-          color: #202129;
-          background: whitesmoke; }
-        footer .container #one form button:active, footer .container #two form button:active {
-          background: #d5d6d6; }
-    footer .container #one h4, footer .container #two h4 {
-      text-transform: uppercase;
-      font-family: 'Cera Light';
-      text-align: center; }
-    footer .container #two .location {
+    footer hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    footer .container #one, footer #two {
+      width: 500px;
+      height: 250px; }
+      footer .container #one h1, footer #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    footer hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
+    footer .container #one, footer #two {
+      width: 500px;
+      height: 250px; }
+      footer .container #one h1, footer #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    footer hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
+    footer .container #one, footer #two {
+      width: 500px;
+      height: 250px; }
+      footer .container #one h1, footer #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    footer hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
+    footer .container #one, footer #two {
+      width: 500px;
+      height: 250px; }
+      footer .container #one h1, footer #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    footer hr {
+      border: .15em solid black; } }
+@media (max-width: 1920px) and (max-height: 1080px) {
+    footer .footer-bottom {
       display: flex;
-      margin-top: 30px;
+      height: 115px;
       justify-content: space-around; }
-      footer .container #two .location .col {
+      footer .footer-bottom div {
+        height: 100px;
+        width: 250px; }
+      footer .footer-bottom .social-links {
         display: flex;
-        flex-direction: column;
-        width: 200px;
-        height: 200px; }
-        footer .container #two .location .col h2 {
-          font-family: 'Cera Light';
-          text-align: center; }
-        footer .container #two .location .col a {
+        align-items: center; }
+        footer .footer-bottom .social-links i {
+          margin-left: 25px;
+          font-size: 20px;
+          cursor: pointer;
+          transition: color .3s ease; }
+        footer .footer-bottom .social-links i:hover {
+          color: whitesmoke; }
+      footer .footer-bottom .footer-nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 600px;
+        align-items: center; }
+        footer .footer-bottom .footer-nav a {
+          text-decoration: none;
           color: black;
+          transition: color .3s ease;
           font-family: 'Cera Light';
-          margin-left: 25%;
-          text-decoration: underline; }
-        footer .container #two .location .col img {
-          height: 80px; }
-    footer .container hr {
-      border: .15em solid black; }
-  footer .footer-bottom {
-    display: flex;
-    height: 115px;
-    justify-content: space-around; }
-    footer .footer-bottom div {
-      height: 100px;
-      width: 250px; }
-    footer .footer-bottom .social-links {
-      display: flex;
-      align-items: center; }
-      footer .footer-bottom .social-links i {
-        margin-left: 25px;
-        font-size: 20px;
-        cursor: pointer;
-        transition: color .3s ease; }
-      footer .footer-bottom .social-links i:hover {
-        color: whitesmoke; }
-    footer .footer-bottom .footer-nav {
-      display: flex;
-      justify-content: space-evenly;
-      width: 600px;
-      align-items: center; }
-      footer .footer-bottom .footer-nav a {
-        text-decoration: none;
-        color: black;
-        transition: color .3s ease;
-        font-family: 'Cera Light';
-        font-size: 1em; }
-      footer .footer-bottom .footer-nav a:hover {
-        color: whitesmoke; }
-    footer .footer-bottom img {
-      position: relative;
-      height: 90px; }
-
+          font-size: 1em; }
+        footer .footer-bottom .footer-nav a:hover {
+          color: whitesmoke; }
+      footer .footer-bottom img {
+        position: relative;
+        height: 90px; } }
+@media (max-width: 1366px) and (max-height: 768px) {
+  footer {
+    padding-top: 115px;
+    height: 70vh; } }
+@media (max-width: 768px) and (max-height: 1024px) {
+  footer {
+    padding-top: 115px;
+    height: 70vh; } }
+@media (max-width: 375px) and (max-height: 667px) {
+  footer {
+    padding-top: 115px;
+    height: 70vh; } }
+@media (max-width: 360px) and (max-height: 720px) {
+  footer {
+    padding-top: 115px;
+    height: 70vh; } }
+@media (max-width: 360px) and (max-height: 640px) {
+  footer {
+    padding-top: 115px;
+    height: 70vh; } }
 @media (max-width: 1920px) and (max-height: 1080px) {
   #exhibition-arc {
     margin-bottom: 8vh; }
@@ -5665,88 +5737,140 @@ footer {
         margin-top: 145px;
         margin-left: 155px;
         height: 80vh;
-        color: whitesmoke; }
-        #exhibition-arc .row #landing .container {
+        color: whitesmoke; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
+    #exhibition-arc .row #landing .container {
+      display: flex;
+      justify-content: space-around; }
+      #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing .container #two {
+        width: 500px;
+        height: 250px; }
+        #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing .container #two h1 {
+          margin-top: 10px;
+          text-align: center;
+          font-family: 'Cera Medium';
+          font-size: 2em;
+          margin-bottom: 20px; }
+        #exhibition-arc .row #landing .container #one form .group, #exhibition-arc .row #landing .container #two form .group {
+          position: relative; }
+          #exhibition-arc .row #landing .container #one form .group input, #exhibition-arc .row #landing .container #two form .group input {
+            margin: 0 15px;
+            font-size: 1em;
+            padding: 8px 5px;
+            width: 220px;
+            border: none;
+            background: transparent;
+            border-bottom: .15em black solid; }
+          #exhibition-arc .row #landing .container #one form .group input:focus, #exhibition-arc .row #landing .container #two form .group input:focus {
+            outline: none; }
+          #exhibition-arc .row #landing .container #one form .group label, #exhibition-arc .row #landing .container #two form .group label {
+            top: 10px;
+            left: 20px;
+            font-family: 'Cera Light';
+            color: black;
+            font-size: 1em;
+            position: absolute;
+            pointer-events: none;
+            transition: 0.2s ease all; }
+          #exhibition-arc .row #landing .container #one form .group input:focus ~ label, #exhibition-arc .row #landing .container #one form .group input:valid ~ label, #exhibition-arc .row #landing .container #two form .group input:focus ~ label, #exhibition-arc .row #landing .container #two form .group input:valid ~ label {
+            top: -15px;
+            font-size: .85em;
+            color: #252527; }
+        #exhibition-arc .row #landing .container #one form button, #exhibition-arc .row #landing .container #two form button {
+          margin-top: 20px;
+          margin-left: 220px;
+          font-family: 'Cera Medium', sans-serif;
+          padding: 12px 25px;
+          cursor: pointer;
+          transition: all 150ms linear;
+          border-radius: 20px;
+          font-size: .9em;
+          color: whitesmoke;
+          background: black; }
+          #exhibition-arc .row #landing .container #one form button:focus, #exhibition-arc .row #landing .container #two form button:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px; }
+          #exhibition-arc .row #landing .container #one form button:hover, #exhibition-arc .row #landing .container #two form button:hover {
+            color: #202129;
+            background: whitesmoke; }
+          #exhibition-arc .row #landing .container #one form button:active, #exhibition-arc .row #landing .container #two form button:active {
+            background: #d5d6d6; }
+      #exhibition-arc .row #landing .container #one h4, #exhibition-arc .row #landing .container #two h4 {
+        text-transform: uppercase;
+        font-family: 'Cera Light';
+        text-align: center; }
+      #exhibition-arc .row #landing .container #two .location {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around; }
+        #exhibition-arc .row #landing .container #two .location .col {
           display: flex;
-          justify-content: space-around; }
-          #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing .container #two {
-            width: 500px;
-            height: 250px; }
-            #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing .container #two h1 {
-              margin-top: 10px;
-              text-align: center;
-              font-family: 'Cera Medium';
-              font-size: 2em;
-              margin-bottom: 20px; }
-            #exhibition-arc .row #landing .container #one form .group, #exhibition-arc .row #landing .container #two form .group {
-              position: relative; }
-              #exhibition-arc .row #landing .container #one form .group input, #exhibition-arc .row #landing .container #two form .group input {
-                margin: 0 15px;
-                font-size: 1em;
-                padding: 8px 5px;
-                width: 220px;
-                border: none;
-                background: transparent;
-                border-bottom: .15em black solid; }
-              #exhibition-arc .row #landing .container #one form .group input:focus, #exhibition-arc .row #landing .container #two form .group input:focus {
-                outline: none; }
-              #exhibition-arc .row #landing .container #one form .group label, #exhibition-arc .row #landing .container #two form .group label {
-                top: 10px;
-                left: 20px;
-                font-family: 'Cera Light';
-                color: black;
-                font-size: 1em;
-                position: absolute;
-                pointer-events: none;
-                transition: 0.2s ease all; }
-              #exhibition-arc .row #landing .container #one form .group input:focus ~ label, #exhibition-arc .row #landing .container #one form .group input:valid ~ label, #exhibition-arc .row #landing .container #two form .group input:focus ~ label, #exhibition-arc .row #landing .container #two form .group input:valid ~ label {
-                top: -15px;
-                font-size: .85em;
-                color: #252527; }
-            #exhibition-arc .row #landing .container #one form button, #exhibition-arc .row #landing .container #two form button {
-              margin-top: 20px;
-              margin-left: 220px;
-              font-family: 'Cera Medium', sans-serif;
-              padding: 12px 25px;
-              cursor: pointer;
-              transition: all 150ms linear;
-              border-radius: 20px;
-              font-size: .9em;
-              color: whitesmoke;
-              background: black; }
-              #exhibition-arc .row #landing .container #one form button:focus, #exhibition-arc .row #landing .container #two form button:focus {
-                outline: 1px dotted #959595;
-                outline-offset: -4px; }
-              #exhibition-arc .row #landing .container #one form button:hover, #exhibition-arc .row #landing .container #two form button:hover {
-                color: #202129;
-                background: whitesmoke; }
-              #exhibition-arc .row #landing .container #one form button:active, #exhibition-arc .row #landing .container #two form button:active {
-                background: #d5d6d6; }
-          #exhibition-arc .row #landing .container #one h4, #exhibition-arc .row #landing .container #two h4 {
-            text-transform: uppercase;
+          flex-direction: column;
+          width: 200px;
+          height: 200px; }
+          #exhibition-arc .row #landing .container #two .location .col h2 {
             font-family: 'Cera Light';
             text-align: center; }
-          #exhibition-arc .row #landing .container #two .location {
-            display: flex;
-            margin-top: 30px;
-            justify-content: space-around; }
-            #exhibition-arc .row #landing .container #two .location .col {
-              display: flex;
-              flex-direction: column;
-              width: 200px;
-              height: 200px; }
-              #exhibition-arc .row #landing .container #two .location .col h2 {
-                font-family: 'Cera Light';
-                text-align: center; }
-              #exhibition-arc .row #landing .container #two .location .col a {
-                color: black;
-                font-family: 'Cera Light';
-                margin-left: 25%;
-                text-decoration: underline; }
-              #exhibition-arc .row #landing .container #two .location .col img {
-                height: 80px; }
-          #exhibition-arc .row #landing .container hr {
-            border: .15em solid black; }
+          #exhibition-arc .row #landing .container #two .location .col a {
+            color: black;
+            font-family: 'Cera Light';
+            margin-left: 25%;
+            text-decoration: underline; }
+          #exhibition-arc .row #landing .container #two .location .col img {
+            height: 80px; }
+      #exhibition-arc .row #landing .container hr {
+        border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
       @keyframes fade-in {
         0% {
           opacity: 0; }
@@ -5791,88 +5915,140 @@ footer {
         margin-top: 145px;
         margin-left: 155px;
         height: 80vh;
-        color: whitesmoke; }
-        #exhibition-arc .row #landing .container {
+        color: whitesmoke; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) {
+    #exhibition-arc .row #landing .container {
+      display: flex;
+      justify-content: space-around; }
+      #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing .container #two {
+        width: 500px;
+        height: 250px; }
+        #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing .container #two h1 {
+          margin-top: 10px;
+          text-align: center;
+          font-family: 'Cera Medium';
+          font-size: 2em;
+          margin-bottom: 20px; }
+        #exhibition-arc .row #landing .container #one form .group, #exhibition-arc .row #landing .container #two form .group {
+          position: relative; }
+          #exhibition-arc .row #landing .container #one form .group input, #exhibition-arc .row #landing .container #two form .group input {
+            margin: 0 15px;
+            font-size: 1em;
+            padding: 8px 5px;
+            width: 220px;
+            border: none;
+            background: transparent;
+            border-bottom: .15em black solid; }
+          #exhibition-arc .row #landing .container #one form .group input:focus, #exhibition-arc .row #landing .container #two form .group input:focus {
+            outline: none; }
+          #exhibition-arc .row #landing .container #one form .group label, #exhibition-arc .row #landing .container #two form .group label {
+            top: 10px;
+            left: 20px;
+            font-family: 'Cera Light';
+            color: black;
+            font-size: 1em;
+            position: absolute;
+            pointer-events: none;
+            transition: 0.2s ease all; }
+          #exhibition-arc .row #landing .container #one form .group input:focus ~ label, #exhibition-arc .row #landing .container #one form .group input:valid ~ label, #exhibition-arc .row #landing .container #two form .group input:focus ~ label, #exhibition-arc .row #landing .container #two form .group input:valid ~ label {
+            top: -15px;
+            font-size: .85em;
+            color: #252527; }
+        #exhibition-arc .row #landing .container #one form button, #exhibition-arc .row #landing .container #two form button {
+          margin-top: 20px;
+          margin-left: 220px;
+          font-family: 'Cera Medium', sans-serif;
+          padding: 12px 25px;
+          cursor: pointer;
+          transition: all 150ms linear;
+          border-radius: 20px;
+          font-size: .9em;
+          color: whitesmoke;
+          background: black; }
+          #exhibition-arc .row #landing .container #one form button:focus, #exhibition-arc .row #landing .container #two form button:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px; }
+          #exhibition-arc .row #landing .container #one form button:hover, #exhibition-arc .row #landing .container #two form button:hover {
+            color: #202129;
+            background: whitesmoke; }
+          #exhibition-arc .row #landing .container #one form button:active, #exhibition-arc .row #landing .container #two form button:active {
+            background: #d5d6d6; }
+      #exhibition-arc .row #landing .container #one h4, #exhibition-arc .row #landing .container #two h4 {
+        text-transform: uppercase;
+        font-family: 'Cera Light';
+        text-align: center; }
+      #exhibition-arc .row #landing .container #two .location {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around; }
+        #exhibition-arc .row #landing .container #two .location .col {
           display: flex;
-          justify-content: space-around; }
-          #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing .container #two {
-            width: 500px;
-            height: 250px; }
-            #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing .container #two h1 {
-              margin-top: 10px;
-              text-align: center;
-              font-family: 'Cera Medium';
-              font-size: 2em;
-              margin-bottom: 20px; }
-            #exhibition-arc .row #landing .container #one form .group, #exhibition-arc .row #landing .container #two form .group {
-              position: relative; }
-              #exhibition-arc .row #landing .container #one form .group input, #exhibition-arc .row #landing .container #two form .group input {
-                margin: 0 15px;
-                font-size: 1em;
-                padding: 8px 5px;
-                width: 220px;
-                border: none;
-                background: transparent;
-                border-bottom: .15em black solid; }
-              #exhibition-arc .row #landing .container #one form .group input:focus, #exhibition-arc .row #landing .container #two form .group input:focus {
-                outline: none; }
-              #exhibition-arc .row #landing .container #one form .group label, #exhibition-arc .row #landing .container #two form .group label {
-                top: 10px;
-                left: 20px;
-                font-family: 'Cera Light';
-                color: black;
-                font-size: 1em;
-                position: absolute;
-                pointer-events: none;
-                transition: 0.2s ease all; }
-              #exhibition-arc .row #landing .container #one form .group input:focus ~ label, #exhibition-arc .row #landing .container #one form .group input:valid ~ label, #exhibition-arc .row #landing .container #two form .group input:focus ~ label, #exhibition-arc .row #landing .container #two form .group input:valid ~ label {
-                top: -15px;
-                font-size: .85em;
-                color: #252527; }
-            #exhibition-arc .row #landing .container #one form button, #exhibition-arc .row #landing .container #two form button {
-              margin-top: 20px;
-              margin-left: 220px;
-              font-family: 'Cera Medium', sans-serif;
-              padding: 12px 25px;
-              cursor: pointer;
-              transition: all 150ms linear;
-              border-radius: 20px;
-              font-size: .9em;
-              color: whitesmoke;
-              background: black; }
-              #exhibition-arc .row #landing .container #one form button:focus, #exhibition-arc .row #landing .container #two form button:focus {
-                outline: 1px dotted #959595;
-                outline-offset: -4px; }
-              #exhibition-arc .row #landing .container #one form button:hover, #exhibition-arc .row #landing .container #two form button:hover {
-                color: #202129;
-                background: whitesmoke; }
-              #exhibition-arc .row #landing .container #one form button:active, #exhibition-arc .row #landing .container #two form button:active {
-                background: #d5d6d6; }
-          #exhibition-arc .row #landing .container #one h4, #exhibition-arc .row #landing .container #two h4 {
-            text-transform: uppercase;
+          flex-direction: column;
+          width: 200px;
+          height: 200px; }
+          #exhibition-arc .row #landing .container #two .location .col h2 {
             font-family: 'Cera Light';
             text-align: center; }
-          #exhibition-arc .row #landing .container #two .location {
-            display: flex;
-            margin-top: 30px;
-            justify-content: space-around; }
-            #exhibition-arc .row #landing .container #two .location .col {
-              display: flex;
-              flex-direction: column;
-              width: 200px;
-              height: 200px; }
-              #exhibition-arc .row #landing .container #two .location .col h2 {
-                font-family: 'Cera Light';
-                text-align: center; }
-              #exhibition-arc .row #landing .container #two .location .col a {
-                color: black;
-                font-family: 'Cera Light';
-                margin-left: 25%;
-                text-decoration: underline; }
-              #exhibition-arc .row #landing .container #two .location .col img {
-                height: 80px; }
-          #exhibition-arc .row #landing .container hr {
-            border: .15em solid black; }
+          #exhibition-arc .row #landing .container #two .location .col a {
+            color: black;
+            font-family: 'Cera Light';
+            margin-left: 25%;
+            text-decoration: underline; }
+          #exhibition-arc .row #landing .container #two .location .col img {
+            height: 80px; }
+      #exhibition-arc .row #landing .container hr {
+        border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) and (max-width: 768px) and (max-height: 1024px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) and (max-width: 375px) and (max-height: 667px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) and (max-width: 360px) and (max-height: 720px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) and (max-width: 360px) and (max-height: 640px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
       @keyframes fade-in {
         0% {
           opacity: 0; }
@@ -5917,88 +6093,140 @@ footer {
         height: 75vh;
         margin-top: 90px;
         margin-left: 30px;
-        color: whitesmoke; }
-        #exhibition-arc .row #landing .container {
+        color: whitesmoke; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) {
+    #exhibition-arc .row #landing .container {
+      display: flex;
+      justify-content: space-around; }
+      #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing .container #two {
+        width: 500px;
+        height: 250px; }
+        #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing .container #two h1 {
+          margin-top: 10px;
+          text-align: center;
+          font-family: 'Cera Medium';
+          font-size: 2em;
+          margin-bottom: 20px; }
+        #exhibition-arc .row #landing .container #one form .group, #exhibition-arc .row #landing .container #two form .group {
+          position: relative; }
+          #exhibition-arc .row #landing .container #one form .group input, #exhibition-arc .row #landing .container #two form .group input {
+            margin: 0 15px;
+            font-size: 1em;
+            padding: 8px 5px;
+            width: 220px;
+            border: none;
+            background: transparent;
+            border-bottom: .15em black solid; }
+          #exhibition-arc .row #landing .container #one form .group input:focus, #exhibition-arc .row #landing .container #two form .group input:focus {
+            outline: none; }
+          #exhibition-arc .row #landing .container #one form .group label, #exhibition-arc .row #landing .container #two form .group label {
+            top: 10px;
+            left: 20px;
+            font-family: 'Cera Light';
+            color: black;
+            font-size: 1em;
+            position: absolute;
+            pointer-events: none;
+            transition: 0.2s ease all; }
+          #exhibition-arc .row #landing .container #one form .group input:focus ~ label, #exhibition-arc .row #landing .container #one form .group input:valid ~ label, #exhibition-arc .row #landing .container #two form .group input:focus ~ label, #exhibition-arc .row #landing .container #two form .group input:valid ~ label {
+            top: -15px;
+            font-size: .85em;
+            color: #252527; }
+        #exhibition-arc .row #landing .container #one form button, #exhibition-arc .row #landing .container #two form button {
+          margin-top: 20px;
+          margin-left: 220px;
+          font-family: 'Cera Medium', sans-serif;
+          padding: 12px 25px;
+          cursor: pointer;
+          transition: all 150ms linear;
+          border-radius: 20px;
+          font-size: .9em;
+          color: whitesmoke;
+          background: black; }
+          #exhibition-arc .row #landing .container #one form button:focus, #exhibition-arc .row #landing .container #two form button:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px; }
+          #exhibition-arc .row #landing .container #one form button:hover, #exhibition-arc .row #landing .container #two form button:hover {
+            color: #202129;
+            background: whitesmoke; }
+          #exhibition-arc .row #landing .container #one form button:active, #exhibition-arc .row #landing .container #two form button:active {
+            background: #d5d6d6; }
+      #exhibition-arc .row #landing .container #one h4, #exhibition-arc .row #landing .container #two h4 {
+        text-transform: uppercase;
+        font-family: 'Cera Light';
+        text-align: center; }
+      #exhibition-arc .row #landing .container #two .location {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around; }
+        #exhibition-arc .row #landing .container #two .location .col {
           display: flex;
-          justify-content: space-around; }
-          #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing .container #two {
-            width: 500px;
-            height: 250px; }
-            #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing .container #two h1 {
-              margin-top: 10px;
-              text-align: center;
-              font-family: 'Cera Medium';
-              font-size: 2em;
-              margin-bottom: 20px; }
-            #exhibition-arc .row #landing .container #one form .group, #exhibition-arc .row #landing .container #two form .group {
-              position: relative; }
-              #exhibition-arc .row #landing .container #one form .group input, #exhibition-arc .row #landing .container #two form .group input {
-                margin: 0 15px;
-                font-size: 1em;
-                padding: 8px 5px;
-                width: 220px;
-                border: none;
-                background: transparent;
-                border-bottom: .15em black solid; }
-              #exhibition-arc .row #landing .container #one form .group input:focus, #exhibition-arc .row #landing .container #two form .group input:focus {
-                outline: none; }
-              #exhibition-arc .row #landing .container #one form .group label, #exhibition-arc .row #landing .container #two form .group label {
-                top: 10px;
-                left: 20px;
-                font-family: 'Cera Light';
-                color: black;
-                font-size: 1em;
-                position: absolute;
-                pointer-events: none;
-                transition: 0.2s ease all; }
-              #exhibition-arc .row #landing .container #one form .group input:focus ~ label, #exhibition-arc .row #landing .container #one form .group input:valid ~ label, #exhibition-arc .row #landing .container #two form .group input:focus ~ label, #exhibition-arc .row #landing .container #two form .group input:valid ~ label {
-                top: -15px;
-                font-size: .85em;
-                color: #252527; }
-            #exhibition-arc .row #landing .container #one form button, #exhibition-arc .row #landing .container #two form button {
-              margin-top: 20px;
-              margin-left: 220px;
-              font-family: 'Cera Medium', sans-serif;
-              padding: 12px 25px;
-              cursor: pointer;
-              transition: all 150ms linear;
-              border-radius: 20px;
-              font-size: .9em;
-              color: whitesmoke;
-              background: black; }
-              #exhibition-arc .row #landing .container #one form button:focus, #exhibition-arc .row #landing .container #two form button:focus {
-                outline: 1px dotted #959595;
-                outline-offset: -4px; }
-              #exhibition-arc .row #landing .container #one form button:hover, #exhibition-arc .row #landing .container #two form button:hover {
-                color: #202129;
-                background: whitesmoke; }
-              #exhibition-arc .row #landing .container #one form button:active, #exhibition-arc .row #landing .container #two form button:active {
-                background: #d5d6d6; }
-          #exhibition-arc .row #landing .container #one h4, #exhibition-arc .row #landing .container #two h4 {
-            text-transform: uppercase;
+          flex-direction: column;
+          width: 200px;
+          height: 200px; }
+          #exhibition-arc .row #landing .container #two .location .col h2 {
             font-family: 'Cera Light';
             text-align: center; }
-          #exhibition-arc .row #landing .container #two .location {
-            display: flex;
-            margin-top: 30px;
-            justify-content: space-around; }
-            #exhibition-arc .row #landing .container #two .location .col {
-              display: flex;
-              flex-direction: column;
-              width: 200px;
-              height: 200px; }
-              #exhibition-arc .row #landing .container #two .location .col h2 {
-                font-family: 'Cera Light';
-                text-align: center; }
-              #exhibition-arc .row #landing .container #two .location .col a {
-                color: black;
-                font-family: 'Cera Light';
-                margin-left: 25%;
-                text-decoration: underline; }
-              #exhibition-arc .row #landing .container #two .location .col img {
-                height: 80px; }
-          #exhibition-arc .row #landing .container hr {
-            border: .15em solid black; }
+          #exhibition-arc .row #landing .container #two .location .col a {
+            color: black;
+            font-family: 'Cera Light';
+            margin-left: 25%;
+            text-decoration: underline; }
+          #exhibition-arc .row #landing .container #two .location .col img {
+            height: 80px; }
+      #exhibition-arc .row #landing .container hr {
+        border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) and (max-width: 768px) and (max-height: 1024px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) and (max-width: 375px) and (max-height: 667px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) and (max-width: 360px) and (max-height: 720px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) and (max-width: 360px) and (max-height: 640px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
       @keyframes fade-in {
         0% {
           opacity: 0; }
@@ -6043,88 +6271,140 @@ footer {
         height: 75vh;
         margin-top: 75px;
         margin-left: 50px;
-        color: whitesmoke; }
-        #exhibition-arc .row #landing .container {
+        color: whitesmoke; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) {
+    #exhibition-arc .row #landing .container {
+      display: flex;
+      justify-content: space-around; }
+      #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing .container #two {
+        width: 500px;
+        height: 250px; }
+        #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing .container #two h1 {
+          margin-top: 10px;
+          text-align: center;
+          font-family: 'Cera Medium';
+          font-size: 2em;
+          margin-bottom: 20px; }
+        #exhibition-arc .row #landing .container #one form .group, #exhibition-arc .row #landing .container #two form .group {
+          position: relative; }
+          #exhibition-arc .row #landing .container #one form .group input, #exhibition-arc .row #landing .container #two form .group input {
+            margin: 0 15px;
+            font-size: 1em;
+            padding: 8px 5px;
+            width: 220px;
+            border: none;
+            background: transparent;
+            border-bottom: .15em black solid; }
+          #exhibition-arc .row #landing .container #one form .group input:focus, #exhibition-arc .row #landing .container #two form .group input:focus {
+            outline: none; }
+          #exhibition-arc .row #landing .container #one form .group label, #exhibition-arc .row #landing .container #two form .group label {
+            top: 10px;
+            left: 20px;
+            font-family: 'Cera Light';
+            color: black;
+            font-size: 1em;
+            position: absolute;
+            pointer-events: none;
+            transition: 0.2s ease all; }
+          #exhibition-arc .row #landing .container #one form .group input:focus ~ label, #exhibition-arc .row #landing .container #one form .group input:valid ~ label, #exhibition-arc .row #landing .container #two form .group input:focus ~ label, #exhibition-arc .row #landing .container #two form .group input:valid ~ label {
+            top: -15px;
+            font-size: .85em;
+            color: #252527; }
+        #exhibition-arc .row #landing .container #one form button, #exhibition-arc .row #landing .container #two form button {
+          margin-top: 20px;
+          margin-left: 220px;
+          font-family: 'Cera Medium', sans-serif;
+          padding: 12px 25px;
+          cursor: pointer;
+          transition: all 150ms linear;
+          border-radius: 20px;
+          font-size: .9em;
+          color: whitesmoke;
+          background: black; }
+          #exhibition-arc .row #landing .container #one form button:focus, #exhibition-arc .row #landing .container #two form button:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px; }
+          #exhibition-arc .row #landing .container #one form button:hover, #exhibition-arc .row #landing .container #two form button:hover {
+            color: #202129;
+            background: whitesmoke; }
+          #exhibition-arc .row #landing .container #one form button:active, #exhibition-arc .row #landing .container #two form button:active {
+            background: #d5d6d6; }
+      #exhibition-arc .row #landing .container #one h4, #exhibition-arc .row #landing .container #two h4 {
+        text-transform: uppercase;
+        font-family: 'Cera Light';
+        text-align: center; }
+      #exhibition-arc .row #landing .container #two .location {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around; }
+        #exhibition-arc .row #landing .container #two .location .col {
           display: flex;
-          justify-content: space-around; }
-          #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing .container #two {
-            width: 500px;
-            height: 250px; }
-            #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing .container #two h1 {
-              margin-top: 10px;
-              text-align: center;
-              font-family: 'Cera Medium';
-              font-size: 2em;
-              margin-bottom: 20px; }
-            #exhibition-arc .row #landing .container #one form .group, #exhibition-arc .row #landing .container #two form .group {
-              position: relative; }
-              #exhibition-arc .row #landing .container #one form .group input, #exhibition-arc .row #landing .container #two form .group input {
-                margin: 0 15px;
-                font-size: 1em;
-                padding: 8px 5px;
-                width: 220px;
-                border: none;
-                background: transparent;
-                border-bottom: .15em black solid; }
-              #exhibition-arc .row #landing .container #one form .group input:focus, #exhibition-arc .row #landing .container #two form .group input:focus {
-                outline: none; }
-              #exhibition-arc .row #landing .container #one form .group label, #exhibition-arc .row #landing .container #two form .group label {
-                top: 10px;
-                left: 20px;
-                font-family: 'Cera Light';
-                color: black;
-                font-size: 1em;
-                position: absolute;
-                pointer-events: none;
-                transition: 0.2s ease all; }
-              #exhibition-arc .row #landing .container #one form .group input:focus ~ label, #exhibition-arc .row #landing .container #one form .group input:valid ~ label, #exhibition-arc .row #landing .container #two form .group input:focus ~ label, #exhibition-arc .row #landing .container #two form .group input:valid ~ label {
-                top: -15px;
-                font-size: .85em;
-                color: #252527; }
-            #exhibition-arc .row #landing .container #one form button, #exhibition-arc .row #landing .container #two form button {
-              margin-top: 20px;
-              margin-left: 220px;
-              font-family: 'Cera Medium', sans-serif;
-              padding: 12px 25px;
-              cursor: pointer;
-              transition: all 150ms linear;
-              border-radius: 20px;
-              font-size: .9em;
-              color: whitesmoke;
-              background: black; }
-              #exhibition-arc .row #landing .container #one form button:focus, #exhibition-arc .row #landing .container #two form button:focus {
-                outline: 1px dotted #959595;
-                outline-offset: -4px; }
-              #exhibition-arc .row #landing .container #one form button:hover, #exhibition-arc .row #landing .container #two form button:hover {
-                color: #202129;
-                background: whitesmoke; }
-              #exhibition-arc .row #landing .container #one form button:active, #exhibition-arc .row #landing .container #two form button:active {
-                background: #d5d6d6; }
-          #exhibition-arc .row #landing .container #one h4, #exhibition-arc .row #landing .container #two h4 {
-            text-transform: uppercase;
+          flex-direction: column;
+          width: 200px;
+          height: 200px; }
+          #exhibition-arc .row #landing .container #two .location .col h2 {
             font-family: 'Cera Light';
             text-align: center; }
-          #exhibition-arc .row #landing .container #two .location {
-            display: flex;
-            margin-top: 30px;
-            justify-content: space-around; }
-            #exhibition-arc .row #landing .container #two .location .col {
-              display: flex;
-              flex-direction: column;
-              width: 200px;
-              height: 200px; }
-              #exhibition-arc .row #landing .container #two .location .col h2 {
-                font-family: 'Cera Light';
-                text-align: center; }
-              #exhibition-arc .row #landing .container #two .location .col a {
-                color: black;
-                font-family: 'Cera Light';
-                margin-left: 25%;
-                text-decoration: underline; }
-              #exhibition-arc .row #landing .container #two .location .col img {
-                height: 80px; }
-          #exhibition-arc .row #landing .container hr {
-            border: .15em solid black; }
+          #exhibition-arc .row #landing .container #two .location .col a {
+            color: black;
+            font-family: 'Cera Light';
+            margin-left: 25%;
+            text-decoration: underline; }
+          #exhibition-arc .row #landing .container #two .location .col img {
+            height: 80px; }
+      #exhibition-arc .row #landing .container hr {
+        border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) and (max-width: 768px) and (max-height: 1024px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) and (max-width: 375px) and (max-height: 667px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) and (max-width: 360px) and (max-height: 720px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) and (max-width: 360px) and (max-height: 640px) {
+    #exhibition-arc .row #landing .container #one, #exhibition-arc .row #landing #two {
+      width: 500px;
+      height: 250px; }
+      #exhibition-arc .row #landing .container #one h1, #exhibition-arc .row #landing #two h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px; }
+    #exhibition-arc .row #landing hr {
+      border: .15em solid black; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
       @keyframes fade-in {
         0% {
           opacity: 0; }

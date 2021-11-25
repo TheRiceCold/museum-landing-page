@@ -2,27 +2,104 @@
 @import 'locations/locations';
 
 @mixin container() {
-  .container {
-    display: flex;
-    justify-content: space-around;
-    #one, #two {
+  @media (max-width: 1920px) and (max-height: 1080px) {   
+    .container {
+      display: flex;
+      justify-content: space-around;
+      #one, #two {
+        width: 500px;
+        height: 250px;
+        h1 {
+          margin-top: 10px;
+          text-align: center;
+          font-family: 'Cera Medium';
+          font-size: 2em;
+          margin-bottom: 20px;
+        }
+        @include signinForm();
+      }
+      #one h4, #two h4{
+        text-transform: uppercase;
+        font-family: 'Cera Light';
+        text-align: center;
+      }
+      @include locations();
+      hr {
+        border: .15em solid black;
+      }
+    }
+  }
+  
+  @media (max-width: 1366px) and (max-height: 768px) { 
+    .container #one, #two {
       width: 500px;
       height: 250px;
       h1 {
         margin-top: 10px;
-        text-align: center;
-        font-family: 'Cera Medium';
         font-size: 2em;
         margin-bottom: 20px;
       }
-      @include signinForm();
     }
-    #one h4, #two h4{
-      text-transform: uppercase;
-      font-family: 'Cera Light';
-      text-align: center;
+    hr {
+      border: .15em solid black;
     }
-    @include locations();
+  }
+  
+  @media (max-width: 768px) and (max-height: 1024px) { 
+    .container #one, #two {
+      width: 500px;
+      height: 250px;
+      h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+    }
+    hr {
+      border: .15em solid black;
+    }
+  }
+  
+  @media (max-width: 375px) and (max-height: 667px) { 
+    .container #one, #two {
+      width: 500px;
+      height: 250px;
+      h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+    }
+    hr {
+      border: .15em solid black;
+    }
+  }
+  
+  @media (max-width: 360px) and (max-height: 720px) { 
+    .container #one, #two {
+      width: 500px;
+      height: 250px;
+      h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+    }
+    hr {
+      border: .15em solid black;
+    }
+  }
+  
+  @media (max-width: 360px) and (max-height: 640px) { 
+    .container #one, #two {
+      width: 500px;
+      height: 250px;
+      h1 {
+        margin-top: 10px;
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+    }
     hr {
       border: .15em solid black;
     }
