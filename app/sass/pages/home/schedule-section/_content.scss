@@ -1,0 +1,55 @@
+@import 'contentLeft', 'contentRight';
+
+@mixin content() {
+  @media (max-width: 1920px) and (max-height: 1080px) { 
+    .content {
+      display: flex; 
+      justify-content: space-between;
+      margin: 0 25px;
+      color: $fontColor;
+      @include contentLeft();
+      @include contentRight();
+    }
+  }
+
+  @media (max-width: 1366px) and (max-height: 768px) { 
+    .content {
+      display: flex; 
+      justify-content: space-between;
+      margin: 0 25px;
+    }
+  }
+
+  @media (max-width: 768px) and (max-height: 1024px) { 
+    .content {
+      display: flex; 
+      justify-content: space-between;
+      flex-direction: column;
+      margin: 0 25px;
+    }
+  }
+
+  @media (max-width: 375px) and (max-height: 667px) { 
+    .content {
+      display: flex; 
+      justify-content: space-between;
+      margin: 0 25px;
+    }
+  }
+
+  @media (max-width: 360px) and (max-height: 720px) { 
+    .content {
+      display: flex; 
+      justify-content: space-between;
+      margin: 0 25px;
+    }
+  }
+
+  @media (max-width: 360px) and (max-height: 640px) { 
+    .content {
+      display: flex; 
+      justify-content: space-between;
+      margin: 0 25px;
+    }
+  }
+}

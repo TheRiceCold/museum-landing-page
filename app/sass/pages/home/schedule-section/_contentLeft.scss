@@ -1,0 +1,63 @@
+@mixin contentLeft() {
+  @media (max-width: 1920px) and (max-height: 1080px) { 
+    :first-child {
+      width: 90%;
+      span {
+        font-family: 'Cera Medium';
+        i {
+          display: inline;
+          color: $primaryColor;
+        }
+        h3 {
+          display: inline;
+          margin-left: 10px;
+          font-size: 1.5em;
+        }
+        h3:nth-child(4) {
+          margin-left: 100px;
+        }
+        h3:nth-child(11) {
+          margin-left: 15px;
+        }
+      }
+      p {
+        margin-top: 15px;
+        font-family: 'Cera Light';
+        font-size: 1.15em;
+      }
+    }
+  }
+
+  @media (max-width: 1366px) and (max-height: 768px) { }
+
+  @media (max-width: 768px) and (max-height: 1024px) { }
+
+  @media (max-width: 375px) and (max-height: 667px) { }
+
+  @media (max-width: 360px) and (max-height: 720px) { }
+
+  @media (max-width: 360px) and (max-height: 640px) { 
+    :first-child {
+      width: 90%;
+      text-align: center;
+      span {
+        i {display: none;}
+        h3 {
+          margin-left: 5px;
+          font-size: 1.25em;
+        }
+        h3:nth-child(4) {
+          margin-left: 0;
+        }
+        h3:nth-child(11) {
+          margin-left: 0;
+        }
+      }
+      p {
+        margin-top: 15px;
+        font-size: 1em;
+      }
+    }
+  }
+  
+}

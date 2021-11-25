@@ -1,0 +1,87 @@
+@import 'content';
+
+@media (max-width: 1920px) and (max-height: 1080px) {   
+  #visit-arc {
+    height: 85vh;
+    border: 2px $primaryColor solid;
+    margin: 0 10vw;
+    border-radius: 15px;
+    margin-bottom: 10vh;
+    h1 {
+      margin-top: 25px;
+      font-family: 'Cera Bold';
+      color: $primaryColor;
+      font-size: 3em;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    @include content();
+  } 
+}
+
+@media (max-width: 1366px) and (max-height: 768px) { 
+  #visit-arc {
+    height: 125vh;
+    margin: 0 5vw;
+    h1 {
+      margin-top: 25px;
+      font-size: 1.6em;
+      margin-bottom: 30px;
+    }
+    @include content();
+  } 
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {  
+  #visit-arc {
+    height: 125vh;
+    margin: 0 5vw;
+    h1 {
+      margin-top: 25px;
+      font-size: 1.6em;
+      margin-bottom: 30px;
+    }
+    @include content();
+  } 
+}
+
+@media (max-width: 375px) and (max-height: 667px) { 
+  #visit-arc {
+    height: 125vh;
+    margin: 0 5vw;
+    h1 {
+      margin-top: 25px;
+      font-size: 1.6em;
+      margin-bottom: 30px;
+    }
+    @include content();
+  } 
+}
+
+@media (max-width: 360px) and (max-height: 720px) { 
+  #visit-arc {
+    height: 125vh;
+    margin: 0 5vw;
+    h1 {
+      margin-top: 25px;
+      font-size: 1.6em;
+      margin-bottom: 30px;
+    }
+    @include content();
+  } 
+}
+
+@media (max-width: 360px) and (max-height: 640px) {   
+  #visit-arc {
+    height: 165vh;
+    margin: 0 5vw;
+    margin-bottom: 10vh;
+    h1 {
+      margin-top: 25px;
+      font-size: 1.6em;
+      margin-bottom: 30px;
+    }
+    @include content();
+  } 
+}
