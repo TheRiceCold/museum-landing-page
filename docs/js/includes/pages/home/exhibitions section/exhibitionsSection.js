@@ -1,5 +1,5 @@
 import { card } from './exhibitionsCards.js'
-import cards from './cards.json' assert { type: 'json'}
+// import cards from './cards.json' assert { type: 'json'}
 
 function loadData(data) {
   return fetch(`./${data}.json`)
