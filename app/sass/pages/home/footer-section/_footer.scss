@@ -41,7 +41,10 @@
 
 @media (max-width: 360px) and (max-height: 640px) { 
   footer {
-    padding-top: 115px;
-    height: 70vh;
+    padding-top: 8vh;
+    height: 150vh;
+    hr {
+      display: none;
+    }
   }
 }

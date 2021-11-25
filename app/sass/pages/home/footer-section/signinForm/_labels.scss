@@ -1,17 +1,38 @@
 @mixin labels {
-  label{
-    top: 10px;
-    left: 20px;
-    font-family: 'Cera Light';
-    color: black; 
-    font-size: 1em;
-    position: absolute;
-    pointer-events: none;
-    transition:0.2s ease all; 
-  }      
-  input:focus ~ label, input:valid ~ label{
-    top: -15px;
-    font-size: .85em;
-    color:$bgColor;
+  @media (max-width: 1920px) and (max-height: 1080px) { 
+    label{
+      top: 10px;
+      left: 20px;
+      font-family: 'Cera Light';
+      color: black; 
+      font-size: 1em;
+      position: absolute;
+      pointer-events: none;
+      transition:0.2s ease all; 
+    }      
+    input:focus ~ label, input:valid ~ label{
+      top: -15px;
+      font-size: .85em;
+      color:$bgColor;
+    }
+  }
+  
+  @media (max-width: 1366px) and (max-height: 768px) { }
+  
+  @media (max-width: 768px) and (max-height: 1024px) { }
+  
+  @media (max-width: 375px) and (max-height: 667px) { }
+  
+  @media (max-width: 360px) and (max-height: 720px) { }
+  
+  @media (max-width: 360px) and (max-height: 640px) { 
+    label{
+      top: 10px;
+      left: 5px; 
+    }      
+    input:focus ~ label, input:valid ~ label{
+      top: -15px;
+      font-size: .85em;
+    }
   }
 }

@@ -46,13 +46,15 @@
   }
   
   @media (max-width: 768px) and (max-height: 1024px) { 
-    .container #one, #two {
-      width: 500px;
-      height: 250px;
-      h1 {
-        margin-top: 10px;
-        font-size: 2em;
-        margin-bottom: 20px;
+    .container {
+      flex-direction: column;
+      #one, #two {
+        height: 250px;
+        h1 {
+          margin-top: 10px;
+          font-size: 2em;
+          margin-bottom: 20px;
+        }
       }
     }
     hr {
@@ -62,7 +64,6 @@
   
   @media (max-width: 375px) and (max-height: 667px) { 
     .container #one, #two {
-      width: 500px;
       height: 250px;
       h1 {
         margin-top: 10px;
@@ -77,7 +78,6 @@
   
   @media (max-width: 360px) and (max-height: 720px) { 
     .container #one, #two {
-      width: 500px;
       height: 250px;
       h1 {
         margin-top: 10px;
@@ -91,12 +91,18 @@
   }
   
   @media (max-width: 360px) and (max-height: 640px) { 
-    .container #one, #two {
-      width: 500px;
-      height: 250px;
+    .container {
+      height: 88%;
+      justify-content: flex-start;
+      #one, #two {
+        width: 100vw;
+      }
+      #two > h4 {
+        margin-top: 10vh;
+      }
       h1 {
         margin-top: 10px;
-        font-size: 2em;
+        font-size: 1.8em;
         margin-bottom: 20px;
       }
     }

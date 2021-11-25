@@ -1,12 +1,28 @@
 @import 'signinBtn', 'textFields', 'labels';
 
 @mixin signinForm() {
-  form { 
-    .group { 
-      position:relative;  
-      @include textFields();
-      @include labels();
+  @media (max-width: 1920px) and (max-height: 1080px) { 
+    form { 
+      .group { 
+        position:relative;  
+        @include textFields();
+        @include labels();
+      }
+      @include signinBtn();
     }
-    @include signinBtn();
+  }
+  
+  @media (max-width: 1366px) and (max-height: 768px) { }
+  
+  @media (max-width: 768px) and (max-height: 1024px) { }
+  
+  @media (max-width: 375px) and (max-height: 667px) { }
+  
+  @media (max-width: 360px) and (max-height: 720px) { }
+  
+  @media (max-width: 360px) and (max-height: 640px) { 
+    form .group { 
+      margin-left: 20vw;
+    }
   }
 }
