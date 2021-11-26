@@ -41,6 +41,22 @@
 }
 
 @media (max-width: 768px) and (max-height: 1024px) { 
+  #exhibition-arc {
+    height: 110vh;
+    #heading {
+      font-size: 3em;
+      margin-right: 5%;
+      letter-spacing: .1em;
+      margin-bottom: -10px;
+    }
+    .row {
+      height: 100vh;
+      width: 100vw;
+      grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
 
 @media (max-width: 375px) and (max-height: 667px) { 
@@ -61,10 +77,6 @@
     .row {
       height: 100vh;
       width: 100vw;
-      display: grid;
-      grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-      align-items: center;
-      justify-content: center;
     }
   }
 }

@@ -14,7 +14,11 @@
   
   @media (max-width: 1366px) and (max-height: 768px) { }
   
-  @media (max-width: 768px) and (max-height: 1024px) { }
+  @media (max-width: 768px) and (max-height: 1024px) { 
+    form .group { 
+      margin-left: 33vw;
+    }
+  }
   
   @media (max-width: 375px) and (max-height: 667px) { }
   

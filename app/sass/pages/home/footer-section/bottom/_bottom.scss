@@ -17,7 +17,17 @@
   
   @media (max-width: 1366px) and (max-height: 768px) { }
   
-  @media (max-width: 768px) and (max-height: 1024px) { }
+  @media (max-width: 768px) and (max-height: 1024px) {   
+    .footer-bottom {
+      height: 10%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      img {
+        height: 80px;
+      }
+    }
+  }
   
   @media (max-width: 375px) and (max-height: 667px) { }
   

@@ -27,7 +27,14 @@
   
   @media (max-width: 1366px) and (max-height: 768px) { }
   
-  @media (max-width: 768px) and (max-height: 1024px) { }
+  @media (max-width: 768px) and (max-height: 1024px) {
+    button {
+      margin-top: 20px;
+      margin-left: 43vw;
+      padding: 12px 25px;
+      font-size: .9em;
+    }
+   }
   
   @media (max-width: 375px) and (max-height: 667px) { }
   

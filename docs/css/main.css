@@ -698,6 +698,11 @@
       100% {
         transform: translatex(0px);
         opacity: 1; } } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #nav-menu .list-container-one button {
+      right: 5vw;
+      width: 8vw;
+      height: 8vw; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #nav-menu .list-container-one button {
       right: 5px;
@@ -742,6 +747,17 @@
         transform: translatex(-10px);
         line-height: 1.25em;
         font-size: .85em; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #nav-menu .list-container-one ul {
+      width: 140px;
+      height: 50px;
+      right: 60vw;
+      top: 2px; }
+      #nav-menu .list-container-one ul li {
+        margin-left: 5vw;
+        transform: translatex(-10px);
+        line-height: 1.25em;
+        font-size: 1.25em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #nav-menu .list-container-one ul {
       width: 140px;
@@ -795,6 +811,17 @@
           transform: translatex(-10px);
           line-height: 1.25em;
           font-size: .85em; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+      #nav-menu .list-container-two ul {
+        width: 140px;
+        height: 50px;
+        right: 60vw;
+        top: 2px; }
+        #nav-menu .list-container-two ul li {
+          margin-left: 5vw;
+          transform: translatex(-10px);
+          line-height: 1.25em;
+          font-size: 1.25em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
       #nav-menu .list-container-two ul {
         width: 140px;
@@ -988,7 +1015,7 @@
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
-        margin-left: 18vw;
+        margin-left: 10vw;
         font-size: 1.25em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
@@ -1057,10 +1084,10 @@
     #landing .container-inner .main-content .more-info {
       transition: none !important;
       animation: none !important;
-      font-size: .85em;
-      width: 300px;
+      font-size: 1.25em;
+      width: 50vw;
       height: 0;
-      margin-left: 45px;
+      margin-left: 3vw;
       overflow: hidden;
       animation: reveal-info 3s ease 2s;
       transition: all .2s ease;
@@ -1068,7 +1095,7 @@
     #landing .container-inner .main-content .more-info.active {
       margin-top: -25px;
       padding: 20px;
-      height: 165px; } }
+      height: 22vh; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .more-info {
       font-size: .85em;
@@ -1228,7 +1255,7 @@
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
-        margin-left: 18vw;
+        margin-left: 10vw;
         font-size: 1.25em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
@@ -1297,10 +1324,10 @@
     #landing .container-inner .main-content .more-info {
       transition: none !important;
       animation: none !important;
-      font-size: .85em;
-      width: 300px;
+      font-size: 1.25em;
+      width: 50vw;
       height: 0;
-      margin-left: 45px;
+      margin-left: 3vw;
       overflow: hidden;
       animation: reveal-info 3s ease 2s;
       transition: all .2s ease;
@@ -1308,7 +1335,7 @@
     #landing .container-inner .main-content .more-info.active {
       margin-top: -25px;
       padding: 20px;
-      height: 165px; } }
+      height: 22vh; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .more-info {
       font-size: .85em;
@@ -1535,7 +1562,7 @@
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
-        margin-left: 18vw;
+        margin-left: 10vw;
         font-size: 1.25em; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
@@ -1604,10 +1631,10 @@
     #landing .container-inner .main-content .more-info {
       transition: none !important;
       animation: none !important;
-      font-size: .85em;
-      width: 300px;
+      font-size: 1.25em;
+      width: 50vw;
       height: 0;
-      margin-left: 45px;
+      margin-left: 3vw;
       overflow: hidden;
       animation: reveal-info 3s ease 2s;
       transition: all .2s ease;
@@ -1615,7 +1642,7 @@
     #landing .container-inner .main-content .more-info.active {
       margin-top: -25px;
       padding: 20px;
-      height: 165px; } }
+      height: 22vh; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .more-info {
       font-size: .85em;
@@ -1775,7 +1802,7 @@
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
-        margin-left: 18vw;
+        margin-left: 10vw;
         font-size: 1.25em; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
@@ -1844,10 +1871,10 @@
     #landing .container-inner .main-content .more-info {
       transition: none !important;
       animation: none !important;
-      font-size: .85em;
-      width: 300px;
+      font-size: 1.25em;
+      width: 50vw;
       height: 0;
-      margin-left: 45px;
+      margin-left: 3vw;
       overflow: hidden;
       animation: reveal-info 3s ease 2s;
       transition: all .2s ease;
@@ -1855,7 +1882,7 @@
     #landing .container-inner .main-content .more-info.active {
       margin-top: -25px;
       padding: 20px;
-      height: 165px; } }
+      height: 22vh; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .more-info {
       font-size: .85em;
@@ -1955,9 +1982,9 @@
       border: 0; } } }
 @media (max-width: 768px) and (max-height: 1024px) {
   #landing {
-    height: 95vh;
-    margin-top: 30%;
-    margin-left: 15%; } }
+    height: 115vh;
+    margin-top: 10vh;
+    margin-left: 23%; } }
 @media (max-width: 375px) and (max-height: 667px) {
   #landing {
     height: 85vh;
@@ -2030,9 +2057,9 @@
           text-align: center;
           margin-right: 5%; }
         #history-arc .container .headings a {
-          margin-top: 20px;
-          padding: 8px 40px;
-          font-size: .85em; } }
+          margin-top: 5vh;
+          padding: 12px 40px;
+          font-size: 1.5em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
       #history-arc .container .headings {
         width: 70%;
@@ -2064,7 +2091,7 @@
       height: auto; } }
 @media (max-width: 768px) and (max-height: 1024px) {
   #history-arc {
-    height: 110vh; }
+    height: 130vh; }
     #history-arc .container {
       flex-direction: column; }
       #history-arc .container img {
@@ -2143,6 +2170,22 @@
         margin-top: 15px;
         font-family: 'Cera Light';
         font-size: 1.15em; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content :first-child {
+      width: 90%;
+      text-align: center; }
+      #visit-arc .content :first-child span i {
+        display: none; }
+      #visit-arc .content :first-child span h3 {
+        margin-left: 8vw;
+        font-size: 1.5em; }
+      #visit-arc .content :first-child span h3:nth-child(4) {
+        margin-left: 0; }
+      #visit-arc .content :first-child span h3:nth-child(11) {
+        margin-left: 0; }
+      #visit-arc .content :first-child p {
+        margin-top: 15px;
+        font-size: 1.25em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content :first-child {
       width: 90%;
@@ -2199,6 +2242,32 @@
           #visit-arc .content h3 ul button:active {
             background: #d5d6d6;
             opacity: 1; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content h3 {
+      margin-top: 5vh;
+      font-size: 1.5em;
+      text-align: center; }
+      #visit-arc .content h3 ul {
+        font-size: .75em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          overflow: hidden;
+          padding: 12px 5px;
+          width: 50vw;
+          font-size: .9em;
+          margin-top: 5vh;
+          margin-left: 12vw; }
+          #visit-arc .content h3 ul button:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px; }
+          #visit-arc .content h3 ul button:hover {
+            color: #202129;
+            background: #e1e2e2;
+            opacity: 1; }
+          #visit-arc .content h3 ul button:active {
+            background: #d5d6d6;
+            opacity: 1; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content h3 {
       margin-top: 10vh;
@@ -2229,28 +2298,15 @@
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
     #visit-arc .content {
       display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      justify-content: space-between; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      margin: 0 25px; } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      flex-direction: column; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
 
 @media (max-width: 1366px) and (max-height: 768px) {
@@ -2284,6 +2340,22 @@
         margin-top: 15px;
         font-family: 'Cera Light';
         font-size: 1.15em; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content :first-child {
+      width: 90%;
+      text-align: center; }
+      #visit-arc .content :first-child span i {
+        display: none; }
+      #visit-arc .content :first-child span h3 {
+        margin-left: 8vw;
+        font-size: 1.5em; }
+      #visit-arc .content :first-child span h3:nth-child(4) {
+        margin-left: 0; }
+      #visit-arc .content :first-child span h3:nth-child(11) {
+        margin-left: 0; }
+      #visit-arc .content :first-child p {
+        margin-top: 15px;
+        font-size: 1.25em; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content :first-child {
       width: 90%;
@@ -2330,6 +2402,32 @@
           background: black;
           margin-top: 20px;
           margin-left: 200px; }
+          #visit-arc .content h3 ul button:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px; }
+          #visit-arc .content h3 ul button:hover {
+            color: #202129;
+            background: #e1e2e2;
+            opacity: 1; }
+          #visit-arc .content h3 ul button:active {
+            background: #d5d6d6;
+            opacity: 1; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content h3 {
+      margin-top: 5vh;
+      font-size: 1.5em;
+      text-align: center; }
+      #visit-arc .content h3 ul {
+        font-size: .75em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          overflow: hidden;
+          padding: 12px 5px;
+          width: 50vw;
+          font-size: .9em;
+          margin-top: 5vh;
+          margin-left: 12vw; }
           #visit-arc .content h3 ul button:focus {
             outline: 1px dotted #959595;
             outline-offset: -4px; }
@@ -2370,37 +2468,25 @@
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
     #visit-arc .content {
       display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      justify-content: space-between; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      margin: 0 25px; } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      flex-direction: column; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
 
 @media (max-width: 768px) and (max-height: 1024px) {
   #visit-arc {
-    height: 125vh;
-    margin: 0 5vw; }
+    height: 90vh;
+    margin: 0 5vw;
+    margin-bottom: 15vh; }
     #visit-arc h1 {
       margin-top: 25px;
-      font-size: 1.6em;
+      font-size: 2em;
       margin-bottom: 30px; } }
   @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) {
     #visit-arc .content {
@@ -2428,6 +2514,22 @@
         margin-top: 15px;
         font-family: 'Cera Light';
         font-size: 1.15em; } }
+  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content :first-child {
+      width: 90%;
+      text-align: center; }
+      #visit-arc .content :first-child span i {
+        display: none; }
+      #visit-arc .content :first-child span h3 {
+        margin-left: 8vw;
+        font-size: 1.5em; }
+      #visit-arc .content :first-child span h3:nth-child(4) {
+        margin-left: 0; }
+      #visit-arc .content :first-child span h3:nth-child(11) {
+        margin-left: 0; }
+      #visit-arc .content :first-child p {
+        margin-top: 15px;
+        font-size: 1.25em; } }
   @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content :first-child {
       width: 90%;
@@ -2474,6 +2576,32 @@
           background: black;
           margin-top: 20px;
           margin-left: 200px; }
+          #visit-arc .content h3 ul button:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px; }
+          #visit-arc .content h3 ul button:hover {
+            color: #202129;
+            background: #e1e2e2;
+            opacity: 1; }
+          #visit-arc .content h3 ul button:active {
+            background: #d5d6d6;
+            opacity: 1; } }
+  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content h3 {
+      margin-top: 5vh;
+      font-size: 1.5em;
+      text-align: center; }
+      #visit-arc .content h3 ul {
+        font-size: .75em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          overflow: hidden;
+          padding: 12px 5px;
+          width: 50vw;
+          font-size: .9em;
+          margin-top: 5vh;
+          margin-left: 12vw; }
           #visit-arc .content h3 ul button:focus {
             outline: 1px dotted #959595;
             outline-offset: -4px; }
@@ -2514,28 +2642,15 @@
   @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) {
     #visit-arc .content {
       display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      justify-content: space-between; } }
   @media (max-width: 768px) and (max-height: 1024px) and (max-width: 768px) and (max-height: 1024px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      margin: 0 25px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 375px) and (max-height: 667px) {
-    #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      flex-direction: column; } }
   @media (max-width: 768px) and (max-height: 1024px) and (max-width: 360px) and (max-height: 720px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
   @media (max-width: 768px) and (max-height: 1024px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
 
 @media (max-width: 375px) and (max-height: 667px) {
@@ -2572,6 +2687,22 @@
         margin-top: 15px;
         font-family: 'Cera Light';
         font-size: 1.15em; } }
+  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content :first-child {
+      width: 90%;
+      text-align: center; }
+      #visit-arc .content :first-child span i {
+        display: none; }
+      #visit-arc .content :first-child span h3 {
+        margin-left: 8vw;
+        font-size: 1.5em; }
+      #visit-arc .content :first-child span h3:nth-child(4) {
+        margin-left: 0; }
+      #visit-arc .content :first-child span h3:nth-child(11) {
+        margin-left: 0; }
+      #visit-arc .content :first-child p {
+        margin-top: 15px;
+        font-size: 1.25em; } }
   @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content :first-child {
       width: 90%;
@@ -2618,6 +2749,32 @@
           background: black;
           margin-top: 20px;
           margin-left: 200px; }
+          #visit-arc .content h3 ul button:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px; }
+          #visit-arc .content h3 ul button:hover {
+            color: #202129;
+            background: #e1e2e2;
+            opacity: 1; }
+          #visit-arc .content h3 ul button:active {
+            background: #d5d6d6;
+            opacity: 1; } }
+  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content h3 {
+      margin-top: 5vh;
+      font-size: 1.5em;
+      text-align: center; }
+      #visit-arc .content h3 ul {
+        font-size: .75em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          overflow: hidden;
+          padding: 12px 5px;
+          width: 50vw;
+          font-size: .9em;
+          margin-top: 5vh;
+          margin-left: 12vw; }
           #visit-arc .content h3 ul button:focus {
             outline: 1px dotted #959595;
             outline-offset: -4px; }
@@ -2658,28 +2815,15 @@
   @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) {
     #visit-arc .content {
       display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      justify-content: space-between; } }
   @media (max-width: 375px) and (max-height: 667px) and (max-width: 768px) and (max-height: 1024px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      margin: 0 25px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 375px) and (max-height: 667px) {
-    #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      flex-direction: column; } }
   @media (max-width: 375px) and (max-height: 667px) and (max-width: 360px) and (max-height: 720px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
   @media (max-width: 375px) and (max-height: 667px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
 
 @media (max-width: 360px) and (max-height: 720px) {
@@ -2716,6 +2860,22 @@
         margin-top: 15px;
         font-family: 'Cera Light';
         font-size: 1.15em; } }
+  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content :first-child {
+      width: 90%;
+      text-align: center; }
+      #visit-arc .content :first-child span i {
+        display: none; }
+      #visit-arc .content :first-child span h3 {
+        margin-left: 8vw;
+        font-size: 1.5em; }
+      #visit-arc .content :first-child span h3:nth-child(4) {
+        margin-left: 0; }
+      #visit-arc .content :first-child span h3:nth-child(11) {
+        margin-left: 0; }
+      #visit-arc .content :first-child p {
+        margin-top: 15px;
+        font-size: 1.25em; } }
   @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content :first-child {
       width: 90%;
@@ -2762,6 +2922,32 @@
           background: black;
           margin-top: 20px;
           margin-left: 200px; }
+          #visit-arc .content h3 ul button:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px; }
+          #visit-arc .content h3 ul button:hover {
+            color: #202129;
+            background: #e1e2e2;
+            opacity: 1; }
+          #visit-arc .content h3 ul button:active {
+            background: #d5d6d6;
+            opacity: 1; } }
+  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content h3 {
+      margin-top: 5vh;
+      font-size: 1.5em;
+      text-align: center; }
+      #visit-arc .content h3 ul {
+        font-size: .75em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          overflow: hidden;
+          padding: 12px 5px;
+          width: 50vw;
+          font-size: .9em;
+          margin-top: 5vh;
+          margin-left: 12vw; }
           #visit-arc .content h3 ul button:focus {
             outline: 1px dotted #959595;
             outline-offset: -4px; }
@@ -2802,28 +2988,15 @@
   @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) {
     #visit-arc .content {
       display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      justify-content: space-between; } }
   @media (max-width: 360px) and (max-height: 720px) and (max-width: 768px) and (max-height: 1024px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      margin: 0 25px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 375px) and (max-height: 667px) {
-    #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      flex-direction: column; } }
   @media (max-width: 360px) and (max-height: 720px) and (max-width: 360px) and (max-height: 720px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
   @media (max-width: 360px) and (max-height: 720px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
 
 @media (max-width: 360px) and (max-height: 640px) {
@@ -2861,6 +3034,22 @@
         margin-top: 15px;
         font-family: 'Cera Light';
         font-size: 1.15em; } }
+  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content :first-child {
+      width: 90%;
+      text-align: center; }
+      #visit-arc .content :first-child span i {
+        display: none; }
+      #visit-arc .content :first-child span h3 {
+        margin-left: 8vw;
+        font-size: 1.5em; }
+      #visit-arc .content :first-child span h3:nth-child(4) {
+        margin-left: 0; }
+      #visit-arc .content :first-child span h3:nth-child(11) {
+        margin-left: 0; }
+      #visit-arc .content :first-child p {
+        margin-top: 15px;
+        font-size: 1.25em; } }
   @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content :first-child {
       width: 90%;
@@ -2917,6 +3106,32 @@
           #visit-arc .content h3 ul button:active {
             background: #d5d6d6;
             opacity: 1; } }
+  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    #visit-arc .content h3 {
+      margin-top: 5vh;
+      font-size: 1.5em;
+      text-align: center; }
+      #visit-arc .content h3 ul {
+        font-size: .75em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          overflow: hidden;
+          padding: 12px 5px;
+          width: 50vw;
+          font-size: .9em;
+          margin-top: 5vh;
+          margin-left: 12vw; }
+          #visit-arc .content h3 ul button:focus {
+            outline: 1px dotted #959595;
+            outline-offset: -4px; }
+          #visit-arc .content h3 ul button:hover {
+            color: #202129;
+            background: #e1e2e2;
+            opacity: 1; }
+          #visit-arc .content h3 ul button:active {
+            background: #d5d6d6;
+            opacity: 1; } }
   @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content h3 {
       margin-top: 10vh;
@@ -2947,28 +3162,15 @@
   @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) {
     #visit-arc .content {
       display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      justify-content: space-between; } }
   @media (max-width: 360px) and (max-height: 640px) and (max-width: 768px) and (max-height: 1024px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      margin: 0 25px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 375px) and (max-height: 667px) {
-    #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 25px; } }
+      flex-direction: column; } }
   @media (max-width: 360px) and (max-height: 640px) and (max-width: 360px) and (max-height: 720px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
   @media (max-width: 360px) and (max-height: 640px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content {
-      display: flex;
-      justify-content: space-between;
       margin: 0 25px; } }
 
 @media (max-width: 1920px) and (max-height: 1080px) {
@@ -3055,6 +3257,12 @@
       background: whitesmoke; }
     footer .container #one form button:active, footer .container #two form button:active {
       background: #d5d6d6; } }
+@media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+  footer .container #one form button, footer .container #two form button {
+    margin-top: 20px;
+    margin-left: 43vw;
+    padding: 12px 25px;
+    font-size: .9em; } }
 @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
   footer .container #one form button, footer .container #two form button {
     margin-top: 20px;
@@ -3062,6 +3270,9 @@
     padding: 12px 25px;
     font-size: .9em; } }
 
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+      footer .container #one form .group, footer .container #two form .group {
+        margin-left: 33vw; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
       footer .container #one form .group, footer .container #two form .group {
         margin-left: 20vw; } }
@@ -3093,7 +3304,6 @@
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
     footer .container #two .location {
       flex-direction: column;
-      margin-top: 30px;
       justify-content: center;
       align-items: center; }
       footer .container #two .location .col {
@@ -3106,12 +3316,8 @@
           height: 80px; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     footer .container #two .location {
-      flex-direction: column;
-      margin-top: 30px;
-      justify-content: center;
-      align-items: center; }
+      margin-top: 30px; }
       footer .container #two .location .col {
-        flex-direction: column;
         width: 200px;
         height: 200px; }
         footer .container #two .location .col a {
@@ -3133,13 +3339,18 @@
       border: .15em solid black; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
     footer .container {
-      flex-direction: column; }
+      flex-direction: column;
+      height: 80vh;
+      justify-content: start; }
       footer .container #one, footer .container #two {
-        height: 250px; }
+        height: 250px;
+        width: 100vw; }
         footer .container #one h1, footer .container #two h1 {
           margin-top: 10px;
           font-size: 2em;
           margin-bottom: 20px; }
+      footer .container #two h4 {
+        margin-top: 2vh; }
     footer hr {
       border: .15em solid black; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
@@ -3190,6 +3401,17 @@
         transition: color .3s ease; }
       footer .footer-bottom .social-links i:hover {
         color: whitesmoke; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    footer .footer-bottom .social-links {
+      align-items: flex-start;
+      margin-bottom: 1vh; }
+      footer .footer-bottom .social-links i {
+        margin-left: 5vw;
+        font-size: 1.5em; }
+      footer .footer-bottom .social-links :first-child {
+        margin-left: 0; }
+      footer .footer-bottom .social-links i:hover {
+        color: whitesmoke; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     footer .footer-bottom .social-links {
       align-items: flex-start;
@@ -3198,9 +3420,7 @@
         margin-left: 5vw;
         font-size: 1.25em; }
       footer .footer-bottom .social-links :first-child {
-        margin-left: 0; }
-      footer .footer-bottom .social-links i:hover {
-        color: whitesmoke; } }
+        margin-left: 0; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
     footer .footer-bottom .footer-nav {
       display: flex;
@@ -3216,6 +3436,12 @@
         margin-left: 5%; }
       footer .footer-bottom .footer-nav a:hover {
         color: whitesmoke; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    footer .footer-bottom .footer-nav {
+      width: 100%;
+      margin-top: 1vh; }
+      footer .footer-bottom .footer-nav a {
+        font-size: 1em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     footer .footer-bottom .footer-nav {
       width: 100%; }
@@ -3225,6 +3451,14 @@
       footer .footer-bottom img {
         position: relative;
         height: 90px; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+    footer .footer-bottom {
+      height: 10%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end; }
+      footer .footer-bottom img {
+        height: 80px; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     footer .footer-bottom {
       height: 10%;
@@ -3239,8 +3473,8 @@
     height: 70vh; } }
 @media (max-width: 768px) and (max-height: 1024px) {
   footer {
-    padding-top: 115px;
-    height: 70vh; } }
+    padding-top: 5vh;
+    height: 93vh; } }
 @media (max-width: 375px) and (max-height: 667px) {
   footer {
     padding-top: 115px;
@@ -3374,6 +3608,20 @@
     #exhibition-arc .row {
       height: 80vh;
       width: 90vw; } }
+@media (max-width: 768px) and (max-height: 1024px) {
+  #exhibition-arc {
+    height: 110vh; }
+    #exhibition-arc #heading {
+      font-size: 3em;
+      margin-right: 5%;
+      letter-spacing: .1em;
+      margin-bottom: -10px; }
+    #exhibition-arc .row {
+      height: 100vh;
+      width: 100vw;
+      grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+      align-items: center;
+      justify-content: center; } }
 @media (max-width: 360px) and (max-height: 640px) {
   #exhibition-arc #heading {
     font-size: 2em;
@@ -3383,11 +3631,7 @@
     margin-bottom: -10px; }
   #exhibition-arc .row {
     height: 100vh;
-    width: 100vw;
-    display: grid;
-    grid-template: repeat(2, 1fr)/repeat(2, 1fr);
-    align-items: center;
-    justify-content: center; } }
+    width: 100vw; } }
 .background {
   padding: 0 25px 25px;
   position: relative;
