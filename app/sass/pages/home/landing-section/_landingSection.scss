@@ -54,10 +54,18 @@
   }
 }
 
-@media (max-width: 320px) and (max-height: 500px) { 
+@media (max-width: 320px) and (max-height: 480px) { 
   #landing {
-    height: 85vh;
-    margin-top: 30%;
+    height: 115vh;
+    margin-top: 20%;
     margin-left: 20%;
+  }
+}
+
+@media (max-width: 240px) and (max-height: 320px) { 
+  #landing {
+    height: 135vh;
+    margin-top: 20%;
+    margin-left: 15%;
   }
 }

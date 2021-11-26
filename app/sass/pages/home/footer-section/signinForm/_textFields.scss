@@ -14,7 +14,20 @@
     }
   }
   
-  @media (max-width: 1366px) and (max-height: 768px) { }
+  @media (max-width: 1366px) and (max-height: 768px) {
+    input{
+      margin: 0 0;
+      font-size: 1em;
+      padding: 8px 5px;
+      width: 20vw;
+      border:none;
+      background: transparent;
+      border-bottom: .15em black solid;
+    }
+    input:focus{ 
+      outline:none; 
+    }
+   }
   
   @media (max-width: 768px) and (max-height: 1024px) { }
   
@@ -28,12 +41,14 @@
       font-size: 1em;
       padding: 8px 5px;
       width: 220px;
-      border:none;
-      background: transparent;
-      border-bottom: .15em black solid;
     }
-    input:focus{ 
-      outline:none; 
+  }
+  @media (max-width: 240px) and (max-height: 320px) { 
+    input{
+      margin: 0 0;
+      font-size: 1em;
+      padding: 8px 5px;
+      width: 190px;
     }
   }
 }

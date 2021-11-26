@@ -116,4 +116,19 @@
       height: 125px;
     }
   }
+
+  @media (max-width: 240px) and (max-height: 320px) { 
+    .more-info {
+      margin-top: 20px;
+      font-size: .6em;
+      width: 80vw;
+      height: 0;
+      margin-left: 0;
+    }
+    .more-info.active {
+      margin-top: -5px;
+      padding: 13px 10px;
+      height: 125px;
+    }
+  }
 }

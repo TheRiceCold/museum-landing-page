@@ -48,3 +48,20 @@
     }
   }
 }
+
+@media (max-width: 320px) and (max-height: 480px) { 
+  footer {
+    padding-top: 8vh;
+    height: 205vh;
+    hr {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 240px) and (max-height: 320px) { 
+  footer {
+    padding-top: 8vh;
+    height: 280vh;
+  }
+}

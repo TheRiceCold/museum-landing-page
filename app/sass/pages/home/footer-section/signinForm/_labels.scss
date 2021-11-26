@@ -17,7 +17,16 @@
     }
   }
   
-  @media (max-width: 1366px) and (max-height: 768px) { }
+  @media (max-width: 1366px) and (max-height: 768px) {
+    label{
+      top: 10px;
+      left: 5px; 
+    }      
+    input:focus ~ label, input:valid ~ label{
+      top: 10px;
+      font-size: .85em;
+    }
+  }
   
   @media (max-width: 768px) and (max-height: 1024px) { }
   

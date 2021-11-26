@@ -83,3 +83,30 @@
     @include content();
   } 
 }
+
+
+@media (max-width: 320px) and (max-height: 480px) { 
+  #visit-arc {
+    height: 200vh;
+    margin: 0 5vw;
+    margin-bottom: 15vh;
+    h1 {
+      margin-top: 20px;
+      font-size: 1.5em;
+      margin-bottom: 30px;
+    }
+  } 
+
+  @media (max-width: 240px) and (max-height: 320px) { 
+    #visit-arc {
+      height: 360vh;
+      margin: 0 5vw;
+      margin-bottom: 15vh;
+      h1 {
+        margin-top: 20px;
+        font-size: 1.5em;
+        margin-bottom: 30px;
+      }
+    } 
+  }
+}

@@ -41,4 +41,12 @@
       height: 40px;
     }
   }
+
+  @media (max-width: 240px) and (max-height: 320px) { 
+    button {
+      right: 5px;
+      width: 30px;
+      height: 30px;
+    }
+  }
 }

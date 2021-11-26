@@ -116,4 +116,23 @@
       border: .15em solid black;
     }
   }
+  @media (max-width: 240px) and (max-height: 320px) { 
+    .container {
+      height: 88%;
+      justify-content: flex-start;
+      #one, #two {
+        width: 100vw;
+      }
+      #two > h4 {
+        margin-top: 10vh;
+        font-size: .85em;
+        margin-bottom: 5vh;
+      }
+      #one h1 {
+        margin-top: 10px;
+        font-size: 1.25em;
+        margin-bottom: 10px;
+      }
+    }
+  }
 }

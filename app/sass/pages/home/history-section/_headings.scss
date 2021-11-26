@@ -92,4 +92,27 @@
       }
     }
   }
+
+  @media (max-width: 240px) and (max-height: 320px) { 
+    .headings {
+      width: 70%;
+      text-align: center;
+      margin-right: 0;
+      h1 {
+        display: none;
+      }
+      p {
+        margin-top: -15px;
+        line-height: 1em;
+        font-size: .85em;
+        text-align: center;
+        margin-right: 5%;
+      }
+      a {
+        margin-top: 20px;
+        padding: 5px 20px;
+        font-size: .65em;
+      }
+    }
+  }
 }
