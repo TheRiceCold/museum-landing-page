@@ -40,7 +40,26 @@
   }
   
   @media (max-width: 768px) and (max-height: 1024px) { 
-    
+    .headings {
+      width: 70%;
+      text-align: center;
+      margin-right: 0;
+      h1 {
+        display: none;
+      }
+      p {
+        margin-top: -15px;
+        line-height: 1em;
+        font-size: 2em;
+        text-align: center;
+        margin-right: 5%;
+      }
+      a {
+        margin-top: 20px;
+        padding: 8px 40px;
+        font-size: .85em;
+      }
+    }
   }
   
   @media (max-width: 375px) and (max-height: 667px) { 

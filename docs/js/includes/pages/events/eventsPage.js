@@ -1,5 +1,5 @@
-export let eventPage = `
-<main class="transition-circle" id="event-page"> 
+export let eventsPage = `
+<main class="transition-circle" id="events-page"> 
   <header>
   <div class="container">
     <div class="eight columns"> <span class="typcn typcn-thumbs-ok icon"></span>

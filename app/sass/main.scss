@@ -14,7 +14,7 @@
 
 body {
   background: $bgColor;
-  #home-arc {
+  #home-page {
   position: relative;
   width: 100%;
   overflow: hidden !important;
@@ -28,11 +28,16 @@ body {
 }
 
 @media(max-width: 768px){
-  body #home-arc::-webkit-scrollbar {
-    display: none;
-  }
-  body #home-arc {
-    -ms-overflow-style: none; 
-    scrollbar-width: none;
+  body {
+    #home-page::-webkit-scrollbar,
+    #gallery-page::-webkit-scrollbar,
+    #events-page::-webkit-scrollbar,
+    #locations-page::-webkit-scrollbar {
+      display: none;
+    }
+    #home-page, #gallery-page, #events-page, #locations-page {
+      -ms-overflow-style: none; 
+      scrollbar-width: none;
+    }
   }
 }

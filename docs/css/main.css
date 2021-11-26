@@ -54,25 +54,25 @@
 @font-face {
   font-family: 'Cera Black Italic';
   src: url(../fonts/CeraPro/Cera-Pro-Black-Italic.otf); }
-.transition-circle#event-page {
+.transition-circle#events-page {
   /* General
   ********************************************************************* */ }
-  .transition-circle#event-page .container {
+  .transition-circle#events-page .container {
     position: relative;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box; }
-  .transition-circle#event-page .column, .transition-circle#event-page .columns {
+  .transition-circle#events-page .column, .transition-circle#events-page .columns {
     width: 100%;
     float: left;
     box-sizing: border-box; }
-  .transition-circle#event-page h1, .transition-circle#event-page h2, .transition-circle#event-page h3, .transition-circle#event-page h4, .transition-circle#event-page h5, .transition-circle#event-page h6 {
+  .transition-circle#events-page h1, .transition-circle#events-page h2, .transition-circle#events-page h3, .transition-circle#events-page h4, .transition-circle#events-page h5, .transition-circle#events-page h6 {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 300; }
-  .transition-circle#event-page h1 {
+  .transition-circle#events-page h1 {
     font-size: 6.0em;
     line-height: 1;
     letter-spacing: -.1rem;
@@ -81,43 +81,43 @@
     color: #c7a05b;
     margin-bottom: 20px;
     font-family: 'Cera Medium', sans-serif; }
-  .transition-circle#event-page h2 {
+  .transition-circle#events-page h2 {
     font-size: 3.6rem;
     line-height: 1.25;
     letter-spacing: -.1rem; }
-  .transition-circle#event-page h3 {
+  .transition-circle#events-page h3 {
     font-size: 3.0rem;
     line-height: 1.3;
     text-align: center; }
-  .transition-circle#event-page h4 {
+  .transition-circle#events-page h4 {
     font-size: 2.4rem;
     line-height: 1.35;
     letter-spacing: -.08rem; }
-  .transition-circle#event-page h5 {
+  .transition-circle#events-page h5 {
     font-size: 1.8rem;
     line-height: 1.5;
     letter-spacing: -.05rem; }
-  .transition-circle#event-page h6 {
+  .transition-circle#events-page h6 {
     font-size: 1.5rem;
     line-height: 1.6;
     letter-spacing: 0; }
-  .transition-circle#event-page p {
+  .transition-circle#events-page p {
     margin-top: 0; }
-  .transition-circle#event-page .days, .transition-circle#event-page .hours, .transition-circle#event-page .minutes, .transition-circle#event-page .seconds {
+  .transition-circle#events-page .days, .transition-circle#events-page .hours, .transition-circle#events-page .minutes, .transition-circle#events-page .seconds {
     font-size: 8em;
     font-weight: bold;
     text-align: center;
     border-top: 3px solid #fff;
     margin-top: 30px; }
-  .transition-circle#event-page header {
+  .transition-circle#events-page header {
     overflow: hidden;
     padding: 20px 0 50px 0; }
-  .transition-circle#event-page .icon {
+  .transition-circle#events-page .icon {
     font-size: 6.5em; }
-  .transition-circle#event-page img {
+  .transition-circle#events-page img {
     width: 100%;
     height: auto; }
-  .transition-circle#event-page .btn {
+  .transition-circle#events-page .btn {
     background: #434443;
     -webkit-border-radius: 6;
     -moz-border-radius: 6;
@@ -128,30 +128,30 @@
     text-decoration: none;
     border: 0;
     margin: 20px 20px 0 0; }
-  .transition-circle#event-page .btn:hover {
+  .transition-circle#events-page .btn:hover {
     background: #27B6C7;
     text-decoration: none; }
-  .transition-circle#event-page #device {
+  .transition-circle#events-page #device {
     padding-top: 150px; }
-  .transition-circle#event-page footer {
+  .transition-circle#events-page footer {
     background: #434443;
     min-height: 100px;
     padding: 50px 0 50px 0; }
-  .transition-circle#event-page footer hr {
+  .transition-circle#events-page footer hr {
     border: 2px solid #27B6C7;
     border-image: none; }
-  .transition-circle#event-page footer p {
+  .transition-circle#events-page footer p {
     color: #FFFFFF;
     margin: 0;
     display: inline; }
-  .transition-circle#event-page footer h4 {
+  .transition-circle#events-page footer h4 {
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: 1.6em; }
-  .transition-circle#event-page .socialIcons {
+  .transition-circle#events-page .socialIcons {
     font-size: 1.8em;
     color: #ffffff; }
-  .transition-circle#event-page #map {
+  .transition-circle#events-page #map {
     width: 100%;
     min-height: 400px; }
 
@@ -897,8 +897,8 @@
       font-size: 8em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
     #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
+      margin-top: -20px;
+      font-size: 6em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
@@ -917,49 +917,21 @@
         margin-left: 15px;
         margin-right: 100px; }
         #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
           font-size: 4em; }
         #landing .container-inner .main-content .main-headings div :first-child {
           margin-left: 70px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 120px; } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 0;
         margin-right: 0; }
         #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
+          font-size: 3.75em; }
         #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
+          margin-left: 10px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
+          margin-left: 60px; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 15px;
@@ -1016,7 +988,7 @@
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
-        margin-left: 125px;
+        margin-left: 18vw;
         font-size: 1.25em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
@@ -1165,8 +1137,8 @@
       font-size: 8em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
     #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
+      margin-top: -20px;
+      font-size: 6em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
@@ -1185,49 +1157,21 @@
         margin-left: 15px;
         margin-right: 100px; }
         #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
           font-size: 4em; }
         #landing .container-inner .main-content .main-headings div :first-child {
           margin-left: 70px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 120px; } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 0;
         margin-right: 0; }
         #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
+          font-size: 3.75em; }
         #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
+          margin-left: 10px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
+          margin-left: 60px; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 15px;
@@ -1284,7 +1228,7 @@
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
-        margin-left: 125px;
+        margin-left: 18vw;
         font-size: 1.25em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
@@ -1407,7 +1351,7 @@
       #landing .container-inner .main-content .main-headings {
         animation: none !important; }
       #landing .container-inner img {
-        width: 500px;
+        width: 60vw;
         height: auto; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner img {
@@ -1500,8 +1444,8 @@
       font-size: 8em; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
     #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
+      margin-top: -20px;
+      font-size: 6em; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
@@ -1520,49 +1464,21 @@
         margin-left: 15px;
         margin-right: 100px; }
         #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
           font-size: 4em; }
         #landing .container-inner .main-content .main-headings div :first-child {
           margin-left: 70px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 120px; } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 0;
         margin-right: 0; }
         #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
+          font-size: 3.75em; }
         #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
+          margin-left: 10px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
+          margin-left: 60px; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 15px;
@@ -1619,7 +1535,7 @@
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
-        margin-left: 125px;
+        margin-left: 18vw;
         font-size: 1.25em; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
@@ -1768,8 +1684,8 @@
       font-size: 8em; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
     #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
+      margin-top: -20px;
+      font-size: 6em; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
@@ -1788,49 +1704,21 @@
         margin-left: 15px;
         margin-right: 100px; }
         #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
           font-size: 4em; }
         #landing .container-inner .main-content .main-headings div :first-child {
           margin-left: 70px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 120px; } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 0;
         margin-right: 0; }
         #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
+          font-size: 3.75em; }
         #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
+          margin-left: 10px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
+          margin-left: 60px; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 15px;
@@ -1887,7 +1775,7 @@
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
-        margin-left: 125px;
+        margin-left: 18vw;
         font-size: 1.25em; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
@@ -2010,7 +1898,7 @@
       #landing .container-inner .main-content .main-headings {
         animation: none !important; }
       #landing .container-inner img {
-        width: 500px;
+        width: 60vw;
         height: auto; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner img {
@@ -2067,2416 +1955,29 @@
       border: 0; } } }
 @media (max-width: 768px) and (max-height: 1024px) {
   #landing {
-    margin-top: 145px;
-    margin-left: 155px;
-    height: 80vh;
-    color: whitesmoke; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner {
-      display: flex;
-      animation: fade-in 1.5s ease, slide-in 1.2s ease; }
-      #landing .container-inner .main-content .main-headings {
-        display: flex;
-        flex-direction: column;
-        animation: scaleDown 4s ease 2s;
-        transition: transform .3s ease; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 0px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 2em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings button {
-        cursor: pointer;
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        align-self: flex-start;
-        font-weight: bold;
-        font-size: .95em;
-        font-family: 'Cera light';
-        text-decoration: none;
-        color: whitesmoke;
-        background: transparent;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        font-size: .95em;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-left: 125px;
-        font-size: 1.25em; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 75px;
-        font-size: .85em; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings.active {
-        transform: scale(0.7); } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .more-info {
-      transition: none !important;
-      animation: none !important;
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 10px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner img {
-        width: 400px;
-        height: auto; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner {
-      display: flex;
-      animation: fade-in 1.5s ease, slide-in 1.2s ease; }
-      #landing .container-inner .main-content .main-headings {
-        display: flex;
-        flex-direction: column;
-        animation: scaleDown 4s ease 2s;
-        transition: transform .3s ease; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 0px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 2em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings button {
-        cursor: pointer;
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        align-self: flex-start;
-        font-weight: bold;
-        font-size: .95em;
-        font-family: 'Cera light';
-        text-decoration: none;
-        color: whitesmoke;
-        background: transparent;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        font-size: .95em;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-left: 125px;
-        font-size: 1.25em; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 75px;
-        font-size: .85em; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-    @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings.active {
-        transform: scale(0.7); } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .more-info {
-      transition: none !important;
-      animation: none !important;
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 10px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner img {
-        width: 400px;
-        height: auto; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner {
-      flex-direction: column-reverse; }
-      #landing .container-inner .main-content .main-headings {
-        animation: none !important; }
-      #landing .container-inner img {
-        width: 500px;
-        height: auto; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner img {
-      width: 325px;
-      height: auto; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner img {
-      width: 220px;
-      height: auto; } }
-  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner img {
-      width: 220px;
-      height: auto; } }
-
-@media (max-width: 768px) and (max-height: 1024px) {
-  @keyframes fade-in {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @keyframes slide-in {
-    0% {
-      transform: translateY(-100px); }
-    100% {
-      transform: translateY(0); } }
-  @keyframes scaleDown {
-    0% {
-      transform: scale(1); }
-    10% {
-      transform: scale(0.7); }
-    95% {
-      transform: scale(0.7); }
-    100% {
-      transform: scale(1); } }
-  @keyframes reveal-info {
-    0% {
-      padding: 0;
-      height: 0;
-      border: 0; }
-    5% {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; }
-    95% {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; }
-    100% {
-      margin-top: 10px;
-      padding: 0;
-      height: 0;
-      border: 0; } } }
+    height: 95vh;
+    margin-top: 30%;
+    margin-left: 15%; } }
 @media (max-width: 375px) and (max-height: 667px) {
   #landing {
-    height: 75vh;
-    margin-top: 90px;
-    margin-left: 30px;
-    color: whitesmoke; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner {
-      display: flex;
-      animation: fade-in 1.5s ease, slide-in 1.2s ease; }
-      #landing .container-inner .main-content .main-headings {
-        display: flex;
-        flex-direction: column;
-        animation: scaleDown 4s ease 2s;
-        transition: transform .3s ease; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 0px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 2em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings button {
-        cursor: pointer;
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        align-self: flex-start;
-        font-weight: bold;
-        font-size: .95em;
-        font-family: 'Cera light';
-        text-decoration: none;
-        color: whitesmoke;
-        background: transparent;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        font-size: .95em;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-left: 125px;
-        font-size: 1.25em; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 75px;
-        font-size: .85em; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings.active {
-        transform: scale(0.7); } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .more-info {
-      transition: none !important;
-      animation: none !important;
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 10px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner img {
-        width: 400px;
-        height: auto; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner {
-      display: flex;
-      animation: fade-in 1.5s ease, slide-in 1.2s ease; }
-      #landing .container-inner .main-content .main-headings {
-        display: flex;
-        flex-direction: column;
-        animation: scaleDown 4s ease 2s;
-        transition: transform .3s ease; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 0px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 2em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings button {
-        cursor: pointer;
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        align-self: flex-start;
-        font-weight: bold;
-        font-size: .95em;
-        font-family: 'Cera light';
-        text-decoration: none;
-        color: whitesmoke;
-        background: transparent;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        font-size: .95em;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-left: 125px;
-        font-size: 1.25em; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 75px;
-        font-size: .85em; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-    @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings.active {
-        transform: scale(0.7); } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .more-info {
-      transition: none !important;
-      animation: none !important;
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 10px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner img {
-        width: 400px;
-        height: auto; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner {
-      flex-direction: column-reverse; }
-      #landing .container-inner .main-content .main-headings {
-        animation: none !important; }
-      #landing .container-inner img {
-        width: 500px;
-        height: auto; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner img {
-      width: 325px;
-      height: auto; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner img {
-      width: 220px;
-      height: auto; } }
-  @media (max-width: 375px) and (max-height: 667px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner img {
-      width: 220px;
-      height: auto; } }
-
-@media (max-width: 375px) and (max-height: 667px) {
-  @keyframes fade-in {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @keyframes slide-in {
-    0% {
-      transform: translateY(-100px); }
-    100% {
-      transform: translateY(0); } }
-  @keyframes scaleDown {
-    0% {
-      transform: scale(1); }
-    10% {
-      transform: scale(0.7); }
-    95% {
-      transform: scale(0.7); }
-    100% {
-      transform: scale(1); } }
-  @keyframes reveal-info {
-    0% {
-      padding: 0;
-      height: 0;
-      border: 0; }
-    5% {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; }
-    95% {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; }
-    100% {
-      margin-top: 10px;
-      padding: 0;
-      height: 0;
-      border: 0; } } }
+    height: 85vh;
+    margin-top: 30%;
+    margin-left: 20%; } }
 @media (max-width: 360px) and (max-height: 720px) {
   #landing {
-    height: 75vh;
-    margin-top: 75px;
-    margin-left: 50px;
-    color: whitesmoke; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner {
-      display: flex;
-      animation: fade-in 1.5s ease, slide-in 1.2s ease; }
-      #landing .container-inner .main-content .main-headings {
-        display: flex;
-        flex-direction: column;
-        animation: scaleDown 4s ease 2s;
-        transition: transform .3s ease; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 0px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 2em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings button {
-        cursor: pointer;
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        align-self: flex-start;
-        font-weight: bold;
-        font-size: .95em;
-        font-family: 'Cera light';
-        text-decoration: none;
-        color: whitesmoke;
-        background: transparent;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        font-size: .95em;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-left: 125px;
-        font-size: 1.25em; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 75px;
-        font-size: .85em; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings.active {
-        transform: scale(0.7); } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .more-info {
-      transition: none !important;
-      animation: none !important;
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 10px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner img {
-        width: 400px;
-        height: auto; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner {
-      display: flex;
-      animation: fade-in 1.5s ease, slide-in 1.2s ease; }
-      #landing .container-inner .main-content .main-headings {
-        display: flex;
-        flex-direction: column;
-        animation: scaleDown 4s ease 2s;
-        transition: transform .3s ease; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 0px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 2em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings button {
-        cursor: pointer;
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        align-self: flex-start;
-        font-weight: bold;
-        font-size: .95em;
-        font-family: 'Cera light';
-        text-decoration: none;
-        color: whitesmoke;
-        background: transparent;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        font-size: .95em;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-left: 125px;
-        font-size: 1.25em; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 75px;
-        font-size: .85em; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-    @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings.active {
-        transform: scale(0.7); } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .more-info {
-      transition: none !important;
-      animation: none !important;
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 10px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner img {
-        width: 400px;
-        height: auto; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner {
-      flex-direction: column-reverse; }
-      #landing .container-inner .main-content .main-headings {
-        animation: none !important; }
-      #landing .container-inner img {
-        width: 500px;
-        height: auto; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner img {
-      width: 325px;
-      height: auto; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner img {
-      width: 220px;
-      height: auto; } }
-  @media (max-width: 360px) and (max-height: 720px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner img {
-      width: 220px;
-      height: auto; } }
-
-@media (max-width: 360px) and (max-height: 720px) {
-  @keyframes fade-in {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @keyframes slide-in {
-    0% {
-      transform: translateY(-100px); }
-    100% {
-      transform: translateY(0); } }
-  @keyframes scaleDown {
-    0% {
-      transform: scale(1); }
-    10% {
-      transform: scale(0.7); }
-    95% {
-      transform: scale(0.7); }
-    100% {
-      transform: scale(1); } }
-  @keyframes reveal-info {
-    0% {
-      padding: 0;
-      height: 0;
-      border: 0; }
-    5% {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; }
-    95% {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; }
-    100% {
-      margin-top: 10px;
-      padding: 0;
-      height: 0;
-      border: 0; } } }
+    height: 85vh;
+    margin-top: 30%;
+    margin-left: 20%; } }
 @media (max-width: 360px) and (max-height: 640px) {
   #landing {
     height: 85vh;
     margin-top: 30%;
-    margin-left: 20%;
-    color: whitesmoke; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner {
-      display: flex;
-      animation: fade-in 1.5s ease, slide-in 1.2s ease; }
-      #landing .container-inner .main-content .main-headings {
-        display: flex;
-        flex-direction: column;
-        animation: scaleDown 4s ease 2s;
-        transition: transform .3s ease; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 0px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 2em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings button {
-        cursor: pointer;
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        align-self: flex-start;
-        font-weight: bold;
-        font-size: .95em;
-        font-family: 'Cera light';
-        text-decoration: none;
-        color: whitesmoke;
-        background: transparent;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        font-size: .95em;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-left: 125px;
-        font-size: 1.25em; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 75px;
-        font-size: .85em; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings.active {
-        transform: scale(0.7); } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .more-info {
-      transition: none !important;
-      animation: none !important;
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 10px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner img {
-        width: 400px;
-        height: auto; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner {
-      display: flex;
-      animation: fade-in 1.5s ease, slide-in 1.2s ease; }
-      #landing .container-inner .main-content .main-headings {
-        display: flex;
-        flex-direction: column;
-        animation: scaleDown 4s ease 2s;
-        transition: transform .3s ease; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 100px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-family: 'Cera Light';
-          font-size: 4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 70px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 120px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em;
-      color: #c7a05b;
-      text-shadow: 0 2px 0 #161616, 0 2px 0 #1a1a1a, 0 3px 0 #1d1d1d, 0 4px 0 #272727, 0 5px 0 #1a1a1a, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 8em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -40px;
-      font-size: 9em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -20px;
-      font-size: 4em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .main-headings div h1 {
-      margin-top: -10px;
-      font-size: 3em; } }
-
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 4.25em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 15px;
-        margin-right: 0px; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 2em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 50px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 100px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings div {
-        margin-left: 0;
-        margin-right: 0; }
-        #landing .container-inner .main-content .main-headings div h3 {
-          font-size: 1.4em; }
-        #landing .container-inner .main-content .main-headings div :first-child {
-          margin-left: 10px; }
-        #landing .container-inner .main-content .main-headings div :nth-child(2) {
-          margin-left: 60px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-      #landing .container-inner .main-content .main-headings button {
-        cursor: pointer;
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        align-self: flex-start;
-        font-weight: bold;
-        font-size: .95em;
-        font-family: 'Cera light';
-        text-decoration: none;
-        color: whitesmoke;
-        background: transparent;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 30px;
-        font-size: .95em;
-        border: 1px solid #c7a05b;
-        border-radius: 25px; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-left: 125px;
-        font-size: 1.25em; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 12px 50px;
-        margin-top: 25px;
-        margin-left: 75px;
-        font-size: .85em; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-    @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-      #landing .container-inner .main-content .main-headings button {
-        padding: 8px 40px;
-        margin-top: 25px;
-        margin-left: 20px;
-        font-size: .8em; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner .main-content .main-headings.active {
-        transform: scale(0.7); } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-      #landing .container-inner .main-content .more-info h4 {
-        font-family: 'Cera Medium';
-        color: #c7a05b;
-        text-transform: uppercase; }
-      #landing .container-inner .main-content .more-info p {
-        font-family: 'Cera Light'; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner .main-content .more-info {
-      transition: none !important;
-      animation: none !important;
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 45px;
-      overflow: hidden;
-      animation: reveal-info 3s ease 2s;
-      transition: all .2s ease;
-      border-radius: 25px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner .main-content .more-info {
-      font-size: .85em;
-      width: 300px;
-      height: 0;
-      margin-left: 10px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner .main-content .more-info {
-      margin-top: 20px;
-      font-size: .6em;
-      width: 200px;
-      height: 0;
-      margin-left: 5px; }
-    #landing .container-inner .main-content .more-info.active {
-      margin-top: -5px;
-      padding: 15px;
-      height: 125px; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1366px) and (max-height: 768px) {
-      #landing .container-inner img {
-        width: 400px;
-        height: auto; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 768px) and (max-height: 1024px) {
-    #landing .container-inner {
-      flex-direction: column-reverse; }
-      #landing .container-inner .main-content .main-headings {
-        animation: none !important; }
-      #landing .container-inner img {
-        width: 500px;
-        height: auto; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 375px) and (max-height: 667px) {
-    #landing .container-inner img {
-      width: 325px;
-      height: auto; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 360px) and (max-height: 720px) {
-    #landing .container-inner img {
-      width: 220px;
-      height: auto; } }
-  @media (max-width: 360px) and (max-height: 640px) and (max-width: 360px) and (max-height: 640px) {
-    #landing .container-inner img {
-      width: 220px;
-      height: auto; } }
-
-@media (max-width: 360px) and (max-height: 640px) {
-  @keyframes fade-in {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @keyframes slide-in {
-    0% {
-      transform: translateY(-100px); }
-    100% {
-      transform: translateY(0); } }
-  @keyframes scaleDown {
-    0% {
-      transform: scale(1); }
-    10% {
-      transform: scale(0.7); }
-    95% {
-      transform: scale(0.7); }
-    100% {
-      transform: scale(1); } }
-  @keyframes reveal-info {
-    0% {
-      padding: 0;
-      height: 0;
-      border: 0; }
-    5% {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; }
-    95% {
-      margin-top: -25px;
-      padding: 20px;
-      height: 165px;
-      border: 1px solid #c7a05b; }
-    100% {
-      margin-top: 10px;
-      padding: 0;
-      height: 0;
-      border: 0; } } }
+    margin-left: 20%; } }
+@media (max-width: 320px) and (max-height: 500px) {
+  #landing {
+    height: 85vh;
+    margin-top: 30%;
+    margin-left: 20%; } }
 @media (max-width: 1920px) and (max-height: 1080px) {
   #history-arc {
     height: 110vh;
@@ -4515,6 +2016,23 @@
           color: whitesmoke;
           border: 1px solid #c7a05b;
           border-radius: 25px; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
+      #history-arc .container .headings {
+        width: 70%;
+        text-align: center;
+        margin-right: 0; }
+        #history-arc .container .headings h1 {
+          display: none; }
+        #history-arc .container .headings p {
+          margin-top: -15px;
+          line-height: 1em;
+          font-size: 2em;
+          text-align: center;
+          margin-right: 5%; }
+        #history-arc .container .headings a {
+          margin-top: 20px;
+          padding: 8px 40px;
+          font-size: .85em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
       #history-arc .container .headings {
         width: 70%;
@@ -4547,9 +2065,19 @@
 @media (max-width: 768px) and (max-height: 1024px) {
   #history-arc {
     height: 110vh; }
-    #history-arc .container img {
-      width: 650px;
-      height: auto; } }
+    #history-arc .container {
+      flex-direction: column; }
+      #history-arc .container img {
+        width: 80vw;
+        height: auto;
+        margin-left: 9%; }
+      #history-arc .container #title-mobile {
+        font-family: 'Cera Medium', sans-serif;
+        color: #c7a05b;
+        text-transform: uppercase;
+        font-size: 3.75em;
+        margin-left: 30%;
+        display: initial; } }
 @media (max-width: 375px) and (max-height: 667px) {
   #history-arc {
     height: 110vh; }
@@ -4568,16 +2096,12 @@
     #history-arc .container {
       flex-direction: column; }
       #history-arc .container img {
-        width: 300px;
+        width: 80vw;
         height: auto;
         margin-left: 9%; }
       #history-arc .container #title-mobile {
-        font-family: 'Cera Medium', sans-serif;
-        color: #c7a05b;
-        text-transform: uppercase;
         font-size: 2em;
-        margin-left: 30%;
-        display: initial; } }
+        margin-left: 30%; } }
 @media (max-width: 1920px) and (max-height: 1080px) {
   #visit-arc {
     height: 85vh;
@@ -5964,14 +3488,14 @@
 .pricing-button.is-featured:active {
   background-color: #269aff; }
 
-.transition-circle.active#home-arc {
+.transition-circle.active#home-page {
   opacity: 1;
   clip-path: circle(75%);
   overflow-y: scroll; }
 
 body {
   background: #252527; }
-  body #home-arc {
+  body #home-page {
     position: relative;
     width: 100%;
     overflow: hidden !important; }
@@ -5982,10 +3506,12 @@ body {
     top: 3vh; }
 
 @media (max-width: 768px) {
-  body #home-arc::-webkit-scrollbar {
+  body #home-page::-webkit-scrollbar,
+  body #gallery-page::-webkit-scrollbar,
+  body #events-page::-webkit-scrollbar,
+  body #locations-page::-webkit-scrollbar {
     display: none; }
-
-  body #home-arc {
+  body #home-page, body #gallery-page, body #events-page, body #locations-page {
     -ms-overflow-style: none;
     scrollbar-width: none; } }
 

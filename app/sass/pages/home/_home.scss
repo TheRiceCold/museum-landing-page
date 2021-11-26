@@ -5,7 +5,7 @@
 @import 'exhibitions-section/exhibitionsSection';
 @import '../../components/cards.scss';
 
-.transition-circle.active#home-arc {
+.transition-circle.active#home-page {
   opacity: 1;
   clip-path: circle(75%);
   overflow-y: scroll;

@@ -13,23 +13,22 @@ const landingImg = () =>
 </div>`
 
 export let landingSection = `
-<main id="home-arc" class="transition-circle active">
-  <section id="landing">
-    <div class="container-inner">
-      <div class="main-content">
-        <div class="main-headings" id="main-headings-js">
-          <div>
-            <h3>${heading1}</h3>
-            <h3>${heading2}</h3>
-            <h1>${heading3}</h1>
-          </div>
-          <button id="read-more">${readMoreBtn}</button>
+<section id="landing">
+  <div class="container-inner">
+    <div class="main-content">
+      <div class="main-headings" id="main-headings-js">
+        <div>
+          <h3>${heading1}</h3>
+          <h3>${heading2}</h3>
+          <h1>${heading3}</h1>
         </div>
-        <div class="more-info ">
-          <h4>${infoTitle}</h4>
-          <p>${info}</p>
-        </div>
+        <button id="read-more">${readMoreBtn}</button>
       </div>
-      ${landingImg()}
+      <div class="more-info ">
+        <h4>${infoTitle}</h4>
+        <p>${info}</p>
+      </div>
     </div>
-  </section>`
+    ${landingImg()}
+  </div>
+</section>`

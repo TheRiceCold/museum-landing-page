@@ -24,35 +24,26 @@
 
 @media (max-width: 768px) and (max-height: 1024px) { 
   #landing {
-    margin-top: 145px;
-    margin-left: 155px;
-    height: 80vh;
-    color: $fontColor;
-    @include container();
+    height: 95vh;
+    margin-top: 30%;
+    margin-left: 15%;
   }
-  @include landingAnim();
 }
 
 @media (max-width: 375px) and (max-height: 667px) { 
   #landing {
-    height: 75vh;
-    margin-top: 90px;
-    margin-left: 30px;
-    color: $fontColor;
-    @include container();
+    height: 85vh;
+    margin-top: 30%;
+    margin-left: 20%;
   }
-  @include landingAnim();
 }
 
 @media (max-width: 360px) and (max-height: 720px) { 
   #landing {
-    height: 75vh;
-    margin-top: 75px;
-    margin-left: 50px;
-    color: $fontColor;
-    @include container();
+    height: 85vh;
+    margin-top: 30%;
+    margin-left: 20%;
   }
-  @include landingAnim();
 }
 
 @media (max-width: 360px) and (max-height: 640px) { 
@@ -60,8 +51,13 @@
     height: 85vh;
     margin-top: 30%;
     margin-left: 20%;
-    color: $fontColor;
-    @include container();
   }
-  @include landingAnim();
+}
+
+@media (max-width: 320px) and (max-height: 500px) { 
+  #landing {
+    height: 85vh;
+    margin-top: 30%;
+    margin-left: 20%;
+  }
 }

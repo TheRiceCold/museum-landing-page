@@ -6,9 +6,11 @@ import { footerSection } from './footer section/footerSection.js'
 
 export let homePage = 
   ''.concat(
+  '<main class="transition-circle active" id="home-page" >',
     landingSection,
     historySection,
     exhibitionsSection,
     visitSection,
     footerSection,
+  '</main>'
     )
