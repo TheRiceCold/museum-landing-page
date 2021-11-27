@@ -25,10 +25,30 @@
   }
 }
 
+@media (max-width: 384px) and (max-height: 640px) { 
+  footer {
+    padding-top: 8vh;
+    height: 150vh;
+    hr {
+      display: none;
+    }
+  }
+}
+
 @media (max-width: 375px) and (max-height: 667px) { 
   footer {
     padding-top: 115px;
     height: 70vh;
+  }
+}
+
+@media (max-width: 360px) and (max-height: 740px) { 
+  footer {
+    padding-top: 8vh;
+    height: 120vh;
+    hr {
+      display: none;
+    }
   }
 }
 
@@ -43,9 +63,6 @@
   footer {
     padding-top: 8vh;
     height: 150vh;
-    hr {
-      display: none;
-    }
   }
 }
 

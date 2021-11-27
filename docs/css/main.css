@@ -703,6 +703,16 @@
       right: 5vw;
       width: 8vw;
       height: 8vw; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    #nav-menu .list-container-one button {
+      right: 10px;
+      width: 45px;
+      height: 45px; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #nav-menu .list-container-one button {
+      right: 5px;
+      width: 40px;
+      height: 40px; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #nav-menu .list-container-one button {
       right: 5px;
@@ -763,6 +773,28 @@
         transform: translatex(-10px);
         line-height: 1.25em;
         font-size: 1.25em; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    #nav-menu .list-container-one ul {
+      width: 140px;
+      height: 50px;
+      right: 200px;
+      top: -5px; }
+      #nav-menu .list-container-one ul li {
+        margin-left: 15px;
+        transform: translatex(-10px);
+        line-height: 1.25em;
+        font-size: .85em; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #nav-menu .list-container-one ul {
+      width: 140px;
+      height: 50px;
+      right: 200px;
+      top: -5px; }
+      #nav-menu .list-container-one ul li {
+        margin-left: 25px;
+        transform: translatex(-10px);
+        line-height: 1.25em;
+        font-size: .75em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #nav-menu .list-container-one ul {
       width: 140px;
@@ -849,6 +881,28 @@
           transform: translatex(-10px);
           line-height: 1.25em;
           font-size: 1.25em; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+      #nav-menu .list-container-two ul {
+        width: 140px;
+        height: 50px;
+        right: 200px;
+        top: -5px; }
+        #nav-menu .list-container-two ul li {
+          margin-left: 15px;
+          transform: translatex(-10px);
+          line-height: 1.25em;
+          font-size: .85em; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+      #nav-menu .list-container-two ul {
+        width: 140px;
+        height: 50px;
+        right: 200px;
+        top: -5px; }
+        #nav-menu .list-container-two ul li {
+          margin-left: 25px;
+          transform: translatex(-10px);
+          line-height: 1.25em;
+          font-size: .75em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
       #nav-menu .list-container-two ul {
         width: 140px;
@@ -923,6 +977,10 @@
   #nav-menu {
     right: 20px;
     top: 20px; } }
+@media (max-width: 384px) and (max-height: 640px) {
+  #nav-menu {
+    right: 20px;
+    top: 20px; } }
 @media (max-width: 375px) and (max-height: 667px) {
   #nav-menu {
     right: 20px;
@@ -979,10 +1037,18 @@
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
       font-size: 6em; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    #landing .container-inner .main-content .main-headings div h1 {
+      margin-top: -14px;
+      font-size: 4.25em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
       font-size: 4em; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #landing .container-inner .main-content .main-headings div h1 {
+      margin-top: -14px;
+      font-size: 3.5em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -10px;
@@ -1016,6 +1082,16 @@
           margin-left: 10px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 60px; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+      #landing .container-inner .main-content .main-headings div {
+        margin-left: 0;
+        margin-right: 0; }
+        #landing .container-inner .main-content .main-headings div h3 {
+          font-size: 2.5em; }
+        #landing .container-inner .main-content .main-headings div :first-child {
+          margin-left: 10px; }
+        #landing .container-inner .main-content .main-headings div :nth-child(2) {
+          margin-left: 40px; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 15px;
@@ -1026,6 +1102,16 @@
           margin-left: 50px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 100px; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+      #landing .container-inner .main-content .main-headings div {
+        margin-left: 15px;
+        margin-right: 0px; }
+        #landing .container-inner .main-content .main-headings div h3 {
+          font-size: 2em; }
+        #landing .container-inner .main-content .main-headings div :first-child {
+          margin-left: 10px; }
+        #landing .container-inner .main-content .main-headings div :nth-child(2) {
+          margin-left: 50px; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 0;
@@ -1084,12 +1170,24 @@
         padding: 12px 50px;
         margin-left: 10vw;
         font-size: 1.25em; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+      #landing .container-inner .main-content .main-headings button {
+        padding: 10px 25px;
+        margin-top: 3vh;
+        margin-left: 16vw;
+        font-size: 1em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
         margin-top: 25px;
         margin-left: 75px;
         font-size: .85em; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+      #landing .container-inner .main-content .main-headings button {
+        padding: 8px 40px;
+        margin-top: 25px;
+        margin-left: 16%;
+        font-size: .8em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 8px 40px;
@@ -1169,6 +1267,17 @@
       margin-top: -25px;
       padding: 20px;
       height: 22vh; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    #landing .container-inner .main-content .more-info {
+      margin-top: 20px;
+      font-size: 1em;
+      width: 70vw;
+      height: 0;
+      margin-left: 0; }
+    #landing .container-inner .main-content .more-info.active {
+      margin-top: -5px;
+      padding: 13px 12px;
+      height: 30vh; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .more-info {
       font-size: .85em;
@@ -1179,6 +1288,16 @@
       margin-top: -25px;
       padding: 20px;
       height: 165px; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #landing .container-inner .main-content .more-info {
+      font-size: .75em;
+      width: 200px;
+      height: 0;
+      margin-left: 10%; }
+    #landing .container-inner .main-content .more-info.active {
+      margin-top: -5px;
+      padding: 15px;
+      height: 160px; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
     #landing .container-inner .main-content .more-info {
       margin-top: 20px;
@@ -1250,10 +1369,18 @@
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
       font-size: 6em; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    #landing .container-inner .main-content .main-headings div h1 {
+      margin-top: -14px;
+      font-size: 4.25em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
       font-size: 4em; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #landing .container-inner .main-content .main-headings div h1 {
+      margin-top: -14px;
+      font-size: 3.5em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -10px;
@@ -1287,6 +1414,16 @@
           margin-left: 10px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 60px; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 384px) and (max-height: 640px) {
+      #landing .container-inner .main-content .main-headings div {
+        margin-left: 0;
+        margin-right: 0; }
+        #landing .container-inner .main-content .main-headings div h3 {
+          font-size: 2.5em; }
+        #landing .container-inner .main-content .main-headings div :first-child {
+          margin-left: 10px; }
+        #landing .container-inner .main-content .main-headings div :nth-child(2) {
+          margin-left: 40px; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 15px;
@@ -1297,6 +1434,16 @@
           margin-left: 50px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 100px; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 740px) {
+      #landing .container-inner .main-content .main-headings div {
+        margin-left: 15px;
+        margin-right: 0px; }
+        #landing .container-inner .main-content .main-headings div h3 {
+          font-size: 2em; }
+        #landing .container-inner .main-content .main-headings div :first-child {
+          margin-left: 10px; }
+        #landing .container-inner .main-content .main-headings div :nth-child(2) {
+          margin-left: 50px; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 0;
@@ -1355,12 +1502,24 @@
         padding: 12px 50px;
         margin-left: 10vw;
         font-size: 1.25em; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 384px) and (max-height: 640px) {
+      #landing .container-inner .main-content .main-headings button {
+        padding: 10px 25px;
+        margin-top: 3vh;
+        margin-left: 16vw;
+        font-size: 1em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
         margin-top: 25px;
         margin-left: 75px;
         font-size: .85em; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 740px) {
+      #landing .container-inner .main-content .main-headings button {
+        padding: 8px 40px;
+        margin-top: 25px;
+        margin-left: 16%;
+        font-size: .8em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 8px 40px;
@@ -1440,6 +1599,17 @@
       margin-top: -25px;
       padding: 20px;
       height: 22vh; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 384px) and (max-height: 640px) {
+    #landing .container-inner .main-content .more-info {
+      margin-top: 20px;
+      font-size: 1em;
+      width: 70vw;
+      height: 0;
+      margin-left: 0; }
+    #landing .container-inner .main-content .more-info.active {
+      margin-top: -5px;
+      padding: 13px 12px;
+      height: 30vh; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .more-info {
       font-size: .85em;
@@ -1450,6 +1620,16 @@
       margin-top: -25px;
       padding: 20px;
       height: 165px; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 740px) {
+    #landing .container-inner .main-content .more-info {
+      font-size: .75em;
+      width: 200px;
+      height: 0;
+      margin-left: 10%; }
+    #landing .container-inner .main-content .more-info.active {
+      margin-top: -5px;
+      padding: 15px;
+      height: 160px; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
     #landing .container-inner .main-content .more-info {
       margin-top: 20px;
@@ -1495,9 +1675,17 @@
       #landing .container-inner img {
         width: 60vw;
         height: auto; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    #landing .container-inner img {
+      width: 70vw;
+      height: auto; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner img {
       width: 325px;
+      height: auto; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #landing .container-inner img {
+      width: 70vw;
       height: auto; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
     #landing .container-inner img {
@@ -1592,10 +1780,18 @@
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
       font-size: 6em; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    #landing .container-inner .main-content .main-headings div h1 {
+      margin-top: -14px;
+      font-size: 4.25em; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
       font-size: 4em; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #landing .container-inner .main-content .main-headings div h1 {
+      margin-top: -14px;
+      font-size: 3.5em; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -10px;
@@ -1629,6 +1825,16 @@
           margin-left: 10px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 60px; } }
+    @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+      #landing .container-inner .main-content .main-headings div {
+        margin-left: 0;
+        margin-right: 0; }
+        #landing .container-inner .main-content .main-headings div h3 {
+          font-size: 2.5em; }
+        #landing .container-inner .main-content .main-headings div :first-child {
+          margin-left: 10px; }
+        #landing .container-inner .main-content .main-headings div :nth-child(2) {
+          margin-left: 40px; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 15px;
@@ -1639,6 +1845,16 @@
           margin-left: 50px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 100px; } }
+    @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+      #landing .container-inner .main-content .main-headings div {
+        margin-left: 15px;
+        margin-right: 0px; }
+        #landing .container-inner .main-content .main-headings div h3 {
+          font-size: 2em; }
+        #landing .container-inner .main-content .main-headings div :first-child {
+          margin-left: 10px; }
+        #landing .container-inner .main-content .main-headings div :nth-child(2) {
+          margin-left: 50px; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 0;
@@ -1697,12 +1913,24 @@
         padding: 12px 50px;
         margin-left: 10vw;
         font-size: 1.25em; } }
+    @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+      #landing .container-inner .main-content .main-headings button {
+        padding: 10px 25px;
+        margin-top: 3vh;
+        margin-left: 16vw;
+        font-size: 1em; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
         margin-top: 25px;
         margin-left: 75px;
         font-size: .85em; } }
+    @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+      #landing .container-inner .main-content .main-headings button {
+        padding: 8px 40px;
+        margin-top: 25px;
+        margin-left: 16%;
+        font-size: .8em; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 8px 40px;
@@ -1782,6 +2010,17 @@
       margin-top: -25px;
       padding: 20px;
       height: 22vh; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    #landing .container-inner .main-content .more-info {
+      margin-top: 20px;
+      font-size: 1em;
+      width: 70vw;
+      height: 0;
+      margin-left: 0; }
+    #landing .container-inner .main-content .more-info.active {
+      margin-top: -5px;
+      padding: 13px 12px;
+      height: 30vh; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .more-info {
       font-size: .85em;
@@ -1792,6 +2031,16 @@
       margin-top: -25px;
       padding: 20px;
       height: 165px; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #landing .container-inner .main-content .more-info {
+      font-size: .75em;
+      width: 200px;
+      height: 0;
+      margin-left: 10%; }
+    #landing .container-inner .main-content .more-info.active {
+      margin-top: -5px;
+      padding: 15px;
+      height: 160px; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
     #landing .container-inner .main-content .more-info {
       margin-top: 20px;
@@ -1863,10 +2112,18 @@
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
       font-size: 6em; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    #landing .container-inner .main-content .main-headings div h1 {
+      margin-top: -14px;
+      font-size: 4.25em; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -20px;
       font-size: 4em; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #landing .container-inner .main-content .main-headings div h1 {
+      margin-top: -14px;
+      font-size: 3.5em; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 720px) {
     #landing .container-inner .main-content .main-headings div h1 {
       margin-top: -10px;
@@ -1900,6 +2157,16 @@
           margin-left: 10px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 60px; } }
+    @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 384px) and (max-height: 640px) {
+      #landing .container-inner .main-content .main-headings div {
+        margin-left: 0;
+        margin-right: 0; }
+        #landing .container-inner .main-content .main-headings div h3 {
+          font-size: 2.5em; }
+        #landing .container-inner .main-content .main-headings div :first-child {
+          margin-left: 10px; }
+        #landing .container-inner .main-content .main-headings div :nth-child(2) {
+          margin-left: 40px; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 15px;
@@ -1910,6 +2177,16 @@
           margin-left: 50px; }
         #landing .container-inner .main-content .main-headings div :nth-child(2) {
           margin-left: 100px; } }
+    @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 740px) {
+      #landing .container-inner .main-content .main-headings div {
+        margin-left: 15px;
+        margin-right: 0px; }
+        #landing .container-inner .main-content .main-headings div h3 {
+          font-size: 2em; }
+        #landing .container-inner .main-content .main-headings div :first-child {
+          margin-left: 10px; }
+        #landing .container-inner .main-content .main-headings div :nth-child(2) {
+          margin-left: 50px; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
       #landing .container-inner .main-content .main-headings div {
         margin-left: 0;
@@ -1968,12 +2245,24 @@
         padding: 12px 50px;
         margin-left: 10vw;
         font-size: 1.25em; } }
+    @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 384px) and (max-height: 640px) {
+      #landing .container-inner .main-content .main-headings button {
+        padding: 10px 25px;
+        margin-top: 3vh;
+        margin-left: 16vw;
+        font-size: 1em; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 12px 50px;
         margin-top: 25px;
         margin-left: 75px;
         font-size: .85em; } }
+    @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 740px) {
+      #landing .container-inner .main-content .main-headings button {
+        padding: 8px 40px;
+        margin-top: 25px;
+        margin-left: 16%;
+        font-size: .8em; } }
     @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
       #landing .container-inner .main-content .main-headings button {
         padding: 8px 40px;
@@ -2053,6 +2342,17 @@
       margin-top: -25px;
       padding: 20px;
       height: 22vh; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 384px) and (max-height: 640px) {
+    #landing .container-inner .main-content .more-info {
+      margin-top: 20px;
+      font-size: 1em;
+      width: 70vw;
+      height: 0;
+      margin-left: 0; }
+    #landing .container-inner .main-content .more-info.active {
+      margin-top: -5px;
+      padding: 13px 12px;
+      height: 30vh; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner .main-content .more-info {
       font-size: .85em;
@@ -2063,6 +2363,16 @@
       margin-top: -25px;
       padding: 20px;
       height: 165px; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 740px) {
+    #landing .container-inner .main-content .more-info {
+      font-size: .75em;
+      width: 200px;
+      height: 0;
+      margin-left: 10%; }
+    #landing .container-inner .main-content .more-info.active {
+      margin-top: -5px;
+      padding: 15px;
+      height: 160px; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
     #landing .container-inner .main-content .more-info {
       margin-top: 20px;
@@ -2108,9 +2418,17 @@
       #landing .container-inner img {
         width: 60vw;
         height: auto; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 384px) and (max-height: 640px) {
+    #landing .container-inner img {
+      width: 70vw;
+      height: auto; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 375px) and (max-height: 667px) {
     #landing .container-inner img {
       width: 325px;
+      height: auto; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 740px) {
+    #landing .container-inner img {
+      width: 70vw;
       height: auto; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 360px) and (max-height: 720px) {
     #landing .container-inner img {
@@ -2170,11 +2488,21 @@
     height: 115vh;
     margin-top: 10vh;
     margin-left: 23%; } }
+@media (max-width: 384px) and (max-height: 640px) {
+  #landing {
+    height: 115vh;
+    margin-top: 20%;
+    margin-left: 15%; } }
 @media (max-width: 375px) and (max-height: 667px) {
   #landing {
     height: 85vh;
     margin-top: 30%;
     margin-left: 20%; } }
+@media (max-width: 360px) and (max-height: 740px) {
+  #landing {
+    height: 85vh;
+    margin-top: 20%;
+    margin-left: 15%; } }
 @media (max-width: 360px) and (max-height: 720px) {
   #landing {
     height: 85vh;
@@ -2250,6 +2578,31 @@
           margin-top: 5vh;
           padding: 12px 40px;
           font-size: 1.5em; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+      #history-arc .container .headings {
+        width: 70%; }
+        #history-arc .container .headings p {
+          margin-top: -15px;
+          line-height: 1em;
+          font-size: 1.25em;
+          margin-right: 5%; }
+        #history-arc .container .headings a {
+          margin-top: 20px;
+          padding: 10px 25px;
+          font-size: 1em; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+      #history-arc .container .headings {
+        width: 80%;
+        margin-right: 0; }
+        #history-arc .container .headings p {
+          margin-top: -15px;
+          line-height: 1em;
+          font-size: 1.25em;
+          margin-right: 5%; }
+        #history-arc .container .headings a {
+          margin-top: 20px;
+          padding: 10px 25px;
+          font-size: 1em; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
       #history-arc .container .headings {
         width: 70%;
@@ -2270,15 +2623,11 @@
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 240px) and (max-height: 320px) {
       #history-arc .container .headings {
         width: 70%;
-        text-align: center;
         margin-right: 0; }
-        #history-arc .container .headings h1 {
-          display: none; }
         #history-arc .container .headings p {
           margin-top: -15px;
           line-height: 1em;
           font-size: .85em;
-          text-align: center;
           margin-right: 5%; }
         #history-arc .container .headings a {
           margin-top: 20px;
@@ -2312,19 +2661,22 @@
         font-size: 3.75em;
         margin-left: 30%;
         display: initial; } }
+@media (max-width: 384px) and (max-height: 640px) {
+  #history-arc {
+    height: 135vh; }
+    #history-arc .container img {
+      width: 85vw;
+      margin-left: 9%; }
+    #history-arc .container #title-mobile {
+      font-size: 3em;
+      margin-left: 20%; } }
 @media (max-width: 375px) and (max-height: 667px) {
   #history-arc {
     height: 110vh; }
     #history-arc .container img {
       width: 650px;
       height: auto; } }
-@media (max-width: 360px) and (max-height: 720px) {
-  #history-arc {
-    height: 110vh; }
-    #history-arc .container img {
-      width: 650px;
-      height: auto; } }
-@media (max-width: 360px) and (max-height: 640px) {
+@media (max-width: 360px) and (max-height: 740px) {
   #history-arc {
     height: 110vh; }
     #history-arc .container {
@@ -2334,8 +2686,11 @@
         height: auto;
         margin-left: 9%; }
       #history-arc .container #title-mobile {
-        font-size: 2em;
-        margin-left: 30%; } }
+        font-size: 2.75em;
+        margin-left: 25%; } }
+@media (max-width: 360px) and (max-height: 720px) {
+  #history-arc {
+    height: 110vh; } }
 @media (max-width: 320px) and (max-height: 480px) {
   #history-arc {
     height: 140vh; }
@@ -2509,6 +2864,20 @@
           #visit-arc .content h3 ul button:active {
             background: #d5d6d6;
             opacity: 1; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #visit-arc .content h3 {
+      margin-top: 10vh;
+      font-size: 1em; }
+      #visit-arc .content h3 ul {
+        font-size: 1.15em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          padding: 12px 5px;
+          width: 60vw;
+          font-size: .8em;
+          margin-top: 5vh;
+          margin-left: 7vw; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content h3 {
       margin-top: 10vh;
@@ -2713,6 +3082,20 @@
           #visit-arc .content h3 ul button:active {
             background: #d5d6d6;
             opacity: 1; } }
+  @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #visit-arc .content h3 {
+      margin-top: 10vh;
+      font-size: 1em; }
+      #visit-arc .content h3 ul {
+        font-size: 1.15em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          padding: 12px 5px;
+          width: 60vw;
+          font-size: .8em;
+          margin-top: 5vh;
+          margin-left: 7vw; } }
   @media (max-width: 1366px) and (max-height: 768px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content h3 {
       margin-top: 10vh;
@@ -2921,6 +3304,20 @@
           #visit-arc .content h3 ul button:active {
             background: #d5d6d6;
             opacity: 1; } }
+  @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #visit-arc .content h3 {
+      margin-top: 10vh;
+      font-size: 1em; }
+      #visit-arc .content h3 ul {
+        font-size: 1.15em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          padding: 12px 5px;
+          width: 60vw;
+          font-size: .8em;
+          margin-top: 5vh;
+          margin-left: 7vw; } }
   @media (max-width: 768px) and (max-height: 1024px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content h3 {
       margin-top: 10vh;
@@ -2980,6 +3377,15 @@
     #visit-arc .content {
       margin: 0 25px; } }
 
+@media (max-width: 384px) and (max-height: 640px) {
+  #visit-arc {
+    height: 185vh;
+    margin: 0 5vw;
+    margin-bottom: 15vh; }
+    #visit-arc h1 {
+      margin-top: 20px;
+      font-size: 1.5em;
+      margin-bottom: 30px; } }
 @media (max-width: 375px) and (max-height: 667px) {
   #visit-arc {
     height: 125vh;
@@ -3128,6 +3534,20 @@
           #visit-arc .content h3 ul button:active {
             background: #d5d6d6;
             opacity: 1; } }
+  @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #visit-arc .content h3 {
+      margin-top: 10vh;
+      font-size: 1em; }
+      #visit-arc .content h3 ul {
+        font-size: 1.15em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          padding: 12px 5px;
+          width: 60vw;
+          font-size: .8em;
+          margin-top: 5vh;
+          margin-left: 7vw; } }
   @media (max-width: 375px) and (max-height: 667px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content h3 {
       margin-top: 10vh;
@@ -3187,6 +3607,15 @@
     #visit-arc .content {
       margin: 0 25px; } }
 
+@media (max-width: 360px) and (max-height: 740px) {
+  #visit-arc {
+    height: 173vh;
+    margin: 0 5vw;
+    margin-bottom: 15vh; }
+    #visit-arc h1 {
+      margin-top: 20px;
+      font-size: 1.5em;
+      margin-bottom: 30px; } }
 @media (max-width: 360px) and (max-height: 720px) {
   #visit-arc {
     height: 125vh;
@@ -3335,6 +3764,20 @@
           #visit-arc .content h3 ul button:active {
             background: #d5d6d6;
             opacity: 1; } }
+  @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #visit-arc .content h3 {
+      margin-top: 10vh;
+      font-size: 1em; }
+      #visit-arc .content h3 ul {
+        font-size: 1.15em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          padding: 12px 5px;
+          width: 60vw;
+          font-size: .8em;
+          margin-top: 5vh;
+          margin-left: 7vw; } }
   @media (max-width: 360px) and (max-height: 720px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content h3 {
       margin-top: 10vh;
@@ -3543,6 +3986,20 @@
           #visit-arc .content h3 ul button:active {
             background: #d5d6d6;
             opacity: 1; } }
+  @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    #visit-arc .content h3 {
+      margin-top: 10vh;
+      font-size: 1em; }
+      #visit-arc .content h3 ul {
+        font-size: 1.15em; }
+        #visit-arc .content h3 ul li {
+          margin-bottom: 10px; }
+        #visit-arc .content h3 ul button {
+          padding: 12px 5px;
+          width: 60vw;
+          font-size: .8em;
+          margin-top: 5vh;
+          margin-left: 7vw; } }
   @media (max-width: 360px) and (max-height: 640px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     #visit-arc .content h3 {
       margin-top: 10vh;
@@ -3663,6 +4120,24 @@
       border-bottom: .15em black solid; }
     footer .container #one form .group input:focus, footer .container #two form .group input:focus {
       outline: none; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    footer .container #one form .group input, footer .container #two form .group input {
+      margin: 0 0;
+      font-size: 1em;
+      padding: 8px 5px;
+      width: 190px; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    footer .container #one form .group input, footer .container #two form .group input {
+      margin: 0 0;
+      font-size: 1em;
+      padding: 8px 5px;
+      width: 190px; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+    footer .container #one form .group input, footer .container #two form .group input {
+      margin: 0 0;
+      font-size: 1em;
+      padding: 8px 5px;
+      width: 60vw; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     footer .container #one form .group input, footer .container #two form .group input {
       margin: 0 0;
@@ -3695,6 +4170,13 @@
       left: 5px; }
     footer .container #one form .group input:focus ~ label, footer .container #one form .group input:valid ~ label, footer .container #two form .group input:focus ~ label, footer .container #two form .group input:valid ~ label {
       top: 10px;
+      font-size: .85em; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    footer .container #one form .group label, footer .container #two form .group label {
+      top: 10px;
+      left: 5px; }
+    footer .container #one form .group input:focus ~ label, footer .container #one form .group input:valid ~ label, footer .container #two form .group input:focus ~ label, footer .container #two form .group input:valid ~ label {
+      top: -15px;
       font-size: .85em; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
     footer .container #one form .group label, footer .container #two form .group label {
@@ -3729,6 +4211,18 @@
     margin-left: 43vw;
     padding: 12px 25px;
     font-size: .9em; } }
+@media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+  footer .container #one form button, footer .container #two form button {
+    margin-top: 20px;
+    margin-left: 40vw;
+    padding: 8px 20px;
+    font-size: .9em; } }
+@media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+  footer .container #one form button, footer .container #two form button {
+    margin-top: 20px;
+    margin-left: 37vw;
+    padding: 12px 25px;
+    font-size: .9em; } }
 @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
   footer .container #one form button, footer .container #two form button {
     margin-top: 20px;
@@ -3748,6 +4242,12 @@
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 768px) and (max-height: 1024px) {
       footer .container #one form .group, footer .container #two form .group {
         margin-left: 33vw; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+      footer .container #one form .group, footer .container #two form .group {
+        margin-left: 23vw; } }
+    @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 740px) {
+      footer .container #one form .group, footer .container #two form .group {
+        margin-left: 20vw; } }
     @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 360px) and (max-height: 640px) {
       footer .container #one form .group, footer .container #two form .group {
         margin-left: 20vw; } }
@@ -3791,6 +4291,16 @@
         flex-direction: column;
         width: 200px;
         height: 200px; }
+        footer .container #two .location .col a {
+          margin-left: 25%; }
+        footer .container #two .location .col img {
+          height: 80px; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    footer .container #two .location {
+      margin-top: 0; }
+      footer .container #two .location .col {
+        width: 200px;
+        height: 35vh; }
         footer .container #two .location .col a {
           margin-left: 25%; }
         footer .container #two .location .col img {
@@ -3844,6 +4354,21 @@
         margin-top: 2vh; }
     footer hr {
       border: .15em solid black; } }
+  @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 384px) and (max-height: 640px) {
+    footer .container {
+      height: 88%;
+      justify-content: flex-start; }
+      footer .container #one {
+        height: 35vh; }
+      footer .container #one, footer .container #two {
+        width: 100vw; }
+      footer .container #two > h4 {
+        font-size: .85em;
+        margin-bottom: 5vh; }
+      footer .container #one h1 {
+        margin-top: 10px;
+        font-size: 1.5em;
+        margin-bottom: 10px; } }
   @media (max-width: 1920px) and (max-height: 1080px) and (max-width: 375px) and (max-height: 667px) {
     footer .container #one, footer #two {
       height: 250px; }
@@ -3980,10 +4505,22 @@
   footer {
     padding-top: 5vh;
     height: 93vh; } }
+@media (max-width: 384px) and (max-height: 640px) {
+  footer {
+    padding-top: 8vh;
+    height: 150vh; }
+    footer hr {
+      display: none; } }
 @media (max-width: 375px) and (max-height: 667px) {
   footer {
     padding-top: 115px;
     height: 70vh; } }
+@media (max-width: 360px) and (max-height: 740px) {
+  footer {
+    padding-top: 8vh;
+    height: 120vh; }
+    footer hr {
+      display: none; } }
 @media (max-width: 360px) and (max-height: 720px) {
   footer {
     padding-top: 115px;
@@ -3991,9 +4528,7 @@
 @media (max-width: 360px) and (max-height: 640px) {
   footer {
     padding-top: 8vh;
-    height: 150vh; }
-    footer hr {
-      display: none; } }
+    height: 150vh; } }
 @media (max-width: 320px) and (max-height: 480px) {
   footer {
     padding-top: 8vh;

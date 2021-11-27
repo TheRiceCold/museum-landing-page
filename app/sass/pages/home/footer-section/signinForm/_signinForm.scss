@@ -24,8 +24,20 @@
     }
   }
   
+  @media (max-width: 384px) and (max-height: 640px) { 
+    form .group { 
+      margin-left: 23vw;
+    }
+  }
+
   @media (max-width: 375px) and (max-height: 667px) { }
   
+  @media (max-width: 360px) and (max-height: 740px) { 
+    form .group { 
+      margin-left: 20vw;
+    }
+  }
+
   @media (max-width: 360px) and (max-height: 720px) { }
   
   @media (max-width: 360px) and (max-height: 640px) { 

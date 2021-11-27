@@ -33,6 +33,14 @@
     }
   }
   
+  @media (max-width: 384px) and (max-height: 640px) { 
+    h1 {
+      margin-top: -14px;
+      font-size: 4.25em;
+    }
+  }
+
+  
   @media (max-width: 375px) and (max-height: 667px) { 
     h1 {
       margin-top: -20px;
@@ -40,6 +48,13 @@
     }
   }
   
+  @media (max-width: 360px) and (max-height: 740px) { 
+    h1 {
+      margin-top: -14px;
+      font-size: 3.5em;
+    }
+  }
+
   @media (max-width: 360px) and (max-height: 720px) { 
     h1 {
       margin-top: -10px;

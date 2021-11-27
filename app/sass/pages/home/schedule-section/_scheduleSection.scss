@@ -44,6 +44,19 @@
   } 
 }
 
+@media (max-width: 384px) and (max-height: 640px) { 
+  #visit-arc {
+    height: 185vh;
+    margin: 0 5vw;
+    margin-bottom: 15vh;
+    h1 {
+      margin-top: 20px;
+      font-size: 1.5em;
+      margin-bottom: 30px;
+    }
+  } 
+}
+
 @media (max-width: 375px) and (max-height: 667px) { 
   #visit-arc {
     height: 125vh;
@@ -54,6 +67,19 @@
       margin-bottom: 30px;
     }
     @include content();
+  } 
+}
+
+@media (max-width: 360px) and (max-height: 740px) { 
+  #visit-arc {
+    height: 173vh;
+    margin: 0 5vw;
+    margin-bottom: 15vh;
+    h1 {
+      margin-top: 20px;
+      font-size: 1.5em;
+      margin-bottom: 30px;
+    }
   } 
 }
 

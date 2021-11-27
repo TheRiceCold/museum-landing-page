@@ -91,6 +91,26 @@
 
   @media (max-width: 375px) and (max-height: 667px) { }
 
+  @media (max-width: 360px) and (max-height: 740px) { 
+    h3 {
+      margin-top: 10vh;
+      font-size: 1em;
+      ul {
+        font-size: 1.15em;
+        li {
+          margin-bottom: 10px;
+        }
+        button {
+          padding: 12px 5px;
+          width: 60vw;
+          font-size: .8em;
+          margin-top: 5vh; 
+          margin-left: 7vw;
+        }
+      }
+    }
+  }
+
   @media (max-width: 360px) and (max-height: 720px) { }
 
   @media (max-width: 360px) and (max-height: 640px) { 

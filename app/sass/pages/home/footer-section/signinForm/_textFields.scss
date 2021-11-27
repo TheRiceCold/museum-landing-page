@@ -31,8 +31,35 @@
   
   @media (max-width: 768px) and (max-height: 1024px) { }
   
+  @media (max-width: 384px) and (max-height: 640px) { 
+    input{
+      margin: 0 0;
+      font-size: 1em;
+      padding: 8px 5px;
+      width: 190px;
+    }
+  }
+
   @media (max-width: 375px) and (max-height: 667px) { }
-  
+
+  @media (max-width: 360px) and (max-height: 740px) { 
+    input{
+      margin: 0 0;
+      font-size: 1em;
+      padding: 8px 5px;
+      width: 190px;
+    }
+  }
+
+  @media (max-width: 360px) and (max-height: 740px) { 
+    input{
+      margin: 0 0;
+      font-size: 1em;
+      padding: 8px 5px;
+      width: 60vw;
+    }
+  }
+
   @media (max-width: 360px) and (max-height: 720px) { }
   
   @media (max-width: 360px) and (max-height: 640px) { 
