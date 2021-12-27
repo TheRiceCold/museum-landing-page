@@ -5,7 +5,7 @@ Activity 5: Responsive Product Landing Page
  - Sass
 
  # All Contents  
-- Portable Navigation Menu(bc I don't like navbar) with Dual List of Sections and Pages 
+- Portable Navigation Menu with Dual List of Sections and Pages 
 - Home Page
   - Landing Section
   - History Section
